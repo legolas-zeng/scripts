@@ -1,0 +1,1 @@
+FROM mysqlRUN ln -s /urs/local/bin/mysql /usr/local/
