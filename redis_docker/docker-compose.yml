@@ -1,0 +1,43 @@
+version: "2"
+services:
+  redis-master:
+    image: redis
+    networks:
+       redis:
+          ipv4_address: 192.168.30.24
+    container_name: redis-master
+    privileged: true
+    volumes:
+      - /etc/docker/redis/master/redis.conf:/etc/redis/redis.conf
+    command: redis-server /etc/redis/redis.conf
+    restart: always
+    expose:
+      - 6380
+    ports:
+      - 6380:6380
+  redis-slave:
+    image: redis
+    networks:
+       redis:
+          ipv4_address: 192.168.30.25
+    container_name: redis-slave
+    privileged: true
+    command: redis-server --slaveof redis-master 6380
+    volumes:
+      - /etc/docker/redis/slave/redis.conf:/etc/redis/redis.conf
+    command: redis-server /etc/redis/redis.conf
+    restart: always
+    links:
+     - redis-master
+    expose:
+      - 6381
+    ports:
+      - 6381:6381
+networks:
+  redis:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 192.168.30.0/26
+

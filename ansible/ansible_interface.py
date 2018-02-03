@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 import json
-from ansible_api import AnsibleAPI
+from ansible.ansible_api import AnsibleAPI
 
 
 class AnsiInterface(AnsibleAPI):

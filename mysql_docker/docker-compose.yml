@@ -1,0 +1,61 @@
+version: "2"
+services:
+  msyql-master:
+    image: mysql
+    networks:
+       mysql:
+          ipv4_address: 192.168.29.21
+    container_name: msyql-master
+    privileged: true
+    volumes:
+      - /etc/docker/mysql/master/conf/my.cnf:/etc/mysql/my.cnf
+      - /etc/docker/mysql/master/data/:/var/lib/mysql/
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_USER: suyu
+      MYSQL_PASSWORD: suyu.123
+    expose:
+      - 3306
+    ports:
+      - 3306:3306
+  msyql-slave:
+    image: mysql
+    networks:
+       mysql:
+          ipv4_address: 192.168.29.22
+    container_name: msyql-slave
+    privileged: true
+    volumes:
+      - /etc/docker/mysql/slave/conf/my.cnf:/etc/mysql/my.cnf
+      - /etc/docker/mysql/slave/data/:/var/lib/mysql/
+    links:
+      - msyql-master
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_USER: suyu
+      MYSQL_PASSWORD: suyu.123
+    ports:
+      - 3307:3307
+  redis-slave:
+    image: redis
+    container_name: redis-slave
+    privileged: true
+    volumes:
+      - /etc/docker/redis/conf/6380_slave.conf:/etc/redis/redis.conf
+      - /etc/docker/redis/data/:/etc/redis/
+    restart: always
+    expose:
+      - 6380
+    ports:
+      - 6380:6380
+networks:
+  mysql:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 192.168.29.0/26
+
+
