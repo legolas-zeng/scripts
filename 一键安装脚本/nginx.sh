@@ -30,7 +30,7 @@ if [ ! -f $name_tar ]; then
     exit 1
 fi
 
-echo "nginx ${version} begin install" 
+echo "nginx ${version} 开始安装"
 #yum -y update 不更新
 
 yum install -y gcc automake autoconf libtool gcc-c++
