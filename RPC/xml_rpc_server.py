@@ -1,68 +1,62 @@
 # -*-coding:utf-8 -*-
 import os
 import socket
+import logging
 import SimpleXMLRPCServer
 
-# 获取当前路径
-def pwd():
-    return os.getcwd()
+from SimpleXMLRPCServer import SimpleXMLRPCServer
+from SocketServer import ThreadingMixIn
 
-# 列出指定目录中的内容
-def ls(directory=None):
-    if directory is None:
-        directory = pwd()
-    try:
-        return os.listdir(directory)
-    except OSError as e:
-        return e
+logging.basicConfig(level=logging.DEBUG)  #记录日志级别为DEBUG
 
-# 改变工作路径
-def cd(directory):
-    try:
-        os.chdir(directory)
-    except OSError as e:
-        return e
-    return 'change current working direcotry to: %s' % (directory)
+class ThreadXMLRPCServer(ThreadingMixIn, SimpleXMLRPCServer):pass
 
-# 创建目录
-def mkdir(directory):
-    try:
-        os.mkdir(directory)
-    except OSError as e:
-        return e
-    else:
-        return 'successfully create directory: %s' % directory
+class Command(object):
+    def __init__(self):
+        pass
 
-# 文件拷贝
-def cp(src, dest):
-    with open(src, 'r') as fin:
-        with open(dest, 'w') as fout:
-            fout.write(fin.read())
-    return 'copy %s->%s' % (src, dest)
+    def pwd(self):
+        return os.getcwd()
 
-class Person(object):
-    def __init__(self, name, age):
-        self._name = name
-        self._age = age
+    def ls(self,directory=None):
+        if directory is None:
+            directory = pwd()
+        try:
+            return os.listdir(directory)
+        except OSError as e:
+            return e
 
+    def cd(self,directory):
+        try:
+            os.chdir(directory)
+        except OSError as e:
+            return e
+        return 'change current working direcotry to: %s' % (directory)
+
+    def mkdir(self,directory):
+        try:
+            os.mkdir(directory)
+        except OSError as e:
+            return e
+        else:
+            return 'successfully create directory: %s' % directory
+
+    def cp(self,src, dest):
+        with open(src, 'r') as fin:
+            with open(dest, 'w') as fout:
+                fout.write(fin.read())
+        return 'copy %s->%s' % (src, dest)
+
+class Person:
     def show(self):
-        return str(self)
+        return 'test'
 
-    def __str__(self):
-        return 'Person(name=%s,age=%s' % (self._name, self._age)
 
 
 if __name__ == "__main__":
-    # name = socket.getfqdn(socket.gethostname(  ))
-    # ip = socket.gethostbyname(name)
-    # print ip
-    s = SimpleXMLRPCServer.SimpleXMLRPCServer(("192.168.28.130", 8005))
+    server = ThreadXMLRPCServer(("192.168.28.130", 8005), allow_none=True)
     print "Listening on port 8005"
-    s.register_function(pwd)  # 注册函数
-    s.register_function(ls)
-    s.register_function(cd)
-    s.register_function(mkdir)
-    s.register_function(cp)
-    p = Person('python', 28)
-    s.register_instance(p)  # 注册对象实例
-    s.serve_forever()
+    run = Command()
+    run.test = Person()
+    s.register_instance(run,allow_dotted_names=True)
+    server.serve_forever()
