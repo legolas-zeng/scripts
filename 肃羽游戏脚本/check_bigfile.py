@@ -42,6 +42,27 @@ def rmFile(filePath):
 def getfileSize(filename):
     size = os.path.getsize(filename)
     return size
+# 文件大小单位转换
+def file_convert(size):
+    SUFFIXES = {1000:['Bit','Kb','Mb','Gb','Tb'],1024:['Bit','Kib','Mib','Gib','Tib']}
+    multiple = 1000
+    if size < 0 :
+        return u'文件大小必须是非负的!'
+    if size > 0 and size < multiple:
+        suffix = SUFFIXES[multiple][0]
+        size = (format(float(size) / float(1), '.0f'))
+        return size + suffix
+    if size > multiple and size < pow(multiple, 2):
+        suffix = SUFFIXES[multiple][1]
+        size = (format(float(size) / float(multiple), '.2f'))
+        return size + suffix
+        # print '{0:.1f} {1}'.format(size,suffix)
+    if size > pow(multiple, 2) and size < (pow(multiple, 3)):
+        suffix = SUFFIXES[multiple][2]
+        size = (format(float(size) / float(pow(multiple, 2)), '.2f'))
+        return size + suffix
+    else:
+        return u'文件已经突破天际，无法显示大小！！！'
 
 def sendMsg(names):
     data = {
