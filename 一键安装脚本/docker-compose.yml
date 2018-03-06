@@ -1,0 +1,8 @@
+version : '2'
+services :
+  centos7 :
+    image: ansible/centos7-ansible
+    container_name : centos7
+    privileged : true
+    command : init
+
