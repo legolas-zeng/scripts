@@ -13,10 +13,10 @@ def showFile():
             linux_path = os.path.join(dir_path,'linux')
             size = getFolderSize(linux_path)
             if size > maxsize:
-                req,names = rmFile(linux_path)
-                print req,names
+                req,names,file_size = rmFile(linux_path)
+                print req,names,file_size
                 if req == '1':
-                    sendMsg(names)
+                    sendMsg(names,file_size)
 
 # 获取文件夹大小
 def getFolderSize(filePath, size=0):
@@ -35,7 +35,7 @@ def rmFile(filePath):
         if file_size > maxsize:
             #os.remove(file_path)
             print u'超大文件已删除'
-            return '1',file_path
+            return '1',file_path,file_size
         else:
             return '0'
 # 获取文件大小
@@ -64,11 +64,12 @@ def file_convert(size):
     else:
         return u'文件已经突破天际，无法显示大小！！！'
 
-def sendMsg(names):
+def sendMsg(names,file_size):
+    size = file_convert(file_size)
     data = {
         'ip':'ip',
         'msg': '超大文件已经删除',
-        'size':'size',
+        'size':size,
         'name':names
     }
     r = requests.post('http://192.168.2.120:8000', data=data)
