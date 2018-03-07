@@ -1,0 +1,1 @@
+# -*-coding:utf-8 -*-import requestsdef sendinfo():	test = {		'one':'hello',		'tow':'world'	}	r = requests.post('http://192.168.2.120:8001/sendnotify', data=test)	print r.status_code	sendinfo()
