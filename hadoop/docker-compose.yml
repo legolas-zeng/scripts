@@ -1,102 +1,112 @@
 version: '2'
 services:
   hadoop-master:
-    build:.
+    image: ansible/centos7-ansible
     networks:
       hanet:
         ipv4_address: 192.168.29.21
     container_name: hadoop-master
+    volumes :
+      - /etc/localtime:/etc/localtime
     expose:
-        - 22
-        - 2122
-        - 8000
-        - 8030
-        - 8031
-        - 8032
-        - 8033
-        - 8040
-        - 8042
-        - 8080
-        - 8088
-        - 9000
-        - 19888
-        - 49707
-        - 50010
-        - 50020
-        - 50070
-        - 50075
-        - 50090
+      - 22
+      - 2122
+      - 8000
+      - 8030
+      - 8031
+      - 8032
+      - 8033
+      - 8040
+      - 8042
+      - 8080
+      - 8088
+      - 9000
+      - 19888
+      - 49707
+      - 50010
+      - 50020
+      - 50070
+      - 50075
+      - 50090
     ports:
       - 8088:8088
+    tty: true
+    hostname: master
+    privileged : true
+    command : init
     extra_hosts:
-     - "master:192.168.29.21"
-     - "salve1:192.168.29.22"
-     - "salve2:192.168.29.23"
-  hadoop-salve1:
-    build:.
+     - "slave1:192.168.29.22"
+     - "slave2:192.168.29.23"
+  hadoop-slave1:
+    image: ansible/centos7-ansible
     networks:
        hanet:
-          ipv4_address: 192.168.29.22
-    container_name: hadoop-salve1
+         ipv4_address: 192.168.29.22
+    container_name: hadoop-slave1
+    volumes :
+      - /etc/localtime:/etc/localtime
     expose:
-        - 22
-        - 2122
-        - 8000
-        - 8030
-        - 8031
-        - 8032
-        - 8033
-        - 8040
-        - 8042
-        - 8080
-        - 8088
-        - 9000
-        - 19888
-        - 49707
-        - 50010
-        - 50020
-        - 50070
-        - 50075
-        - 50090
-      ports:
-        - 8088:8088
-      extra_hosts:
-     - "master:192.168.29.21"
-     - "salve1:192.168.29.22"
-     - "salve2:192.168.29.23"
-  hadoop-salve2:
-    build:.
+      - 22
+      - 2122
+      - 8000
+      - 8030
+      - 8031
+      - 8032
+      - 8033
+      - 8040
+      - 8042
+      - 8080
+      - 8088
+      - 9000
+      - 19888
+      - 49707
+      - 50010
+      - 50020
+      - 50070
+      - 50075
+      - 50090
+    tty: true
+    hostname: slave1
+    privileged : true
+    command : init
+    extra_hosts:
+      - "master:192.168.29.21"
+      - "slave2:192.168.29.23"
+  hadoop-slave2:
+    image: ansible/centos7-ansible
     networks:
-       hanet:
-          ipv4_address: 192.168.29.23
-    container_name: hadoop-salve2
+      hanet:
+        ipv4_address: 192.168.29.23
+    container_name: hadoop-slave2
+    volumes :
+      - /etc/localtime:/etc/localtime
     expose:
-        - 22
-        - 2122
-        - 8000
-        - 8030
-        - 8031
-        - 8032
-        - 8033
-        - 8040
-        - 8042
-        - 8080
-        - 8088
-        - 9000
-        - 19888
-        - 49707
-        - 50010
-        - 50020
-        - 50070
-        - 50075
-        - 50090
-      ports:
-        - 8088:8088
-      extra_hosts:
-     - "master:192.168.29.21"
-     - "salve1:192.168.29.22"
-     - "salve2:192.168.29.23"
-
+      - 22
+      - 2122
+      - 8000
+      - 8030
+      - 8031
+      - 8032
+      - 8033
+      - 8040
+      - 8042
+      - 8080
+      - 8088
+      - 9000
+      - 19888
+      - 49707
+      - 50010
+      - 50020
+      - 50070
+      - 50075
+      - 50090
+    tty: true
+    hostname: slave2
+    privileged : true
+    command : init
+    extra_hosts:
+      - "master:192.168.29.21"
+      - "slave1:192.168.29.22"
 networks:
   hanet:
     driver: bridge
