@@ -1,5 +1,5 @@
 # -*-coding:utf-8 -*-
-import os
+import os,re
 import requests
 
 check_path = '/data/game/'
@@ -9,15 +9,19 @@ def showFile():
     path = os.listdir(check_path)
     for p in path:
         if os.path.isdir(p):
-            dir_path = os.path.join(check_path,p)
-            linux_path = os.path.join(dir_path,'linux')
-            size = getFolderSize(linux_path)
-            if size > maxsize:
-                print linux_path
-                info = rmFile(linux_path)
-                print info
-                if info.get('core') == '1':
-                    sendMsg(info)
+            m = re.search(r".*\d",p,re.I)
+            n = re.search(r"local_hub",p,re.I)
+            if m!=None or n!=None:
+                print p
+                dir_path = os.path.join(check_path,p)
+                linux_path = os.path.join(dir_path,'linux')
+                size = getFolderSize(linux_path)
+                if size > maxsize:
+                    info = rmFile(linux_path)
+                    print info
+                    if info.get('core') == '1':
+                        pass
+                        #sendMsg(info)
 
 # 获取文件夹大小
 def getFolderSize(filePath, size=0):
@@ -34,9 +38,7 @@ def rmFile(filePath):
         file_path = os.path.join(filePath,p)
         file_size = getfileSize(file_path)
         if file_size > maxsize:
-            print file_path
             size = file_convert(file_size)
-            print size
             #os.remove(file_path)
             print u'超大文件已删除'
             info = {
