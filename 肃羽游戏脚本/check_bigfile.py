@@ -20,8 +20,7 @@ def showFile():
                     info = rmFile(linux_path)
                     print info
                     if info.get('core') == '1':
-                        pass
-                        #sendMsg(info)
+                        sendMsg(info)
 
 # 获取文件夹大小
 def getFolderSize(filePath, size=0):
@@ -35,17 +34,24 @@ def getFolderSize(filePath, size=0):
 def rmFile(filePath):
     path = os.listdir(filePath)
     for p in path:
-        file_path = os.path.join(filePath,p)
-        file_size = getfileSize(file_path)
-        if file_size > maxsize:
-            size = file_convert(file_size)
-            #os.remove(file_path)
-            print u'超大文件已删除'
+        print p
+        o = re.search(r"hub_log_\d+\.log",p,re.I)
+        if o!=None:
+            file_path = os.path.join(filePath,p)
+            file_size = getfileSize(file_path)
+            if file_size > maxsize:
+                size = file_convert(file_size)
+                #os.remove(file_path)
+                print u'超大文件已删除'
+                info = {
+                    'core' : '1',
+                    'path' : file_path,
+                    'size' : size,
+                    'msg' : u'超大文件已经删除',
+                }
+        else:
             info = {
-                'core' : '1',
-                'path' : file_path,
-                'size' : size,
-                'msg' : u'超大文件已经删除',
+                'core' : '0'
             }
     return info
 # 获取文件大小
