@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <!--
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,9 +15,14 @@
 -->
 
 <!-- Put site-specific property overrides in this file. -->
+
 <configuration>
   <property>
-    <name>mapreduce.framework.name</name>
-    <value>yarn</value>
+    <name>fs.defaultFS</name>
+    <value>hdfs://master:9000</value>
+  </property>
+  <property>
+    <name>hadoop.tmp.dir</name>
+    <value>file:/usr/local/hadoop2/tmp</value>
   </property>
 </configuration>

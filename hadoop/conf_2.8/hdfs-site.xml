@@ -17,17 +17,22 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
-  <property>  
-    <name>fs.default.name</name>
-    <value>hdfs://localhost:9000</value>
-    <description>HDFS的URI，文件系统://namenode标识:端口号</description>
+<property>
+	<name>dfs.replication</name>
+	<value>3</value>
+</property>
+  <property>
+    <name>dfs.namenode.name.dir</name>
+    <value>file:/usr/local/hadoop2/hdfs/name</value>
   </property>
-  <property>  
-    <name>io.file.buffer.size</name>  
-    <value>131072</value>  
-  </property>  
-  <property>  
-     <name>hadoop.tmp.dir</name>  
-     <value>/usr/loacal/hadoop3/tmp</value>
-  </property>   
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file:/usr/local/hadoop2/hdfs/data</value>
+  </property>
+  <property>
+    <name>dfs.namenode.secondary.http-address</name>
+    <value>master:50090</value>
+  </property>
+  
 </configuration>
+

@@ -1,7 +1,7 @@
 FROM ansible/centos7-ansible
 
-COPY /usr/local/jdk1.8.0_152 /opt/jdk8
-COPY hadoop3 /opt/
+#ADD /usr/local/jdk1.8.0_152 /opt/jdk8
+#ADD hadoop3 /opt/
 
 RUN yum install -y openssh-server
 RUN yum install -y openssh-clients
@@ -20,9 +20,9 @@ RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key
 RUN ssh-keygen -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key
 RUN ssh-keygen -t ed25519 -f /etc/ssh/ssh_host_ed25519_key
 
-RUN mkdir -p /opt/hadoop3/hdfs/name
-RUN mkdir -p /opt/hadoop3/hdfs/data
-RUN mkdir -p /opt/hadoop3/tmp
+#RUN mkdir -p /opt/hadoop3/hdfs/name
+#RUN mkdir -p /opt/hadoop3/hdfs/data
+#RUN mkdir -p /opt/hadoop3/tmp
 
 ENV JAVA_HOME /opt/jdk8
 ENV PATH $JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
