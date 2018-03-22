@@ -1,0 +1,10 @@
+cluster.name: "docker-cluster"
+network.host: 192.168.28.130
+discovery.zen.minimum_master_nodes: 1
+discovery.type: single-node
+
+xpack.security.enabled : false
+xpack.monitoring.enabled : true
+xpack.graph.enabled : false
+xpack.watcher.enabled : false
+xpack.ml.enabled : false
