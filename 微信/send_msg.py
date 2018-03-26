@@ -13,7 +13,7 @@ def ec():
 
 itchat.auto_login(hotReload=True,loginCallback=lc, exitCallback=ec)
 friends = itchat.get_friends(update=True)[0:]
-admin = ['风居住的街道','']
+admin = ['风居住的街道','Willie']
 
 # info = itchat.search_friends(name='wxsendmsg')
 
@@ -31,27 +31,16 @@ def get_group(groupname):
 def send_msg(fname):
     # a = itchat.send_msg(msg='text message', toUserName=fname)
     # print a
-    b = itchat.send('test msg', toUserName=fname)
+    b = itchat.send(u'这是一条测试信息...', toUserName=fname)
     req = b.get('BaseResponse').get('Ret')
     if req == 0 :
         print u'消息发送成功'
 
+for names in admin:
+    print names
+    name = get_UserName(names)
+    send_msg(name)
 
-# name = get_UserName('风居住的街道')
-# send_msg(name)
-name = get_group('000')
-send_msg(name)
-
-# def get_var(var):
-#     variable = []
-#     for i in friends:
-#         value = i[var]
-#         print value
-# NickName = get_var("NickName")
-# Sex = get_var('Sex')
-# Province = get_var('Province')
-# City = get_var('City')
-# Signature = get_var('Signature')
 
 
 

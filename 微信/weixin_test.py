@@ -1,0 +1,1 @@
+# -*-coding:utf-8 -*-from wxpy import *from wechat_sender import *bot = Bot()listen(bot)group_receiver = ensure_one(bot.groups().search('000'))logger = get_wechat_logger(group_receiver)logger.error('test_logs....')
