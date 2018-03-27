@@ -2,10 +2,10 @@ download_dir=/usr/local/download
 target_dir=/usr/local/tomcat
 
 if [ ! -d "download_dir" ]; then
- mkdir download_dir;
+ mkdir $download_dir;
 fi
 if [ ! -d "target_dir" ]; then
- mkdir target_dir;
+ mkdir $target_dir;
 fi
 
 app_version="apache-tomcat-7.0.77"
@@ -19,6 +19,7 @@ DOWLOAD_URL="http://qcloud.ikouqin.cn/download/centos/${app_version}.tar.gz"
 cd $download_dir
 wget ${DOWLOAD_URL}
 tar -xvf ${app_file} -C /usr/local/
+cd ..
 mv $app_version tomcat
 
 

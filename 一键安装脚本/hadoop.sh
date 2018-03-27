@@ -3,6 +3,9 @@ DOWNLOAD_DIR="/opt/download"
 SOURCE_DIR="/opt/source"
 CONF_DIR="/opt/conf"
 SHELL_DIR=$(cd `dirname $0`; pwd)
+
+download_url="https://mirrors.tuna.tsinghua.edu.cn/apache/hadoop/common/hadoop-3.0.0/hadoop-3.0.0.tar.gz" # 更换清华站点源
+
 if [ ! -d "$DOWNLOAD_DIR" ]; then
  mkdir $DOWNLOAD_DIR;
 fi

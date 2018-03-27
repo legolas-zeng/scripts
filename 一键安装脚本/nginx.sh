@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -z $1 ]; then
-    version=1.12.2
+    version=1.10.2
 else
     version=$1
 fi
@@ -18,7 +18,7 @@ if [ -d $target_dir ]; then
     mv $target_dir $target_dir_bak
 fi
 
-cd /usr/local/src
+cd /data/yunwei/software
 
 if [ ! -f $name_tar ]; then
     echo "下载nginx文件"
@@ -45,7 +45,7 @@ else
     cd $name
 fi
 
-useradd wwwroot
+# useradd wwwroot
 ./configure --prefix=$target_dir --user=wwwroot --group=wwwroot --with-stream
 make && make install
 
