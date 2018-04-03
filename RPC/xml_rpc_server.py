@@ -3,11 +3,15 @@ import os
 import socket
 import logging
 import SimpleXMLRPCServer
-
 from SimpleXMLRPCServer import SimpleXMLRPCServer
 from SocketServer import ThreadingMixIn
 
-logging.basicConfig(level=logging.DEBUG)  #记录日志级别为DEBUG
+logfile_path = '/data/runlog.log'
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s %(thread)d %(threadName)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+                    datefmt='%a, %d %b %Y %H:%M:%S',
+                    filename=logfile_path,
+                    filemode='w')  #记录日志级别为DEBUG
 
 class ThreadXMLRPCServer(ThreadingMixIn, SimpleXMLRPCServer):pass
 
@@ -51,12 +55,10 @@ class Person:
     def show(self):
         return 'test'
 
-
-
 if __name__ == "__main__":
     server = ThreadXMLRPCServer(("192.168.28.130", 8005), allow_none=True)
     print "Listening on port 8005"
     run = Command()
-    run.test = Person()
-    s.register_instance(run,allow_dotted_names=True)
+    run.reqs = Person()
+    server.register_instance(run,allow_dotted_names=True) #注册，指定容许类中的'.' 这样调用
     server.serve_forever()
