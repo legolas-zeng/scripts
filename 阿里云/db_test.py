@@ -11,7 +11,7 @@ DB_INFO = {'user':'jumpserver',
            'port':3306,}
 
 # 测试数据
-data_test = ('i-2zecgkp1gwsicn2fipow', 'test-soa-node-1', '10.7.12.72', '39.105.16.175', 'cn-beijing', 'vpc-2zeovqpxhhhs1xkl6u355', 'doupai')
+data_test = ('实例ID', 'test-soa-node-1', '内网ip', '公网ip', 'cn-beijing', 'vpcid', '项目1')
 
 # 节点配置
 NODE_INFO = {'root':'[0]',
