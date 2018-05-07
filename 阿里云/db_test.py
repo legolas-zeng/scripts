@@ -123,7 +123,7 @@ class CDataBase(object):
         self._conn = None
         self._cursor = None
 
-class GmDB(object):
+class YUNDB(object):
     def __init__(self):
         self.host = DB_INFO.get('host')
         self.user = DB_INFO.get('user')
@@ -178,7 +178,7 @@ class GmDB(object):
 
 # TODO 从第一节点开始判断
 def judge_node(node_1,node_2,node_3,node_4):
-    a = GmDB()
+    a = YUNDB()
     b = update_info()
     if a.get_node(node_1) == ():
         b.fist_node(node_1)
@@ -208,7 +208,7 @@ class update_info(object):
             return key2
 
     def judge_key(self,count):
-        a = GmDB()
+        a = YUNDB()
         key = self.create_key(count)
         for info in a.get_key(count):
             print info.get('key')
@@ -240,7 +240,7 @@ class update_info(object):
 
 
 if __name__=="__main__":
-    # a = GmDB()
+    # a = YUNDB()
     # print a.get_test()
     node_1 = data_test[4]  # 第一个节点，地区
     node_2 = data_test[6]  # 第二个节点，项目
