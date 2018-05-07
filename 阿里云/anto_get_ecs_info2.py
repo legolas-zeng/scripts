@@ -20,9 +20,9 @@ DB_INFO = {'user':'jumpserver',
            'port':3306,}
 
 # 配置access
-Prod_ID = {'doupai':{'access_key_id':'LTAICn8RWNvohrYS',
-                     'access_key_secret':'Yct1hP7CyTcFp4YSVhSzYNCjkaZMG9'},
-           'qutui':{'access_key_id':'',
+Prod_ID = {'项目1':{'access_key_id':'*********',
+                     'access_key_secret':'***************'},
+           '项目2':{'access_key_id':'',
                      'access_key_secret':''},}
 
 
@@ -125,7 +125,7 @@ class CDataBase(object):
         self._cursor = None
 
 # 数据库操作
-class GmDB(object):
+class YUNDB(object):
     def __init__(self):
         self.host = DB_INFO.get(host)
         self.user = DB_INFO.get(user)
