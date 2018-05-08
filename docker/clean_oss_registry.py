@@ -17,8 +17,8 @@ def get_image_digest(url,):
 #get_image_list(url,im_list)
 
 
-auth = oss2.Auth('LTAICn8RWNvohrYS', 'Yct1hP7CyTcFp4YSVhSzYNCjkaZMG9')
-bucket = oss2.Bucket(auth, 'oss-cn-beijing.aliyuncs.com', 'bhb-test-docker-registry')
+auth = oss2.Auth('**********', '*************')
+bucket = oss2.Bucket(auth, 'oss-cn-beijing.aliyuncs.com', 'oss存储')
 
 for obj in oss2.ObjectIterator(bucket, prefix='docker/registry/v2/blobs'):
     #result = bucket.batch_delete_objects(obj.key)
