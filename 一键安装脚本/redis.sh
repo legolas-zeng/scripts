@@ -19,6 +19,7 @@ APP_NAME_VERSION="${NAME}-${VERSION}"
 APP_SOURCE_PATH="${SOURCE_DIR}/${APP_NAME_VERSION}"
 APP_DOWNLOAD_FILE="${DOWNLOAD_DIR}/${APP_NAME_VERSION}.tar.gz"
 DOWLOAD_URL="http://download.redis.io/releases/${APP_NAME_VERSION}.tar.gz"
+#wget http://download.redis.io/releases/redis-4.0.2.tar.gz
 if [ ! -d ${APP_SOURCE_PATH} ]; then
  wget -O ${APP_DOWNLOAD_FILE} -c ${DOWLOAD_URL}
  tar -xvf ${APP_DOWNLOAD_FILE}  -C ${SOURCE_DIR}
