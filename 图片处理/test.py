@@ -29,8 +29,10 @@ im = Image.open("C:\Users\Administrator\Desktop\hsq.png")
 pix = im.load()
 width = im.size[0]
 height = im.size[1]
-
-colour = pix[78,89][0:3]
+for x in range(width):
+    for y in range(height):
+        print x, y
+        colour = pix[x,y][0:3]
 
 print colour
 R = colour[0]
