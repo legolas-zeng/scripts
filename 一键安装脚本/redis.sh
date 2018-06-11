@@ -24,7 +24,7 @@ if [ ! -d ${APP_SOURCE_PATH} ]; then
  wget -O ${APP_DOWNLOAD_FILE} -c ${DOWLOAD_URL}
  tar -xvf ${APP_DOWNLOAD_FILE}  -C ${SOURCE_DIR}
 fi
-
+yum install -y gcc g++ gcc-c++ make
 cd ${SOURCE_DIR}
 cd ${APP_SOURCE_PATH}
 ls
