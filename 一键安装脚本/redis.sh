@@ -29,6 +29,7 @@ cd ${SOURCE_DIR}
 cd ${APP_SOURCE_PATH}
 ls
 make
+# make MALLOC=libc
 make install
 pwd
 cp redis.conf /opt/conf/redis.conf
