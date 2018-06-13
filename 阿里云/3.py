@@ -3,7 +3,7 @@ import hashlib
 
 s_uuid=str(uuid.uuid1())
 l_uuid=s_uuid.split('-')
-s_uuid=''.join(l_uuid)
+s_uuid=''.join(str(uuid.uuid1()).split('-'))
 
 print s_uuid
 
@@ -13,8 +13,7 @@ code = ''.join(abc)
 print code
 # print code
 
-
 m = hashlib.md5()
-m.update("cn-beijing")
+m.update("/dev/release")
 print m.hexdigest()
 
