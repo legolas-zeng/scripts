@@ -1,0 +1,15 @@
+version: '2'
+services:
+  nginx:
+    image: nginx
+    restart: always
+    container_name: nginx
+    ports:
+      - "8080:80"
+      - "8443:443"
+    environment:
+      - TZ="Asia/Shanghai"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+#      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./logs:/var/log/nginx/
