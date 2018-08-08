@@ -7,5 +7,7 @@
     <orderEntry type="module" module-name="django_test" />
     <orderEntry type="module" module-name="rrjc_django" />
     <orderEntry type="module" module-name="rrjc_work" />
+    <orderEntry type="module" module-name="opman" />
+    <orderEntry type="module" module-name="gotest" />
   </component>
 </module>

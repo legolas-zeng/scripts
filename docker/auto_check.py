@@ -1,7 +1,5 @@
-#!/usr/bin/env python
 # --*-- coding:UTF-8 --*--
 import sys
-import tab
 import re
 import os
 import time
@@ -12,7 +10,7 @@ merit_list=['usage','limit','mem_use_percent','total_cpu_usage','system_cpu_usag
 returnval = None
 def start(container_name):
     global container_stats
-    conn=Client(base_url='unix://run/docker.sock',version='1.19')
+    conn=Client(base_url='unix://run/docker.sock')
     generator=conn.stats(container_name)
     try:
         container_stats=eval(generator.next())

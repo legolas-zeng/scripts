@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://F:/django_test/.idea/django_test.iml" filepath="F:/django_test/.idea/django_test.iml" />
+      <module fileurl="file://F:/gotest/.idea/gotest.iml" filepath="F:/gotest/.idea/gotest.iml" />
+      <module fileurl="file://F:/opman/.idea/opman.iml" filepath="F:/opman/.idea/opman.iml" />
       <module fileurl="file://F:/rrjc_django/.idea/rrjc_django.iml" filepath="F:/rrjc_django/.idea/rrjc_django.iml" />
       <module fileurl="file://F:/rrjc_work/.idea/rrjc_work.iml" filepath="F:/rrjc_work/.idea/rrjc_work.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/scripts.iml" filepath="$PROJECT_DIR$/.idea/scripts.iml" />

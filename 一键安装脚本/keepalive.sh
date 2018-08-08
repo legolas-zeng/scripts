@@ -1,7 +1,7 @@
 #!/bin/bash
 
 KEEPALIVED_USER="keepalived"
-KEEPALIVED_VERSION="1.4.2"
+KEEPALIVED_VERSION="2.0.4"
 KEEPALIVED_INSTALL_DIR="/usr/local"
 
 yum install -y kernel-devel openssl openssl-devel &> /dev/null
@@ -14,7 +14,7 @@ id -u ${KEEPALIVED_USER=} &> /dev/null
 
 if [ ! -f keepalived-${KEEPALIVED_VERSION}.tar.gz ];then
  echo "下载软件包....."
- wget http://www.keepalived.org/software/keepalived-1.4.2.tar.gz
+ wget http://www.keepalived.org/software/keepalived-2.0.4.tar.gz
  tar -zxf keepalived-${KEEPALIVED_VERSION}.tar.gz
 fi
 
