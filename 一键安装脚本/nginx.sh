@@ -42,11 +42,11 @@ if [ -d $name ]; then
     make clean
 else
     tar -zxvf $name_tar
-    cd $name
+    cd $namell
 fi
 
 # useradd wwwroot
-./configure --prefix=$target_dir --user=wwwroot --group=wwwroot --with-stream
+./configure --prefix=$target_dir --user=wwwroot --group=wwwroot --with-stream --with-http_ssl_module
 make && make install
 
 rm -rf /usr/local/sbin/nginx
