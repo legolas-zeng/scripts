@@ -3,26 +3,28 @@ import requests,re
 from lxml import etree
 from bs4 import BeautifulSoup
 import shutil
+import time
 
-pagemun = '1563'
-url = 'http://www.w24j.com/cn/vl_genre.php?&mode=&g=argq&page=1'
+pagemun = 1564
+urlbase = 'http://www.o23g.com/cn/vl_genre.php?&mode=&g=argq&page='
 
-def getPage():
+def getPage(url):
     r=requests.get(url)
     response = r.text
     return response
 
-def filterpage():
-    pageCode = getPage()
+def filterpage(url):
+    pageCode = getPage(url)
     pattern = re.compile('<div class="id">(.*?)</div><img src=\"(.*?)\" width=',re.S)
     items = re.findall(pattern, pageCode)
     pageStories = []
     for item in items:
         pageStories.append([item[0].strip(), item[1].strip()])
     return pageStories
-def downloadimage(x,url):
+def downloadimage(i,x,url):
     image_path = 'C:\Users\Administrator\Desktop\images'
-    temp = image_path + '/%s.jpg' % x
+    # temp = image_path + '/%s-%s.jpg' %(i,x)
+    temp = image_path + '/%s.jpg' %x
     print u'正在下载图片%s' % x
     imgurl = 'http:' + url
     print imgurl
@@ -33,9 +35,15 @@ def downloadimage(x,url):
             shutil.copyfileobj(r.raw, f)
 
 if __name__ == '__main__':
-    info = filterpage()
-    for data in info:
-        x = data[0]
-        imgurl = data[1][:-5] + 'l.jpg'
-        downloadimage(x,imgurl)
+    for a in range(458,pagemun):
+        i = a + 1
+        print u'--------------正在下载第%s页的图片---------------'%i
+        url = urlbase + str(i)
+        print url
+        info = filterpage(url)
+        for data in info:
+            x = data[0]
+            imgurl = data[1][:-5] + 'l.jpg'
+            downloadimage(i,x,imgurl)
+        time.sleep(2)
 
