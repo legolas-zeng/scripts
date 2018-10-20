@@ -35,7 +35,7 @@ def downloadimage(i,x,url):
             shutil.copyfileobj(r.raw, f)
 
 if __name__ == '__main__':
-    for a in range(458,pagemun):
+    for a in range(494,pagemun):
         i = a + 1
         print u'--------------正在下载第%s页的图片---------------'%i
         url = urlbase + str(i)

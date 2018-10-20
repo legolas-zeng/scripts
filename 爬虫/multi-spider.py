@@ -14,8 +14,9 @@ class MyThread(threading.Thread):
 
     def run(self):
         self.func()
-pagemun = 1564
-urlbase = 'http://www.o23g.com/cn/vl_genre.php?&mode=&g=argq&page='
+pagemun = 186
+# urlbase = 'http://www.o23g.com/cn/vl_genre.php?&mode=&g=argq&page='
+urlbase = 'http://www.o23g.com/cn/vl_genre.php?&mode=&g=araa&page='
 
 def getPage(url):
     r=requests.get(url)
@@ -31,7 +32,8 @@ def filterpage(url):
         pageStories.append([item[0].strip(), item[1].strip()])
     return pageStories
 def downloadimage(i,x,url):
-    image_path = 'C:\Users\Administrator\Desktop\\newimages'
+    # image_path = 'C:\Users\Administrator\Desktop\\newimages'
+    image_path = 'G:\\rukong'
     temp = image_path + '/%s.jpg' % x
     print u'正在下载图片%s' % x
     imgurl = 'http:' + url
@@ -42,16 +44,6 @@ def downloadimage(i,x,url):
             r.raw.decode_content = True
             shutil.copyfileobj(r.raw, f)
 
-def spider_start():
-    for a in range(1000,pagemun):
-        i = a + 1
-        print u'--------------正在下载第%s页的图片---------------'%i
-        url = urlbase + str(i)
-        print url
-        info = filterpage(url)
-        for data in info:
-            x = data[0]
-            imgurl = data[1][:-5] + 'l.jpg'
 
 def worker():
     global SHARE_Q
@@ -65,7 +57,7 @@ def worker():
 def main():
     global SHARE_Q
     threads = []
-    for a in range(1000, pagemun):
+    for a in range(83, pagemun):
         i = a + 1
         print u'--------------正在下载第%s页的图片---------------' % i
         url = urlbase + str(i)
@@ -84,6 +76,7 @@ def main():
         for thread in threads:
             thread.join()
     SHARE_Q.join()
+    print u"图片全部爬取完了"
 
 if __name__ == '__main__':
     main()
