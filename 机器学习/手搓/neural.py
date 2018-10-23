@@ -1,6 +1,6 @@
 # -*-coding:utf-8 -*-
 import numpy
-import scipy
+import scipy.special
 class neuralNetwork:
     def __init__(self,inputnodes,hiddennodes,outputnodes,learningrate):
         self.inodes = inputnodes
@@ -23,13 +23,28 @@ class neuralNetwork:
         激活函数
         '''
         self.activation_function = lambda x:scipy.special.expit(x)
-    def train(self):
-        pass
+
+    # 输入input列表，目标值列表
+    def train(self,inputs_list,targets_list):
+        inputs = numpy.array(inputs_list).T     # 转置输入矩阵
+        targets = numpy.array(targets_list).T   # 转置目标矩阵
+        '''
+        隐藏层的输入 = 输入层的输出 = 输入层输入矩阵 (I) * 输入层权重矩阵（Winput_hidden）
+        '''
+        hidden_inputs = numpy.dot(self.wih,inputs)
+        # 通过激活函数计算出隐藏层的输出矩阵
+        hidden_outputs = self.activation_function(hidden_inputs)
+        '''
+        输出层的输入 = 影藏层的输出 = 隐藏层输入矩阵（O） * 隐藏层权重矩阵 （Whidden_outputs）
+        '''
+        final_inputs = numpy.dot(self.who,hidden_outputs)
+        # 通过激活函数计算出输出层的输出矩阵
+        final_outputs = self.activation_function(final_inputs)
     def query(self,inputs_list):
         '''
         转置矩阵
         '''
-        inputs = numpy.array(inputs_list,nadmin=2).T
+        inputs = numpy.array(inputs_list).T
         '''
         获得隐藏层的输入
         '''
@@ -56,5 +71,6 @@ learning_rate = 0.3
 
 n = neuralNetwork(input_nodes,hidden_nodes,output_nodes,learning_rate)
 
-n.query([1.0,0.5,-0.5])
+data = n.query([1.0,0.5,-0.5])
 
+print(data)
