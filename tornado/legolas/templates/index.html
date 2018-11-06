@@ -1,25 +1,29 @@
-<!DOCTYPE HTML>
-<html lang="zh-cn">
+
+<!--<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>-->
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Tornado Websocket</title>
+    <meta charset="utf-8">
+    <title>聊天室</title>
 </head>
-<script type="text/javascript">
-	var ws;
-	function onLoad(){
-		ws = new WebSocket("ws://127.0.0.1:8081/ws");
-		ws.onmessage = function(e){
-			alert(e.data)
-		}
-	}
-
-
-	function sendMsg(){
-		ws.send(document.getElementById('msg').value);
-	}
-</script>
-<body onload='onLoad();'>
-	Message to send:   <input type="text" id="msg" />
-	  <input type="button" onclick="sendMsg();" value="发送" />
+<body>
+    <div id="contents" style="height:500px;overflow:auto;"></div>
+    <div>
+        <textarea id="msg"></textarea>
+        <a href="javascript:;" onclick="sendMsg()">发送</a>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var ws = new WebSocket("ws://localhost:8081/ws");
+        ws.onmessage = function(e) {
+            $("#contents").append("<p>" + e.data + "</p>");
+        }
+        function sendMsg() {
+            var msg = $("#msg").val();
+            ws.send(msg);
+            $("#msg").val("");
+        }
+    </script>
 </body>
 </html>
+

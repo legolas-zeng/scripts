@@ -1,13 +1,10 @@
 # coding:utf-8
-
 import tornado.web
 import tornado.ioloop
 import tornado.httpserver  # 新引入httpserver模块
 import tornado.options # 新导入的options模块
 from tornado.web import url, RequestHandler
 import tornado.websocket
-
-import config
 
 tornado.options.define("port", default=8081, type=int, help="run server on the given port.")  # 定义服务器监听端口选项
 tornado.options.define("itcast", default=[], type=str, multiple=True, help="itcast subjects.") # 无意义，演示多值情况
@@ -27,15 +24,21 @@ class ItcastHandler(RequestHandler):
 class WebsockertHandler(RequestHandler):
     def check_origin(self, origin):
         return True
-
+    '''
+    新的WebSocket连接打开时被调用。
+    '''
     def open(self):
-        pass
-
+        self.application.shoppingCart.register(self.callback)
+    '''
+    连接收到新消息时被调用。
+    '''
     def on_message(self, message):
         self.write_message(u"Your message was: " + message)
-
+    '''
+    在客户端关闭时被调用。
+    '''
     def on_close(self):
-        pass
+        self.application.shoppingCart.unregister(self.callback)
 
 
 class Application(tornado.web.Application):
