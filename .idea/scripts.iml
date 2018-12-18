@@ -2,12 +2,24 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 2.7" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 2.7 (scripts)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="django_test" />
     <orderEntry type="module" module-name="rrjc_django" />
     <orderEntry type="module" module-name="rrjc_work" />
     <orderEntry type="module" module-name="opman" />
-    <orderEntry type="module" module-name="gotest" />
+    <orderEntry type="module" module-name="INSCMDB" />
+    <orderEntry type="module" module-name="logs" />
+    <orderEntry type="module" module-name="taillog" />
+    <orderEntry type="module" module-name="oa_new" />
+    <orderEntry type="module" module-name="legolas_react" />
+    <orderEntry type="module" module-name="legolas_react" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="E:/taillog/www/templates" />
+      </list>
+    </option>
   </component>
 </module>
