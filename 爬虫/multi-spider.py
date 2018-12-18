@@ -14,9 +14,9 @@ class MyThread(threading.Thread):
 
     def run(self):
         self.func()
-pagemun = 186
-# urlbase = 'http://www.o23g.com/cn/vl_genre.php?&mode=&g=argq&page='
-urlbase = 'http://www.o23g.com/cn/vl_genre.php?&mode=&g=araa&page='
+pagemun = 1000
+urlbase = 'http://www.o23g.com/cn/vl_genre.php?&mode=&g=argq&page='
+# urlbase = 'http://www.o23g.com/cn/vl_genre.php?&mode=&g=araa&page='
 
 def getPage(url):
     r=requests.get(url)
@@ -32,8 +32,8 @@ def filterpage(url):
         pageStories.append([item[0].strip(), item[1].strip()])
     return pageStories
 def downloadimage(i,x,url):
-    # image_path = 'C:\Users\Administrator\Desktop\\newimages'
-    image_path = 'G:\\rukong'
+    image_path = 'H:\images'
+    # image_path = 'G:\\rukong'
     temp = image_path + '/%s.jpg' % x
     print u'正在下载图片%s' % x
     imgurl = 'http:' + url
@@ -57,7 +57,7 @@ def worker():
 def main():
     global SHARE_Q
     threads = []
-    for a in range(83, pagemun):
+    for a in range(998, pagemun):
         i = a + 1
         print u'--------------正在下载第%s页的图片---------------' % i
         url = urlbase + str(i)
