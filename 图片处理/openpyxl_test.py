@@ -35,7 +35,7 @@ def creta_table():
     pix = im.load()
     width = im.size[0]
     height = im.size[1]
-    print width,height
+
     for x in range(width):
         for y in range(height):
             print x, y
@@ -49,7 +49,8 @@ def creta_table():
             col = int(y) + 1
             print row,col
             ws.cell(row=col,column=row).fill=openpyxl.styles.PatternFill(fill_type='solid',fgColor=colour_code)
-
+        ws.column_dimensions[y].width = 0.1
+        ws.row_dimensions[x].height = 1
     wb.save('C:\Users\Administrator\Desktop\zm5.xlsx')
 
 creta_table()
