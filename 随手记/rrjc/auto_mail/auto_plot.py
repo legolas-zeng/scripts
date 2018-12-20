@@ -1,11 +1,9 @@
 # coding=utf-8
 import read_excel
-import matplotlib.pyplot as plt
-from matplotlib.font_manager import FontProperties
 
 
-excel_path = "C:\\Users\Administrator\Desktop\movie_info.xlsx"
-grad_list = read_excel.read_xls(excel_path,2)
+excel_path = "C:\Users\Administrator.000\Desktop\movie_info.xlsx"
+grad_list = read_excel.read_xls(excel_path, 2)
 
 res = {}
 for i in grad_list:

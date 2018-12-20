@@ -1,21 +1,20 @@
 # coding=utf-8
 import time,sys
 import pandas as pd
-from lxml import etree
-import re,datetime,smtplib,requests
+import smtplib
 from email.mime.text import MIMEText
 from email.utils import formataddr
 from email.header import Header
-import read_excel
+import 随手记.rrjc.auto_mail.read_excel
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
 time1 = time.time()
 
 excel_path = "C:\Users\Administrator\Desktop\movie_info.xlsx"
-code = read_excel.read_xls(excel_path,0)
-movie_name = read_excel.read_xls(excel_path,1)
-grade = read_excel.read_xls(excel_path,2)
+code = 随手记.rrjc.auto_mail.read_excel.read_xls(excel_path, 0)
+movie_name = 随手记.rrjc.auto_mail.read_excel.read_xls(excel_path, 1)
+grade = 随手记.rrjc.auto_mail.read_excel.read_xls(excel_path, 2)
 
 pd.set_option('display.max_rows',None)
 pd.set_option('display.max_colwidth',500)
@@ -90,11 +89,11 @@ msg['Subject'] = Header(subject, 'utf-8')
 
 
 username = 'zengweian@rrjc.com'
-password = 'Zwa1005521'
+password = '密码'
 
 smtp = smtplib.SMTP()
 smtp.connect('smtp.exmail.qq.com')
-smtp.login(username, 'Zwa1005521') # 模拟登陆
+smtp.login(username, '密码') # 模拟登陆
 
 smtp.login(username, password)
 smtp.sendmail(sender, receiver, msg.as_string())

@@ -1,4 +1,5 @@
 # coding=utf-8
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
@@ -19,7 +20,7 @@ def sendmail():
     msg['Subject'] = u'邮件标题'
     msg['From'] = 'zengweian@rrjc.com <zengweian@rrjc.com>'
 
-    # text = u"%s楼打印机：\n%s墨粉%s\n%s墨粉%s\n%s墨粉%s\n%s墨粉%s" % ('23', '黑色', '100%', '青色', '75%', '洋红色', '75%', '黄色', '75%')# 邮件内容
+    # text = u"xxxxxxxxx"# 邮件内容
     # msg.attach(MIMEText(text, 'plain', 'utf-8'))
 
     # 构造附件
@@ -46,7 +47,7 @@ def sendmail():
 
     smtp = smtplib.SMTP()
     smtp.connect('smtp.exmail.qq.com')
-    smtp.login(mailadd, 'Zwa1005521') # 模拟登陆
+    smtp.login(mailadd, '密码') # 模拟登陆
     smtp.sendmail(sender, receiver, msg.as_string())
     '''
     sender: 邮件发送者地址。
