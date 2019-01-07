@@ -1,10 +1,9 @@
 # coding=utf-8
-
 import xlwt,xlrd
 import os
 import numpy as np
 
-xls_path = 'C:\Users\Administrator.000\Desktop\\xiaojiejie'
+xls_path = 'C:\\Users\Administrator.000\Desktop\\xiaojiejie'
 
 
 def file_name(file_dir):
