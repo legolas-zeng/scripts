@@ -28,12 +28,7 @@ class parseListPage():
         page = bs(page_str,'lxml')
         # 获取文章链接
         a = str(page)
-        pattern = re.compile('<li class="row">'
-+'<a title="(.*?)" href=".*?">.*?</a><br />'
-+'.*?'
-+'.*?<p class="simg"><a href=".*?" title=".*?">'
-+'<img src="(.*?)" /></a></p>'
-+'</li>', re.S)
+        pattern = re.compile('<a title="(.*?)" href=.*?</a>.*?<img src="(.*?)" />',re.S)
         items = re.findall(pattern, a)
         print("匹配结果：=======",items)
         pageStories = []
