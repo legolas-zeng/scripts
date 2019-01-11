@@ -40,3 +40,15 @@ async def read_files(path):
 '''
 a = read_files("C:\\Users\Administrator.000\Desktop\\new 4.txt")
 print(a)
+
+'''
+python3没有xrange，不过可以自己构建xrange，虽然多次一举。
+'''
+def xrange(x):
+    n = 0
+    while n < x:
+        yield n
+        n += 1
+for a in xrange(10):
+    print(a)
+print([b for b in xrange(10) ])
