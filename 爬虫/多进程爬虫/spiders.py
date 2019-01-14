@@ -17,7 +17,7 @@ async def getPage(url,res_list):
     async with aiohttp.ClientSession() as session:
         async with session.get(url,headers=headers) as resp:
             assert resp.status==200
-            res_list.append(await resp.text())
+            res_list.append(await resp.text(encoding='utf-8'))
 
 
 class parseListPage():
@@ -25,16 +25,15 @@ class parseListPage():
         self.page_str = page_str
     def __enter__(self):
         page_str = self.page_str
-        page = bs(page_str,'lxml')
+        # page = bs(page_str,'lxml')
         # 获取文章链接
-        a = str(page)
+        # a = str(page)
         pattern = re.compile('<a title="(.*?)" href=.*?</a>.*?<img src="(.*?)" />',re.S)
-        items = re.findall(pattern, a)
+        items = re.findall(pattern, page_str)
         print("匹配结果：=======",items)
         pageStories = []
         for item in items:
             pageStories.append([item[0].strip(),item[1].strip()])
-        print(pageStories)
         # articles = page.find_all('div',attrs={'class':'article_title'})
         # art_urls = []
         # for a in articles:
@@ -58,6 +57,7 @@ articles_url = []
 print(ret_list)
 for ret in ret_list:
     with parseListPage(ret) as tmp:
+        print("",tmp)
         articles_url += tmp
 ret_list = []
 

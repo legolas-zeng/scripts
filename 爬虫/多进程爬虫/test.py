@@ -9,6 +9,7 @@ def getPage(url):
 def filterpage(url):
     pageCode = getPage(url)
     print(pageCode)
+    print(type(pageCode))
     pattern = re.compile('<a title="(.*?)" href=.*?</a>.*?<img src="(.*?)" />',re.S)
     items = re.findall(pattern, pageCode)
     # items = re.findall(r'<img src="(.*?)" />', pageCode,flags=re.DOTALL )  # re.DOTALL if multi line
