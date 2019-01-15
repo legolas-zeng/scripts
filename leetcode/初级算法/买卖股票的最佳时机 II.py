@@ -8,9 +8,17 @@
 prices = [7,1,5,3,6,4]
 data_len = len(prices)
 i = 1
+data = []
 for x in prices:
-    pass
+    print('被减数',x)
+    print('减数',prices[i])
+    result = x - prices[i]
+    print(result)
+    data.append(result)
+    i+=1
+print(data)
 for z in range(10):
     pass
 
-
+def max_number(list):
+    pass
