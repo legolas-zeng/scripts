@@ -6,14 +6,7 @@
 注意：你不能同时参与多笔交易（你必须在再次购买前出售掉之前的股票）。
 '''
 
-
-def sub(inta,intb):
-    re = inta - intb
-    return re
-
 prices = [7,1,5,3,6,4]
-data_len = len(prices)
-i = 1
 
 maxprofit = 0
 for i in range(1,len(prices)):
