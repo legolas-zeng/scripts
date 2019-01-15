@@ -5,20 +5,19 @@
 设计一个算法来计算你所能获取的最大利润。你可以尽可能地完成更多的交易（多次买卖一支股票）。
 注意：你不能同时参与多笔交易（你必须在再次购买前出售掉之前的股票）。
 '''
+
+
+def sub(inta,intb):
+    re = inta - intb
+    return re
+
 prices = [7,1,5,3,6,4]
 data_len = len(prices)
 i = 1
-data = []
-for x in prices:
-    print('被减数',x)
-    print('减数',prices[i])
-    result = x - prices[i]
-    print(result)
-    data.append(result)
-    i+=1
-print(data)
-for z in range(10):
-    pass
 
-def max_number(list):
-    pass
+maxprofit = 0
+for i in range(1,len(prices)):
+    d = prices[i] - prices[i-1]
+    if d > 0:
+        maxprofit += d
+print(maxprofit)
