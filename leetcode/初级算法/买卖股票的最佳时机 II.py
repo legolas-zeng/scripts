@@ -6,12 +6,19 @@
 注意：你不能同时参与多笔交易（你必须在再次购买前出售掉之前的股票）。
 '''
 
-prices = [7,1,5,3,6,4]
+# 峰谷法
+# 时间复杂度：O(n)。遍历一次。
+# 空间复杂度：O(1)。需要常量的空间。
+prices = [7, 1, 5, 3, 6, 4]
 
 maxprofit = 0
 for i in range(1,len(prices)):
     d = prices[i] - prices[i-1]
-    print(d)
     if d > 0:
         maxprofit += d
 print(maxprofit)
+
+# 暴力法
+
+
+
