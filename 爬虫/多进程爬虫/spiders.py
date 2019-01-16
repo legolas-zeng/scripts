@@ -1,9 +1,10 @@
 # -*- coding: UTF-8 -*-
 import urllib.request as request
 from bs4 import BeautifulSoup as bs
-import asyncio,re
+import asyncio,re,os
 import aiohttp
 import shutil
+import aiofiles
 
 
 urlbase = "http://www.fanpublish.info/2256/page/"
@@ -20,21 +21,19 @@ async def getPage(url,res_list):
             assert resp.status==200
             res_list.append(await resp.text(encoding='utf-8'))
 
-@asyncio.coroutine
 async def download_img(url,res_list):
     print('图片url：',url[1])
     async with aiohttp.ClientSession() as session:
-        async with session.get(url[1]) as resp:  # 异步发送请求
-            # content = await resp.read()
-            # with open("C:\\Users\Administrator\Desktop\images\\"+url[0] + '.jpg', 'wb') as f:
-            #     f.write(content)
-            # print('下载%s图片成功' % url[0])
-            temp = "C:\\Users\Administrator\Desktop\images" + '/%s.jpg' %url[0]
-            print(temp)
-            with open(temp, 'wb') as f:
-                resp.raw.decode_content = True
-                shutil.copyfileobj(r.raw, f)
-                print('下载%s图片成功' % url[0])
+        async with session.get(url[1]) as response:
+            temp = "C:\\Users\Administrator\Desktop\images" + '/%s.jpg' % url[0]
+            pic = await response.read()  # 以Bytes方式读入非文字
+            with open(temp, 'wb') as fout:  # 写入文件
+                fout.write(pic)
+                print("图片下载成功！！")
+            # async with aiofiles.open(temp, 'wb') as f:
+            #     content = await response.read()
+            #     await f.write(content)
+
 class parseListPage():
     def __init__(self,page_str):
         self.page_str = page_str
