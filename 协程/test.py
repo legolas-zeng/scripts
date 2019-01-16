@@ -17,10 +17,12 @@ url = ["https://segmentfault.com",
        "https://www.jianshu.com",
        "https://www.baidu.com/"]
 
-loop = asyncio.get_event_loop() # 创建一个循环
+loop = asyncio.get_event_loop() # 调用开始创建一个循环，循环内会有run_until_complete()方法
 task = [asyncio.ensure_future(test2(i)) for i in url]
 start = time.time()
 loop.run_until_complete(asyncio.wait(task))  # 检测task运行情况并返回结果
 endtime = time.time()-start
 print(endtime)
 loop.close()
+
+# 事件循环会安排协同程序的执行。

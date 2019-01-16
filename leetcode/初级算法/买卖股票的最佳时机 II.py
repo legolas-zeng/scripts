@@ -11,6 +11,7 @@ prices = [7,1,5,3,6,4]
 maxprofit = 0
 for i in range(1,len(prices)):
     d = prices[i] - prices[i-1]
+    print(d)
     if d > 0:
         maxprofit += d
 print(maxprofit)
