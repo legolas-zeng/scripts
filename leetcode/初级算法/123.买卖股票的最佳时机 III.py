@@ -17,7 +17,8 @@ buy2 = -prices[0]   # -3
 sell1 = 0
 sell2 = 0
 
-for i in range(1, len_prices):              # 从prices[2]开始
+for i in range(1, len_prices):              # 从prices[1]开始
+    print(i)
     buy1 = max(buy1, -prices[i])            # 第一次买入手上的钱
     sell1 = max(sell1, buy1 + prices[i])    # 第一次卖出手上的钱
     print('11111111',buy1,sell1)
