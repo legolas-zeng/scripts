@@ -1,15 +1,12 @@
 # -*- coding: UTF-8 -*-
 import urllib.request as request
 from bs4 import BeautifulSoup as bs
-import asyncio,re,os
+import asyncio,re,os,time
 import aiohttp
 import shutil
 import aiofiles
 
-
 urlbase = "http://www.fanpublish.info/2256/page/"
-page_urls = ["http://www.fanpublish.info/2256/page/85","http://www.fanpublish.info/2256/page/86"]
-
 
 @asyncio.coroutine
 async def getPage(url,res_list):
@@ -25,11 +22,11 @@ async def download_img(url,res_list):
     print('图片url：',url[1])
     async with aiohttp.ClientSession() as session:
         async with session.get(url[1]) as response:
-            temp = "C:\\Users\Administrator\Desktop\images" + '/%s.jpg' % url[0]
+            temp = "C:\\Users\\Administrator.000\Desktop\images" + '/%s.jpg' % url[0]
             pic = await response.read()  # 以Bytes方式读入非文字
             with open(temp, 'wb') as fout:  # 写入文件
                 fout.write(pic)
-                print("图片下载成功！！")
+                print("图片%s下载成功！！"%url[0])
             # async with aiofiles.open(temp, 'wb') as f:
             #     content = await response.read()
             #     await f.write(content)
@@ -39,7 +36,7 @@ class parseListPage():
         self.page_str = page_str
     def __enter__(self):
         page_str = self.page_str
-        pattern = re.compile('<a title="(.*?)" href=.*?</a>.*?<img src="(.*?)" />',re.S)
+        pattern = re.compile('<img width="100" alt="(.*?)" src="(.*?)" class="">',re.S)
         items = re.findall(pattern, page_str)
         print("匹配结果：=======",items)
         pageStories = []
@@ -51,11 +48,14 @@ class parseListPage():
 
 
 page_num = 1
-page_url_base = 'http://www.fanpublish.info/2256/page/'
-page_urls = [page_url_base + str(i+1) for i in range(page_num)]
+page_url_base = 'https://movie.douban.com/top250?start=%s&filter='
+# page_url_base = 'http://www.fanpublish.info/2256/page/'
+# page_urls = [page_url_base + str(i+1) for i in range(page_num)]
+page_urls = [page_url_base %str(i) for i in range(0,225,25)]
 print('page_urls是======：',page_urls)
 loop = asyncio.get_event_loop()
 ret_list = []
+start_time = time.time()
 tasks = [getPage(host,ret_list) for host in page_urls]
 loop.run_until_complete(asyncio.wait(tasks))
 
@@ -70,3 +70,5 @@ ret_list = []
 tasks = [download_img(url, ret_list) for url in articles_url]
 loop.run_until_complete(asyncio.wait(tasks))
 loop.close()
+end_time = time.time()
+print('总共用时：',end_time - start_time)
