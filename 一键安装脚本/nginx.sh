@@ -60,7 +60,7 @@ ln -s ${target_dir}/conf /etc/nginx
 cd /etc/init.d
 rm -rf nginx
 wget http://doc.ranlau.com/nginx -O nginx
-# http://nginx.org/download/1.10.2.tar.gz
+# wget http://nginx.org/download/nginx-1.2.0.tar.gz
 chmod a+x nginx
 chkconfig --add /etc/init.d/nginx
 chkconfig nginx on
