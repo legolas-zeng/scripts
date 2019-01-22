@@ -11,10 +11,14 @@ class Solution(object):
         :rtype: void Do not return anything, modify nums in-place instead.
         """
 
-nums = [1,2,3,4,5,6,7]
+nums = [1,2,3,4,5,6]
 new_nums = []
 print(nums[-3])
-k = 1
+k = 2
 for i in range(0,len(nums)):
     new_nums.append(nums[-k+i])
 print(new_nums)
+
+nums_len = len(nums)
+nums[:] = nums[nums_len - k :] + nums[:nums_len - k]
+print(nums)
