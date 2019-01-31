@@ -53,9 +53,11 @@ page_url_base = 'https://movie.douban.com/top250?start=%s&filter='
 # page_urls = [page_url_base + str(i+1) for i in range(page_num)]
 page_urls = [page_url_base %str(i) for i in range(0,225,25)]
 print('page_urls是======：',page_urls)
+
 loop = asyncio.get_event_loop()
 ret_list = []
 start_time = time.time()
+
 tasks = [getPage(host,ret_list) for host in page_urls]
 loop.run_until_complete(asyncio.wait(tasks))
 

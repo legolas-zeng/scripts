@@ -45,7 +45,7 @@ def containsDuplicate(nums):
     return False
 
 """
-set()是一个无序不重复元素集,如果存在重复元素,集合长度会改变 
+set()是一个无序不重复元素集,如果存在重复元素,集合长度会改变，用于关系测试和消除重复元素。
 return len(set(nums))!=len(nums)
 """
 
