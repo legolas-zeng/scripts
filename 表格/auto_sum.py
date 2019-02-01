@@ -34,7 +34,7 @@ def read_xls(file_names):
     return data_sum
 def handle_data(data):
     for k,v in data.iteritems():
-        print k,v
+        print(k,v)
 def creat_xls(dic):
     header = [u'科目代码', u'科目名称', u'币别', u'期初借方余额', u'期初贷方余额', u'本期借方发生额', u'本期贷方发生额', u'本年借方累计', u'本年贷方累计', u'期末借方余额', u'期末贷方余额',]
     name = {'1002':u'银行存款','1002.01':u'众财6856','1122':u'应收账款','1221':u'其他应收款','1221.01':u'员工社保','1221.02':u'员工公积金',
@@ -57,7 +57,7 @@ def creat_xls(dic):
         j +=1
     first_col = worksheet.col(3)  # xlwt中是行和列都是从0开始计算的
     first_col.width = 256 * 18
-    workbook.save('C:\Users\Administrator.000\Desktop\\xiaojiejie\Excel_test.xls')
+    workbook.save('C:\\Users\Administrator.000\Desktop\\xiaojiejie\Excel_test.xls')
 
 def main():
     file_name_list = file_name(xls_path)
@@ -77,7 +77,7 @@ def main():
                 pass
             else:
                 dic[key] = dic[key]
-    print dic
+    print(dic)
     creat_xls(dic)
 
 
