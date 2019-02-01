@@ -1,0 +1,1 @@
+build/theme.css: /data/nginx-fancyindex-flat-theme/layout/less/body.less /data/nginx-fancyindex-flat-theme/layout/less/breadcrumb.less /data/nginx-fancyindex-flat-theme/layout/less/colors.less /data/nginx-fancyindex-flat-theme/layout/less/footer.less /data/nginx-fancyindex-flat-theme/layout/less/header.less /data/nginx-fancyindex-flat-theme/layout/less/list.less 
