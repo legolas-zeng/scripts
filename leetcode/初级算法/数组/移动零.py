@@ -13,10 +13,19 @@
 尽量减少操作次数。
 '''
 
-nums = [0,0,1]
-for index,values in enumerate(nums):
-    print(values)
-    if values == 0:
-        nums.pop(index)
-        nums.append(0)
+nums = [0,1,0,3,12]
+# for index,values in enumerate(nums):
+#     if values == 0:
+#         nums.pop(index)
+#         nums.append(0)
+#     else:
+#         index += 1
+# print(nums)
+'''
+计算有多少个0，然后在list后面批量添加
+'''
+n = nums.count(0)
+for i in range(n):
+    nums.remove(0)
+nums.extend([0]*n)
 print(nums)
