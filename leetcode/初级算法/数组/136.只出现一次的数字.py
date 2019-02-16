@@ -7,6 +7,7 @@
 输出: 4
 '''
 '''
+方法一、
 把全部元素放进set里面，然后有重复的元素就马上剔除，最后能得到结果，时间复杂度O(n),空间复杂度O(n)
 '''
 nums = [4,1,2,1,2]
@@ -17,5 +18,14 @@ for i in range(0,len(nums)):
     else:
         d.remove(nums[i])
 print(d)
+
+print(set(nums))
+
+'''
+方法二、
+set(nums)去重，然后所有key相加乘以二，得到比原来nums更多一个单独元素的值，然后减去原来的值，就得到多出来的那个。
+'''
+
+print(sum(set(nums)) * 2 - sum(nums))
 
 
