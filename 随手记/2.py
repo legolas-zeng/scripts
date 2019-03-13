@@ -1,7 +1,7 @@
 # -*-coding:utf-8 -*-
 a = '1123456789'
-print a[1:2]
-print a[:-5]
+print(a[1:2])
+print(a[:-5])
 l = len(a)
 prefix = a[0:l%3]
 li = []
@@ -15,5 +15,5 @@ for i in range(l/3,0,-1):
     str1 = ','+a[b:c]
     li.append(str1)
 str2 = "".join(li)
-print prefix+str2
+print(prefix+str2)
 

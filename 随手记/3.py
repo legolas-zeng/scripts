@@ -13,4 +13,4 @@ def sum(s):
     if a<=0:
         return a
     return sum(a)+a
-print sum('12')
+print(sum('12'))

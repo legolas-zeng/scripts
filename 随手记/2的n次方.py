@@ -9,5 +9,5 @@ i = 0
 while a < b:
     a = a*2
     i = i+1
-    print i
+    print(i)
 
