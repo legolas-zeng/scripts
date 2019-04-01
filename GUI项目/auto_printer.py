@@ -6,7 +6,7 @@ import tkinter as tk
 from tkinter import *
 import tkinter.ttk as ttk
 from tkinter import messagebox
-import platform,time,easygui
+import platform,os
 from subprocess import getstatusoutput as gso
 
 FONT_1 = ('微软雅黑', 14, 'normal')
@@ -21,6 +21,7 @@ class Application(ttk.Frame):
     def __init__(self, master=None):
         super().__init__()
         self.master = master # 主Frame
+        self.path = os.getcwd()
         self.pack()
         self.createimage()
         self.createlabel()
@@ -29,7 +30,7 @@ class Application(ttk.Frame):
 
     def createimage(self):
         self.canvas = tk.Canvas(self.master,height=577,width=1046)   # 定义顶部的image Frame
-        self.photo = tk.PhotoImage(file="D:\printer\conf\\2019.gif")
+        self.photo = tk.PhotoImage(file=self.path+"\conf\\2019.gif")
         # self.imgLabel = tk.Label(self.frame1, image=self.photo)
         # self.imgLabel.pack(side=TOP)
         self.canvas.create_image(0,0,anchor='nw',image=self.photo)
@@ -66,46 +67,51 @@ class Application(ttk.Frame):
     rundll32 printui.dll,PrintUIEntry /dl /n 打印机192.168.23.238 /q
     '''
     def heandle(self):
-        add_port = "Cscript C:\Windows\System32\Printing_Admin_Scripts\zh-CN\Prnport.vbs -a -r IP_%s -h %s -o raw"
-        install_printer = "rundll32 printui.dll,PrintUIEntry /if /b 打印机%s /f \"%s\" /r IP_%s /m \"%s\" /z"
-        inf_4471 = "\\\\192.168.3.93\\all\打印机\\4471彩机\%s\Software\PCL\\amd64\Simplified_Chinese\\001\FX6BEAL.inf"
-        # inf_3060_10 = "\\\\192.168.3.93\\all\打印机\\3060黑白\win10 64\PCL\\amd64\\001\FX6MHAL.inf"
-        inf_3060  = "\\\\192.168.3.93\\all\打印机\\3060黑白\%s\cswnd\PCL\\amd64\\001\FX6MHAL.inf"
-        sys_info = self.Jud_sys_version()
-        v = self.v.get()
-        r = self.msg(1,"确定安装%s吗？，此操作会将之前安装的打印机覆盖。"%(PRINTER.get(v)[0]))
-        # r = messagebox.askokcancel('消息框', "确定安装%s吗？"%(PRINTER.get(v)[0]))
-        ip = PRINTER.get(v)[1]
-        self.pc_data = self.Jud_sys_version()
-        if r :
-            retcode, output = gso(add_port % (ip, ip))
-            print(add_port % (ip, ip))
-            self.text.insert(INSERT, "已创建/更新端口%s\n端口添加成功！！\n" % (ip))
-            self.text.insert(INSERT, "开始执行安装程序.....\n")
-            if retcode == 0:
-                if v == '1' or v == '2':
-                    inf_path = inf_4471%(sys_info.get('version')+' '+sys_info.get('machine'))
-                    # time.sleep(2)
-                    retcode1,output1 = gso(install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
-                    # print(install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
-                    if retcode1 == 0:
-                        self.text.insert(INSERT, "安装程序开始执行，后台服务安装中,请稍后......\n")
-                        # time.sleep(5)
-                        self.text.insert(INSERT, "安装程序完成\n")
-                        # easygui.msgbox('安装完成', image ='D:\printer\conf\ye.png')
-                    else:
-                        self.text.insert(INSERT,"安装程序出错，请联系管理员！！！！")
-                if v == '3':
-                    inf_path = inf_3060 % (sys_info.get('version') + ' ' + sys_info.get('machine'))
-                    retcode1, output1 = gso(install_printer % (ip, inf_path, ip, PRINTER.get(v)[2]))
-                    if retcode1 == 0:
-                        self.text.insert(INSERT, "安装程序开始执行，后台服务安装中,请稍后......\n")
-                        self.text.insert(INSERT, "安装程序完成\n")
-
-                    else:
-                        self.text.insert(INSERT, "安装程序出错，请联系管理员！！！！")
-            else:
-                self.text.insert(INSERT, "\n端口%s添加失败，请联系管理员！！！！" % (ip))
+        try:
+            add_port = "Cscript C:\Windows\System32\Printing_Admin_Scripts\zh-CN\Prnport.vbs -a -r IP_%s -h %s -o raw"
+            install_printer = "rundll32 printui.dll,PrintUIEntry /if /b 打印机%s /f \"%s\" /r IP_%s /m \"%s\" /z"
+            inf_4471 = "\\\\192.168.3.93\\all\打印机\\4471彩机\%s\Software\PCL\\amd64\Simplified_Chinese\\001\FX6BEAL.inf"
+            # inf_3060_10 = "\\\\192.168.3.93\\all\打印机\\3060黑白\win10 64\PCL\\amd64\\001\FX6MHAL.inf"
+            inf_3060  = "\\\\192.168.3.93\\all\打印机\\3060黑白\%s\cswnd\PCL\\amd64\\001\FX6MHAL.inf"
+            sys_info = self.Jud_sys_version()
+            v = self.v.get()
+            r = self.msg(1,"确定安装%s吗？，此操作会将之前安装的打印机覆盖。"%(PRINTER.get(v)[0]))
+            # r = messagebox.askokcancel('消息框', "确定安装%s吗？"%(PRINTER.get(v)[0]))
+            ip = PRINTER.get(v)[1]
+            self.pc_data = self.Jud_sys_version()
+            if r :
+                retcode, output = gso(add_port % (ip, ip))
+                # print(add_port % (ip, ip))
+                self.text.insert(INSERT, "已创建/更新端口%s\n端口添加成功！！\n" % (ip))
+                self.text.insert(INSERT, "开始执行安装程序.....\n")
+                if retcode == 0:
+                    if v == '1' or v == '2':
+                        inf_path = inf_4471%(sys_info.get('version')+' '+sys_info.get('machine'))
+                        # time.sleep(2)
+                        retcode1,output1 = gso(install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
+                        # print(install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
+                        if retcode1 == 0:
+                            self.text.insert(INSERT, "安装程序开始执行，后台服务安装中,请稍后......\n")
+                            # time.sleep(5)
+                            self.text.insert(INSERT, "安装程序完成\n")
+                            self.text.insert(INSERT, "稍等几分钟后，请打开控制面板查看新的打印机")
+                            retcode2, output2 = gso("control")
+                        else:
+                            self.text.insert(INSERT,"安装程序出错，请联系管理员！！！！")
+                    if v == '3':
+                        inf_path = inf_3060 % (sys_info.get('version') + ' ' + sys_info.get('machine'))
+                        retcode1, output1 = gso(install_printer % (ip, inf_path, ip, PRINTER.get(v)[2]))
+                        if retcode1 == 0:
+                            self.text.insert(INSERT, "安装程序开始执行，后台服务安装中,请稍后......\n")
+                            self.text.insert(INSERT, "安装程序完成，\n")
+                            self.text.insert(INSERT, "稍等几分钟后，请打开控制面板查看新的打印机")
+                            retcode2, output2 = gso("control")
+                        else:
+                            self.text.insert(INSERT, "安装程序出错，请联系管理员！！！！")
+                else:
+                    self.text.insert(INSERT, "\n端口%s添加失败，请联系管理员！！！！" % (ip))
+        except Exception:
+            print(Exception)
 
 
     def msg(self,*args):
@@ -130,8 +136,9 @@ class Application(ttk.Frame):
         return data
 
 if __name__ == '__main__':
+    path = os.getcwd()
     windows = tk.Tk()
     windows.title('自动安装程序V1.0')
     # windows.geometry('1050x700')
-    windows.iconbitmap('D:\printer\conf\\print.ico')
+    windows.iconbitmap(path+'\conf\\print.ico')
     Application(master=windows)
