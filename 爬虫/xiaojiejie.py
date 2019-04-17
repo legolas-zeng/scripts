@@ -22,12 +22,12 @@ def filterpage(url):
         pageStories.append([item[0].strip(), item[1].strip()])
     return pageStories
 def downloadimage(i,x,url):
-    image_path = 'C:\Users\Administrator\Desktop\images'
+    image_path = 'C:\\Users\Administrator\Desktop\images'
     # temp = image_path + '/%s-%s.jpg' %(i,x)
     temp = image_path + '/%s.jpg' %x
-    print u'正在下载图片%s' % x
+    print('正在下载图片%s' % x)
     imgurl = 'http:' + url
-    print imgurl
+    print(imgurl)
     r = requests.get(imgurl, stream=True)
     if r.status_code == 200:
         with open(temp, 'wb') as f:
@@ -37,9 +37,9 @@ def downloadimage(i,x,url):
 if __name__ == '__main__':
     for a in range(494,pagemun):
         i = a + 1
-        print u'--------------正在下载第%s页的图片---------------'%i
+        print('--------------正在下载第%s页的图片---------------'%i)
         url = urlbase + str(i)
-        print url
+        print(url)
         info = filterpage(url)
         for data in info:
             x = data[0]

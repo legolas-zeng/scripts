@@ -21,6 +21,8 @@
     <orderEntry type="module" module-name="rrjc_work" />
     <orderEntry type="module" module-name="logs" />
     <orderEntry type="module" module-name="taillog" />
+    <orderEntry type="module" module-name="tutorials" />
+    <orderEntry type="module" module-name="PyQt5" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">

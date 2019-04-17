@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e600040c-b221-4fee-8c5b-896e3a2791d3" name="Default" comment="表格处理脚本">
+    <list default="true" id="e600040c-b221-4fee-8c5b-896e3a2791d3" name="Default" comment="">
       <change afterPath="F:/taillog/etc/app_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/随手记/闭包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI项目/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/随手记/6.py" afterDir="false" />
       <change beforePath="F:/logs/logs/settings.py" beforeDir="false" afterPath="F:/logs/logs/settings.py" afterDir="false" />
       <change beforePath="F:/logs/main.py" beforeDir="false" afterPath="F:/logs/main.py" afterDir="false" />
       <change beforePath="F:/logs/templates/index.html" beforeDir="false" afterPath="F:/logs/templates/index.html" afterDir="false" />
       <change beforePath="F:/taillog/www/main.py" beforeDir="false" afterPath="F:/taillog/www/main.py" afterDir="false" />
       <change beforePath="F:/taillog/www/templates/index.html" beforeDir="false" afterPath="F:/taillog/www/templates/index.html" afterDir="false" />
       <change beforePath="F:/taillog/www/templates/weblog.html" beforeDir="false" afterPath="F:/taillog/www/templates/weblog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scripts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/随手记/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/随手记/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/随手记/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/随手记/2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/随手记/2的n次方.py" beforeDir="false" afterPath="$PROJECT_DIR$/随手记/2的n次方.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/随手记/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/随手记/3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/随手记/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/随手记/4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/随手记/5.py" beforeDir="false" afterPath="$PROJECT_DIR$/随手记/5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI项目/gui_grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI项目/gui_grid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI项目/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI项目/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/bad.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/bad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/xiaojiejie.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/xiaojiejie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/豆瓣电影_图表分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/豆瓣电影_图表分析.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/豆瓣电影_表格_翻页.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/豆瓣电影_表格_翻页.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,6 +33,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/scripts$multi_progress.coverage" NAME="multi_progress Coverage Results" MODIFIED="1551757070840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/风险管理部" />
+    <SUITE FILE_PATH="coverage/scripts$entropy_month.coverage" NAME="entropy_month Coverage Results" MODIFIED="1553155077640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/scripts$217_.coverage" NAME="217.存在重复元素 Coverage Results" MODIFIED="1548157798442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/初级算法/数组" />
     <SUITE FILE_PATH="coverage/scripts$auto_send_mail.coverage" NAME="auto_send_mail Coverage Results" MODIFIED="1537425461612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$Fibonacci.coverage" NAME="Fibonacci Coverage Results" MODIFIED="1545980437130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
@@ -34,52 +41,92 @@
     <SUITE FILE_PATH="coverage/scripts$anto_check_printer.coverage" NAME="anto_check_printer Coverage Results" MODIFIED="1545228036296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$_III.coverage" NAME="买卖股票的最佳时机 III Coverage Results" MODIFIED="1547625957853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/初级算法" />
     <SUITE FILE_PATH="coverage/scripts$str_test.coverage" NAME="str_test Coverage Results" MODIFIED="1550560977703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
-    <SUITE FILE_PATH="coverage/scripts$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1535008979799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work" />
+    <SUITE FILE_PATH="coverage/scripts$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1553840241340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
     <SUITE FILE_PATH="coverage/scripts$QRcode.coverage" NAME="QRcode Coverage Results" MODIFIED="1534296644481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QR_CODE" />
+    <SUITE FILE_PATH="coverage/scripts$redis.coverage" NAME="redis Coverage Results" MODIFIED="1553234562921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/人事行政部" />
     <SUITE FILE_PATH="coverage/scripts$3.coverage" NAME="3 Coverage Results" MODIFIED="1528884111817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/阿里云" />
+    <SUITE FILE_PATH="coverage/scripts$tk2_label_button.coverage" NAME="tk2_label_button Coverage Results" MODIFIED="1553821802392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
     <SUITE FILE_PATH="coverage/scripts$tornado_socket.coverage" NAME="tornado_socket Coverage Results" MODIFIED="1540957381431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_django/rrjc" />
     <SUITE FILE_PATH="coverage/scripts$auto_plot.coverage" NAME="auto_plot Coverage Results" MODIFIED="1545284203572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记/rrjc/auto_mail" />
+    <SUITE FILE_PATH="coverage/scripts$CFText.coverage" NAME="CFText Coverage Results" MODIFIED="1553769600888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
+    <SUITE FILE_PATH="coverage/scripts$Cryptor.coverage" NAME="Cryptor Coverage Results" MODIFIED="1553771076058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/下载/CryptoApp-master" />
     <SUITE FILE_PATH="coverage/scripts$yasuo.coverage" NAME="yasuo Coverage Results" MODIFIED="1542096698574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/xiaohong" />
+    <SUITE FILE_PATH="coverage/scripts$201904091102.coverage" NAME="201904091102 Coverage Results" MODIFIED="1554790907927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/scripts$gui_grid.coverage" NAME="gui_grid Coverage Results" MODIFIED="1554117728146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
     <SUITE FILE_PATH="coverage/scripts$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1541502248885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tornado/legolas" />
     <SUITE FILE_PATH="coverage/scripts$zhengze.coverage" NAME="zhengze Coverage Results" MODIFIED="1547635757488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
+    <SUITE FILE_PATH="coverage/scripts$multi_thread_redis.coverage" NAME="multi_thread_redis Coverage Results" MODIFIED="1554804088040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/风险管理部" />
+    <SUITE FILE_PATH="coverage/scripts$201548.coverage" NAME="201548 Coverage Results" MODIFIED="1553152010173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/scripts$auto_sum_fix.coverage" NAME="auto_sum_fix Coverage Results" MODIFIED="1551693687829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
+    <SUITE FILE_PATH="coverage/scripts$tk5_radiobutton.coverage" NAME="tk5_radiobutton Coverage Results" MODIFIED="1553821846814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
+    <SUITE FILE_PATH="coverage/scripts$FirstWin.coverage" NAME="FirstWin Coverage Results" MODIFIED="1554172088933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/PyQt5/Chapter01" />
     <SUITE FILE_PATH="coverage/scripts$.coverage" NAME="闭包 Coverage Results" MODIFIED="1552358133351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
     <SUITE FILE_PATH="coverage/scripts$splunk_sdk.coverage" NAME="splunk-sdk Coverage Results" MODIFIED="1529892013605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work/scripted" />
-    <SUITE FILE_PATH="coverage/scripts$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1551699579939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多进程" />
+    <SUITE FILE_PATH="coverage/scripts$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1553247585580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$deam_redis.coverage" NAME="deam_redis Coverage Results" MODIFIED="1548407564189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/multi_process" />
+    <SUITE FILE_PATH="coverage/scripts$auto_printer.coverage" NAME="auto_printer Coverage Results" MODIFIED="1554116923186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
     <SUITE FILE_PATH="coverage/scripts$package_all_cite.coverage" NAME="package_all_cite Coverage Results" MODIFIED="1545275278917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记/rrjc" />
+    <SUITE FILE_PATH="coverage/scripts$tk9_menubar.coverage" NAME="tk9_menubar Coverage Results" MODIFIED="1553821905617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
     <SUITE FILE_PATH="coverage/scripts$auto_get_splunk.coverage" NAME="auto_get_splunk Coverage Results" MODIFIED="1529894679620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work/scripted" />
     <SUITE FILE_PATH="coverage/scripts$auto_sum.coverage" NAME="auto_sum Coverage Results" MODIFIED="1551683382776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
+    <SUITE FILE_PATH="coverage/scripts$entropy_end_fix944.coverage" NAME="entropy_end_fix944 Coverage Results" MODIFIED="1552965020637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/风险管理部" />
+    <SUITE FILE_PATH="coverage/scripts$iphone.coverage" NAME="iphone Coverage Results" MODIFIED="1555229628979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$123__III.coverage" NAME="123.买卖股票的最佳时机 III Coverage Results" MODIFIED="1547712359658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/初级算法" />
+    <SUITE FILE_PATH="coverage/scripts$qt101_testPyQt.coverage" NAME="qt101_testPyQt Coverage Results" MODIFIED="1554172107109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/PyQt5/Chapter01" />
     <SUITE FILE_PATH="coverage/scripts$yield.coverage" NAME="yield Coverage Results" MODIFIED="1546945790872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
+    <SUITE FILE_PATH="coverage/scripts$tk4_listbox.coverage" NAME="tk4_listbox Coverage Results" MODIFIED="1553821837359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
+    <SUITE FILE_PATH="coverage/scripts$tk12_position.coverage" NAME="tk12_position Coverage Results" MODIFIED="1553822203207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
     <SUITE FILE_PATH="coverage/scripts$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1540275896277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$simulate_login.coverage" NAME="simulate_login Coverage Results" MODIFIED="1537437320781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$main.coverage" NAME="main Coverage Results" MODIFIED="1540956030667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/logs" />
     <SUITE FILE_PATH="coverage/scripts$multi_gps.coverage" NAME="multi_gps Coverage Results" MODIFIED="1548748391263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$lei.coverage" NAME="lei Coverage Results" MODIFIED="1545282233539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记/rrjc" />
     <SUITE FILE_PATH="coverage/scripts$_II.coverage" NAME="买卖股票的最佳时机 II Coverage Results" MODIFIED="1547606988078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/初级算法" />
+    <SUITE FILE_PATH="coverage/scripts$kegg.coverage" NAME="kegg Coverage Results" MODIFIED="1555413599096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/数据组" />
+    <SUITE FILE_PATH="coverage/scripts$ToolUI.coverage" NAME="ToolUI Coverage Results" MODIFIED="1554118238080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/下载/TMTools-master" />
     <SUITE FILE_PATH="coverage/scripts$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1540965745328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/taillog/www" />
     <SUITE FILE_PATH="coverage/scripts$itertools.coverage" NAME="itertools Coverage Results" MODIFIED="1545987921359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
+    <SUITE FILE_PATH="coverage/scripts$auto_yasuo.coverage" NAME="auto_yasuo Coverage Results" MODIFIED="1555396286757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$5.coverage" NAME="5 Coverage Results" MODIFIED="1537284544779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
+    <SUITE FILE_PATH="coverage/scripts$tk10_frame.coverage" NAME="tk10_frame Coverage Results" MODIFIED="1553821918035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
     <SUITE FILE_PATH="coverage/scripts$multi_linux_2.coverage" NAME="multi_linux_2 Coverage Results" MODIFIED="1552034243023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/风险管理部" />
     <SUITE FILE_PATH="coverage/scripts$remote_ssh.coverage" NAME="remote_ssh Coverage Results" MODIFIED="1542619233608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$xiaojiejie.coverage" NAME="xiaojiejie Coverage Results" MODIFIED="1543139316994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work" />
+    <SUITE FILE_PATH="coverage/scripts$tk8_canvas.coverage" NAME="tk8_canvas Coverage Results" MODIFIED="1553821879937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
+    <SUITE FILE_PATH="coverage/scripts$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1553764589112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
     <SUITE FILE_PATH="coverage/scripts$tests__1_.coverage" NAME="tests (1) Coverage Results" MODIFIED="1542767909403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_django/script" />
     <SUITE FILE_PATH="coverage/scripts$test6.coverage" NAME="test6 Coverage Results" MODIFIED="1547782217894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/多进程爬虫" />
     <SUITE FILE_PATH="coverage/scripts$rr_gps_entropy.coverage" NAME="rr_gps_entropy Coverage Results" MODIFIED="1548319682919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/risk_management" />
     <SUITE FILE_PATH="coverage/scripts$__.coverage" NAME="豆瓣电影_表格_翻页 Coverage Results" MODIFIED="1545231841792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/scripts$redisinfo.coverage" NAME="redisinfo Coverage Results" MODIFIED="1553482747830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/人事行政部" />
+    <SUITE FILE_PATH="coverage/scripts$251003.coverage" NAME="251003 Coverage Results" MODIFIED="1553483338504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/scripts$joint_str_end.coverage" NAME="joint_str_end Coverage Results" MODIFIED="1555480869812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/数据组" />
     <SUITE FILE_PATH="coverage/scripts$rrjc_gps_mult.coverage" NAME="rrjc_gps_mult Coverage Results" MODIFIED="1548322315664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
+    <SUITE FILE_PATH="coverage/scripts$tk15_login_example.coverage" NAME="tk15_login_example Coverage Results" MODIFIED="1553822214583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT/tk15_login_example" />
     <SUITE FILE_PATH="coverage/scripts$cw_oracle_connect_close.coverage" NAME="cw_oracle_connect_close Coverage Results" MODIFIED="1539931141842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/scripts$rr_gps_entropy__1_.coverage" NAME="rr_gps_entropy (1) Coverage Results" MODIFIED="1548744497793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
-    <SUITE FILE_PATH="coverage/scripts$multi_linux_1.coverage" NAME="multi_linux_1 Coverage Results" MODIFIED="1552465171173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/scripts$multi_linux_1.coverage" NAME="multi_linux_1 Coverage Results" MODIFIED="1552550922917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/scripts$auto_sort.coverage" NAME="auto_sort Coverage Results" MODIFIED="1552636513314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/人事行政部" />
     <SUITE FILE_PATH="coverage/scripts$__1_.coverage" NAME="从排序数组中删除重复项 (1) Coverage Results" MODIFIED="1547711395528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/初级算法/数组" />
     <SUITE FILE_PATH="coverage/scripts$slave.coverage" NAME="slave Coverage Results" MODIFIED="1545279731896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记/rrjc" />
+    <SUITE FILE_PATH="coverage/scripts$multi_kegg.coverage" NAME="multi_kegg Coverage Results" MODIFIED="1555414937358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/数据组" />
     <SUITE FILE_PATH="coverage/scripts$deam_new.coverage" NAME="deam_new Coverage Results" MODIFIED="1548402861107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/multi_process" />
-    <SUITE FILE_PATH="coverage/scripts$test.coverage" NAME="test Coverage Results" MODIFIED="1551856029858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
+    <SUITE FILE_PATH="coverage/scripts$test.coverage" NAME="test Coverage Results" MODIFIED="1555412961604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/数据组" />
+    <SUITE FILE_PATH="coverage/scripts$tk7_checkbutton.coverage" NAME="tk7_checkbutton Coverage Results" MODIFIED="1553821871625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
+    <SUITE FILE_PATH="coverage/scripts$yuanlai.coverage" NAME="yuanlai Coverage Results" MODIFIED="1552982157937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/风险管理部" />
+    <SUITE FILE_PATH="coverage/scripts$6.coverage" NAME="6 Coverage Results" MODIFIED="1553151263861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
+    <SUITE FILE_PATH="coverage/scripts$CryptoApp_pyw.coverage" NAME="CryptoApp.pyw Coverage Results" MODIFIED="1553822954060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/CryptoApp" />
     <SUITE FILE_PATH="coverage/scripts$create_json.coverage" NAME="create_json Coverage Results" MODIFIED="1546581182341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$tests.coverage" NAME="tests Coverage Results" MODIFIED="1541405020907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_django/rrjc" />
+    <SUITE FILE_PATH="coverage/scripts$butt.coverage" NAME="butt Coverage Results" MODIFIED="1553760695264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
+    <SUITE FILE_PATH="coverage/scripts$st2.coverage" NAME="st2 Coverage Results" MODIFIED="1553764574622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/下载/struts2-GUI-exploits-tool-master" />
     <SUITE FILE_PATH="coverage/scripts$Pointer.coverage" NAME="Pointer Coverage Results" MODIFIED="1545283612413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记/rrjc" />
+    <SUITE FILE_PATH="coverage/scripts$tk11_msgbox.coverage" NAME="tk11_msgbox Coverage Results" MODIFIED="1553822195015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
     <SUITE FILE_PATH="coverage/scripts$winrar.coverage" NAME="winrar Coverage Results" MODIFIED="1551256707668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
+    <SUITE FILE_PATH="coverage/scripts$tk6_scale.coverage" NAME="tk6_scale Coverage Results" MODIFIED="1553821862582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
+    <SUITE FILE_PATH="coverage/scripts$joint_str.coverage" NAME="joint_str Coverage Results" MODIFIED="1555480105945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/数据组" />
+    <SUITE FILE_PATH="coverage/scripts$tk3_entry_text.coverage" NAME="tk3_entry_text Coverage Results" MODIFIED="1553821817422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
+    <SUITE FILE_PATH="coverage/scripts$auto_sum_sec.coverage" NAME="auto_sum_sec Coverage Results" MODIFIED="1554878154321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$manage.coverage" NAME="manage Coverage Results" MODIFIED="1542071710354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/HelloWorld" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -105,25 +152,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="multi_thread_redis.py" pinned="false" current-in-tab="false">
-        <entry file="file://G:/rrjc_work/风险管理部/multi_thread_redis.py">
+      <file leaf-file-name="joint_str.py" pinned="false" current-in-tab="false">
+        <entry file="file://G:/rrjc_work/数据组/joint_str.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="221">
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spiders.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/spiders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-425">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="17" />
               <folding>
-                <element signature="e#43#90#0" expanded="true" />
+                <element signature="e#24#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multi_linux_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://G:/rrjc_work/风险管理部/multi_linux_2.py">
+      <file leaf-file-name="kegg.py" pinned="false" current-in-tab="false">
+        <entry file="file://G:/rrjc_work/数据组/kegg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
-              <caret line="123" column="40" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#68#100#0" expanded="true" />
+                <element signature="e#63#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="joint_str_end.py" pinned="false" current-in-tab="false">
+        <entry file="file://G:/rrjc_work/数据组/joint_str_end.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auto_yasuo.py" pinned="false" current-in-tab="true">
+        <entry file="file://G:/rrjc_work/自动化/auto_yasuo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auto_sum.py" pinned="false" current-in-tab="false">
+        <entry file="file://G:/rrjc_work/自动化/auto_sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#15#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,34 +218,19 @@
       <file leaf-file-name="multi_progress.py" pinned="false" current-in-tab="false">
         <entry file="file://G:/rrjc_work/风险管理部/multi_progress.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
-              <folding>
-                <element signature="e#68#100#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1198">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/多进程/test.py">
+      <file leaf-file-name="multi_kegg.py" pinned="false" current-in-tab="false">
+        <entry file="file://G:/rrjc_work/数据组/multi_kegg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="51">
+              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
               <folding>
-                <element signature="e#15#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multi_linux_1.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Desktop/multi_linux_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#68#131#0" expanded="true" />
+                <element signature="e#1264#1666#0" />
               </folding>
             </state>
           </provider>
@@ -171,44 +242,44 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="yaml" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cache</find>
-      <find>redis</find>
-      <find>asyncio.ensure_future</find>
-      <find>line</find>
-      <find>0x000001E353B9CD48</find>
-      <find>&quot;imei&quot;:&quot;668613160079939&quot;,</find>
-      <find>668613160029701</find>
-      <find>668613160027101</find>
-      <find>data_list</find>
-      <find>668613160018965</find>
-      <find>打印第</find>
-      <find>Parallel</find>
-      <find>ensure_future</find>
-      <find />
-      <find>{&quot;code&quot;:0,&quot;imei&quot;:&quot;668613160018965&quot;,&quot;lng&quot;:&quot;117.289737&quot;,&quot;lat&quot;:&quot;31.785917&quot;,&quot;speed&quot;:0,&quot;course&quot;:104,&quot;gpsTime&quot;:1546659008,&quot;positionType&quot;:&quot;LBS&quot;}</find>
-      <find>正在请求第</find>
-      <find>code_data</find>
-      <find>joblib</find>
-      <find>put</find>
-      <find>获取数据</find>
-      <find>delayed</find>
-      <find>get_track</find>
-      <find>get_entropy</find>
-      <find>token</find>
-      <find>GetRedisdata</find>
+      <find>记录</find>
+      <find>CFText</find>
+      <find>askretrycancel</find>
+      <find>askokcancel</find>
+      <find>awesome</find>
+      <find>datatables</find>
+      <find>animate</find>
+      <find>jquery</find>
+      <find>inspinia</find>
+      <find>metisMenu</find>
+      <find>pace</find>
+      <find>slimscroll</find>
+      <find>select</find>
       <find>startTime</find>
-      <find>RuntimeWarning</find>
-      <find>RedisCach</find>
-      <find>get_token</find>
-      <find>get_staytime</find>
+      <find>request.body</find>
+      <find>toastr</find>
+      <find>duallist</find>
+      <find>echart_redis</find>
+      <find>info = request.body</find>
+      <find>update</find>
+      <find>download_img</find>
+      <find>ret_list</find>
+      <find>image_count</find>
+      <find>action</find>
+      <find>搜索</find>
+      <find>2739</find>
+      <find>B1756_15940</find>
+      <find>getPage</find>
+      <find>MyThread</find>
+      <find>filterpage</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -227,9 +298,10 @@
       <dir>F:\django_test</dir>
       <dir>F:\legolas_react</dir>
       <dir>F:\legolas_react\src</dir>
-      <dir>G:\rrjc_django</dir>
       <dir>G:\scripts</dir>
       <dir>G:\rrjc_django\script</dir>
+      <dir>G:\rrjc_django\templates</dir>
+      <dir>G:\rrjc_django</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -249,6 +321,7 @@
     <setting file="file://G:/rrjc_work/sql_api.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/随手记/rrjc/slave.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/随手记/5.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/rrjc_django/customer/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/肃羽游戏脚本/new_game.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/图片处理/openpyxl_test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/docker/auto_check.py" root0="SKIP_INSPECTION" />
@@ -258,65 +331,70 @@
     <setting file="file://$PROJECT_DIR$/肃羽游戏脚本/del_log.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/阿里云/anto_get_ecs_info2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/一键安装脚本/mysql.sh" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/django_test/suyusys/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/leetcode/初级算法/从排序数组中删除重复项.py" root0="SKIP_INSPECTION" />
+    <setting file="file://E:/CryptoApp/Cryptor.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/rrjc_django/search/action.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/rrjc_django/search/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://G:/rrjc_work/风险管理部/multi_progress.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/爬虫/豆瓣电影_表格_翻页.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/爬虫/豆瓣电影.py" root0="SKIP_INSPECTION" />
+    <setting file="file://F:/下载/CryptoApp-master/Cryptor.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/初级算法/数组/旋转数组.py" />
-        <option value="G:/rrjc_django/script/socket_server.py" />
-        <option value="$PROJECT_DIR$/一键安装脚本/nginx.sh" />
-        <option value="$PROJECT_DIR$/leetcode/初级算法/数组/存在重复.py" />
-        <option value="$USER_HOME$/Desktop/风控在线/rr_gps_entropy.py" />
-        <option value="$PROJECT_DIR$/leetcode/初级算法/数组/217.存在重复元素.py" />
-        <option value="$PROJECT_DIR$/爬虫/多进程爬虫/spiders.py" />
-        <option value="G:/rrjc_work/multi.py" />
-        <option value="$PROJECT_DIR$/爬虫/multi-spider.py" />
-        <option value="G:/rrjc_work/multi_process/deam_new.py" />
-        <option value="G:/rrjc_work/multi_process/deam_redis.py" />
-        <option value="$USER_HOME$/Desktop/risk_management/rr_gps_entropy.py" />
-        <option value="G:/rrjc_work/rr_gps_stay.py" />
-        <option value="G:/rrjc_work/rr_gps_entropy.py" />
-        <option value="G:/rrjc_work/multi_gps.py" />
-        <option value="G:/rrjc_work/rrjc_gps_mult.py" />
-        <option value="G:/rrjc_work/multi_thread_redis.py" />
-        <option value="G:/rrjc_work/multi_progress.py" />
-        <option value="E:/inspinia_admin-v2.7/helper_classes11.html" />
-        <option value="E:/H+V4.9基于Bootstrap3.3.6后台主题UI框架/notifications---2222.html" />
-        <option value="E:/H+V4.9基于Bootstrap3.3.6后台主题UI框架/table_basic222222.html" />
-        <option value="$PROJECT_DIR$/Nginx/theme/build/header.html" />
-        <option value="G:/rrjc_work/Gitbook/print/printinstall.md" />
-        <option value="G:/rrjc_work/Gitbook/print/scan_install.md" />
-        <option value="$PROJECT_DIR$/Nginx/init.md" />
-        <option value="$PROJECT_DIR$/表格/auto_sum.py" />
-        <option value="$PROJECT_DIR$/jenkins/auto_tomcat.py" />
-        <option value="$PROJECT_DIR$/jenkins/rollback_tomcat.py" />
-        <option value="G:/rrjc_work/sql_api.py" />
-        <option value="$PROJECT_DIR$/leetcode/初级算法/数组/只出现一次的数字.py" />
-        <option value="G:/rrjc_work/风险管理部/multi_thread_redis.py" />
-        <option value="G:/rrjc_work/xiaojiejie.py" />
-        <option value="G:/rrjc_work/str_test.py" />
-        <option value="$USER_HOME$/Desktop/multi_linux.py" />
-        <option value="$USER_HOME$/Desktop/WinRAR卸载工具.bat" />
-        <option value="$PROJECT_DIR$/肃羽游戏脚本/del_log.py" />
-        <option value="G:/rrjc_work/winrar.py" />
+        <option value="$USER_HOME$/Desktop/yuanlai220917.py" />
         <option value="G:/rrjc_work/风险管理部/test.py" />
-        <option value="G:/rrjc_work/风险管理部/rr_gps_stay.py" />
-        <option value="G:/rrjc_work/风险管理部/multi_progress.py" />
-        <option value="G:/rrjc_work/自动化/auto_sum_fix.py" />
-        <option value="G:/rrjc_work/自动化/test.py" />
-        <option value="$PROJECT_DIR$/随手记/3.py" />
-        <option value="$PROJECT_DIR$/随手记/1.py" />
-        <option value="$PROJECT_DIR$/随手记/2.py" />
-        <option value="$PROJECT_DIR$/随手记/2的n次方.py" />
-        <option value="$PROJECT_DIR$/随手记/4.py" />
-        <option value="$PROJECT_DIR$/随手记/5.py" />
-        <option value="G:/rrjc_work/风险管理部/multi_linux_2.py" />
-        <option value="$PROJECT_DIR$/随手记/闭包.py" />
-        <option value="$USER_HOME$/Desktop/multi_linux_1.py" />
+        <option value="G:/rrjc_work/风险管理部/redis_info.py" />
+        <option value="G:/rrjc_work/人事行政部/redis.py" />
+        <option value="G:/rrjc_work/人事行政部/test.py" />
+        <option value="G:/rrjc_work/test.py" />
+        <option value="G:/rrjc_work/人事行政部/redisinfo.py" />
+        <option value="$PROJECT_DIR$/GUI项目/butt.py" />
+        <option value="F:/下载/struts2-GUI-exploits-tool-master/st2.py" />
+        <option value="$PROJECT_DIR$/GUI项目/libs/__init__.py" />
+        <option value="$PROJECT_DIR$/GUI项目/CFText.py" />
+        <option value="$PROJECT_DIR$/GUI项目/__init__.py" />
+        <option value="$PROJECT_DIR$/GUI项目/liber/__init__.py" />
+        <option value="$PROJECT_DIR$/GUI项目/liber/CFText.py" />
+        <option value="F:/下载/CryptoApp-master/Cryptor.py" />
+        <option value="$PROJECT_DIR$/GUI项目/test1.py" />
+        <option value="D:/printer/auto_printer.py" />
+        <option value="$PROJECT_DIR$/GUI项目/test.py" />
+        <option value="$PROJECT_DIR$/GUI项目/auto_printer.py" />
+        <option value="$PROJECT_DIR$/GUI项目/gui_grid.py" />
+        <option value="G:/rrjc_django/ops/admin.py" />
+        <option value="G:/rrjc_django/ops/models.py" />
+        <option value="$USER_HOME$/Desktop/nolock.py" />
+        <option value="$USER_HOME$/Desktop/04041851.py" />
+        <option value="$USER_HOME$/Desktop/yuanlai211705.py" />
+        <option value="$USER_HOME$/Desktop/251003.py" />
+        <option value="G:/rrjc_django/templates/ops/add_cmdb.html" />
+        <option value="$USER_HOME$/Desktop/201904091102.py" />
+        <option value="G:/rrjc_django/templates/ops/cmdb.html" />
+        <option value="G:/rrjc_work/风险管理部/multi_thread_redis.py" />
+        <option value="G:/rrjc_work/自动化/auto_sum_sec.py" />
+        <option value="G:/rrjc_django/templates/ops/edit_cmdb.html" />
+        <option value="G:/rrjc_work/自动化/iphone.py" />
+        <option value="G:/rrjc_django/templates/index.html" />
+        <option value="G:/rrjc_django/search/views.py" />
+        <option value="G:/rrjc_django/rrjc/urls.py" />
+        <option value="G:/rrjc_django/ops/views.py" />
+        <option value="G:/rrjc_django/search/action.py" />
+        <option value="$PROJECT_DIR$/爬虫/豆瓣电影_图表分析.py" />
+        <option value="$PROJECT_DIR$/爬虫/豆瓣电影_表格_翻页.py" />
+        <option value="$PROJECT_DIR$/爬虫/bad.py" />
+        <option value="$PROJECT_DIR$/爬虫/xiaojiejie.py" />
+        <option value="$PROJECT_DIR$/爬虫/test.py" />
+        <option value="G:/rrjc_work/数据组/test.py" />
+        <option value="G:/rrjc_work/数据组/kegg.py" />
+        <option value="$PROJECT_DIR$/爬虫/multi-spider.py" />
+        <option value="G:/rrjc_work/数据组/multi_kegg.py" />
+        <option value="G:/rrjc_work/数据组/joint_str.py" />
+        <option value="G:/rrjc_work/数据组/joint_str_end.py" />
+        <option value="G:/rrjc_work/自动化/auto_sum.py" />
+        <option value="G:/rrjc_work/自动化/auto_yasuo.py" />
       </list>
     </option>
   </component>
@@ -452,9 +530,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-60" />
-    <option name="y" value="1" />
-    <option name="width" value="1920" />
+    <option name="x" value="354" />
+    <option name="y" value="102" />
+    <option name="width" value="1208" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -466,24 +544,42 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="rrjc_django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rrjc_django" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rrjc_work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rrjc_work" type="462c0819:PsiDirectoryNode" />
+              <item name="自动化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rrjc_work" type="462c0819:PsiDirectoryNode" />
+              <item name="风险管理部" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="随手记" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,25 +588,25 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown&#10;yaml" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="G:/rrjc_django" />
+    <property name="last_opened_file_path" value="C:/Python37/python3.exe" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\scripts\多进程" />
-      <recent name="G:\scripts\Nginx" />
-      <recent name="G:\rrjc_work" />
-      <recent name="F:\rrjc_django\script" />
-      <recent name="E:\taillog\www" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\scripts\GUI项目\liber" />
+      <recent name="G:\scripts\GUI项目" />
       <recent name="G:\rrjc_work\自动化" />
       <recent name="G:\rrjc_work\风险管理部" />
       <recent name="G:\scripts\leetcode\初级算法\数组" />
-      <recent name="G:\rrjc_work\Gitbook" />
-      <recent name="G:\scripts\随手记\rrjc\auto_mail" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\rrjc_django" />
+      <recent name="G:\rrjc_django\templates\ops" />
+      <recent name="G:\rrjc_work\风险管理部" />
+      <recent name="G:\rrjc_django\static\css\saltstack\plugins\summernote" />
+      <recent name="G:\rrjc_django\static\js\saltstack\plugins\summernote" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -525,46 +621,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multi_linux_1">
-    <configuration name="闭包" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scripts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/随手记" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/随手记/闭包.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="multi_linux_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="legolas_vue" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/multi_linux_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="multi_linux_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.joint_str_end">
+    <configuration name="joint_str" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rrjc_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -572,12 +630,69 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rrjc_work/风险管理部" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rrjc_work/数据组" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/风险管理部/multi_linux_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/数据组/joint_str.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="joint_str_end" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rrjc_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rrjc_work/数据组" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/数据组/joint_str_end.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="kegg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rrjc_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rrjc_work/数据组" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/数据组/kegg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="multi_kegg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rrjc_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rrjc_work/数据组" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/数据组/multi_kegg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -602,25 +717,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scripts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/多进程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多进程/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rrjc_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -629,12 +725,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rrjc_work/自动化" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rrjc_work/数据组" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/自动化/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/数据组/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -677,10 +773,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="80" />
-      <option name="host" value="192.168.23.42" />
+      <option name="port" value="8081" />
+      <option name="host" value="0.0.0.0" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://192.168.23.42:80/" />
+      <option name="browserUrl" value="http://127.0.0.1:8081/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -740,7 +836,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="rrjc_django.settings" />
       </envs>
-      <option name="SDK_HOME" value="F:\rrjc_django\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -749,7 +845,7 @@
       <option name="port" value="8000" />
       <option name="host" value="0.0.0.0" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
+      <option name="browserUrl" value="http://0.0.0.0:8000/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -781,19 +877,19 @@
       <item itemvalue="Django server.opman" />
       <item itemvalue="npm.leoglas_react" />
       <item itemvalue="npm.leoglas_vue" />
-      <item itemvalue="Python.multi_linux_1" />
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.multi_linux_2" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.闭包" />
+      <item itemvalue="Python.kegg" />
+      <item itemvalue="Python.multi_kegg" />
+      <item itemvalue="Python.joint_str" />
+      <item itemvalue="Python.joint_str_end" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.multi_linux_1" />
-        <item itemvalue="Python.闭包" />
-        <item itemvalue="Python.multi_linux_2" />
+        <item itemvalue="Python.joint_str_end" />
+        <item itemvalue="Python.joint_str" />
+        <item itemvalue="Python.multi_kegg" />
+        <item itemvalue="Python.kegg" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -807,34 +903,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517385400584</updated>
-    </task>
-    <task id="LOCAL-00002" summary="添加mysql安装脚本">
-      <created>1528270844170</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1528270844229</updated>
-    </task>
-    <task id="LOCAL-00003" summary="添加zabbix-agent脚本">
-      <created>1528341548397</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1528341548397</updated>
-    </task>
-    <task id="LOCAL-00004" summary="修改">
-      <created>1528342938732</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1528342938732</updated>
-    </task>
-    <task id="LOCAL-00005" summary="zabbix-service安装，未完成">
-      <created>1528681245179</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1528681245179</updated>
     </task>
     <task id="LOCAL-00006" summary="zabbix-agent更新">
       <created>1528681258916</created>
@@ -1151,7 +1219,35 @@
       <option name="project" value="LOCAL" />
       <updated>1551447243547</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="半夜悄悄归档">
+      <created>1552491545590</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1552491545590</updated>
+    </task>
+    <task id="LOCAL-00052" summary="gui function">
+      <created>1553686977034</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1553686977035</updated>
+    </task>
+    <task id="LOCAL-00053" summary="gui function">
+      <created>1553854571347</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1553854571348</updated>
+    </task>
+    <task id="LOCAL-00054" summary="更新相对路径">
+      <created>1554117052100</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1554117052100</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1169,17 +1265,20 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32794458" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50160426" side_tool="true" weight="0.3221709" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.49946293" weight="0.24249423" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.2482679" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32794458" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983957" weight="0.35219398" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983957" visible="true" weight="0.24711317" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32794458" />
-      <window_info active="true" content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.20374331" />
+      <window_info active="true" content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.15508021" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3295964" />
       <window_info anchor="right" id="Database" order="4" weight="0.32975295" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32975295" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2990762" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32941177" />
       <window_info id="Structure" order="1" sideWeight="0.5021521" side_tool="true" weight="0.16165413" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1187,32 +1286,34 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.49946293" weight="0.24249423" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.2990762" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="9" weight="0.3290993" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2482679" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3295964" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.17219251" />
+      <window_info content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.20641711" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4983957" weight="0.4064665" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.3295964" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.5021521" side_tool="true" weight="0.16165413" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32908458" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.22711472" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989259" visible="true" weight="0.28983834" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32908458" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32975295" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32908458" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50107414" side_tool="true" weight="0.26419467" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32975295" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.49946293" weight="0.17090069" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.30011588" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="14" sideWeight="0.49946293" visible="true" weight="0.24249423" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32794458" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32794458" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.2990762" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32975295" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50160426" side_tool="true" weight="0.3221709" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32975295" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3995381" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32794458" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.3290993" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1252,9 +1353,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="压缩文件的脚本" />
-    <MESSAGE value="更新readme" />
-    <MESSAGE value="归档" />
     <MESSAGE value="邮件归档" />
     <MESSAGE value="代码归档" />
     <MESSAGE value="注释" />
@@ -1277,362 +1375,430 @@
     <MESSAGE value="打开饿了么，开始点饭" />
     <MESSAGE value="2.15" />
     <MESSAGE value="多进程写文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="多进程写文件" />
+    <MESSAGE value="半夜悄悄归档" />
+    <MESSAGE value="gui function" />
+    <MESSAGE value="更新相对路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新相对路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="35" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="i" />
+        <watch expression="i" />
+        <watch expression="i" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/test3.py">
+    <entry file="file://G:/rrjc_django/templates/rrjc/post_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/sql_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="-2623">
+          <caret line="75" column="60" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/初级算法/数组/只出现一次的数字.py" />
-    <entry file="file://G:/rrjc_django/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="116">
-            <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://G:/rrjc_work/风险管理部/multi_thread_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/251003.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="95" column="40" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis_docker/docker-compose.yml">
+    <entry file="file://G:/rrjc_django/templates/dockers/docker_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysql_docker/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="1887">
+          <caret line="111" selection-start-line="88" selection-end-line="111" />
+          <folding>
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_work/str_test.py">
+    <entry file="file://G:/django_test/templates/suyusys/echart_redis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="-1411">
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/初级算法/数组/移动零.py">
+    <entry file="file://G:/django_test/templates/suyusys/redis-info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="425">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/nginx/docker-compose.yml">
+    <entry file="file://$USER_HOME$/Desktop/201904091102.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="1088">
+          <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
+          <folding>
+            <element signature="e#15#78#0" expanded="true" />
+            <element signature="e#260#1553#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/一键安装脚本/mysql.sh">
+    <entry file="file://G:/rrjc_work/自动化/auto_sum_sec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="221">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_django/templates/rrjc/release_test.html">
+    <entry file="file://G:/rrjc_work/风险管理部/multi_thread_redis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="210" column="30" lean-forward="true" selection-start-line="210" selection-start-column="30" selection-end-line="210" selection-end-column="30" />
+        <state>
+          <caret line="54" column="66" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
+          <folding>
+            <element signature="e#43#98#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_django/templates/rrjc/bianyi_info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/remote_ssh.py">
+    <entry file="file://G:/rrjc_django/templates/ops/edit_cmdb.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/multi_linux.py" />
-    <entry file="file://$USER_HOME$/Desktop/WinRAR卸载工具.bat" />
-    <entry file="file://$PROJECT_DIR$/肃羽游戏脚本/Hot_update.py">
+    <entry file="file://$PROJECT_DIR$/爬虫/map_spider.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/rrjc_django/templates/ops/cmdb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="205">
+          <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/自动化/iphone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/rrjc/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="282" column="4" selection-start-line="282" selection-start-column="4" selection-end-line="282" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/django_test/templates/newindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="127" column="88" selection-start-line="127" selection-start-column="67" selection-end-line="127" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/django_test/suyusys/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="306" column="15" selection-start-line="306" selection-start-column="9" selection-end-line="306" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/search/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/rrjc_django/search/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/rrjc_django/search/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/rrjc_django/search/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/django_test/search/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/django_test/search/action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="e#22#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/search/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/rrjc_django/ops/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="382" column="38" selection-start-line="382" selection-start-column="38" selection-end-line="382" selection-end-column="38" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#2754#5104#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/search/action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#22#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/search/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/rrjc/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+          <folding>
+            <element signature="e#15#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/django_test/suyu/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="104" column="90" selection-start-line="104" selection-start-column="90" selection-end-line="104" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/豆瓣电影_表格_翻页.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/豆瓣电影_图表分析.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#15#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/xiaojiejie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="680">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_work/winrar.py">
+    <entry file="file://$PROJECT_DIR$/爬虫/check_web.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/test6.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/test4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="301">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/肃羽游戏脚本/del_log.py">
+    <entry file="file://G:/rrjc_work/数据组/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_django/templates/rrjc/add_group.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/风险管理部/rr_gps_entropy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/下载/AdvancePython-master/chapter11/multiprocessing_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/下载/AdvancePython-master/chapter11/progress_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1237">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/下载/AdvancePython-master/chapter11/python_gil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149" />
-      </provider>
-    </entry>
-    <entry file="file://F:/下载/AdvancePython-master/chapter11/concurrent_futures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/下载/AdvancePython-master/chapter11/thread_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-591">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/下载/AdvancePython-master/chapter13/thread_asyncio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/自动化/xiaojiejie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="983">
-          <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/自动化/auto_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/风险管理部/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/django_test/Scripts/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1632">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/django_test/Scripts/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="183" column="25" selection-start-line="183" selection-start-column="17" selection-end-line="183" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="93" column="15" lean-forward="true" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/2的n次方.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#61#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/spiders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="51" column="57" lean-forward="true" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        <state relative-caret-position="-425">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/2.py">
+    <entry file="file://G:/rrjc_work/数据组/kegg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#63#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/bad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/数据组/multi_kegg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <element signature="e#1264#1666#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/人事行政部/auto_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_work/自动化/test.py">
+    <entry file="file://G:/rrjc_django/script/socket_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/script/start_docker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#14#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/数据组/joint_str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/数据组/joint_str_end.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/multi-spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#22#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/自动化/auto_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/自动化/auto_sum_fix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/风险管理部/rr_gps_stay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/一键安装脚本/nginx.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/闭包.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多进程/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#15#47#0" expanded="true" />
+            <element signature="e#15#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://G:/rrjc_work/风险管理部/multi_progress.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
-          <folding>
-            <element signature="e#68#100#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1198">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_work/风险管理部/multi_thread_redis.py">
+    <entry file="file://G:/rrjc_work/自动化/auto_yasuo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#43#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/风险管理部/multi_linux_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="123" column="40" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="40" />
-          <folding>
-            <element signature="e#68#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/multi_linux_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#68#131#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>

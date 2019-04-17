@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://E:/INSCMDB/.idea/INSCMDB.iml" filepath="E:/INSCMDB/.idea/INSCMDB.iml" />
+      <module fileurl="file://E:/PyQt5/.idea/PyQt5.iml" filepath="E:/PyQt5/.idea/PyQt5.iml" />
       <module fileurl="file://G:/django_test/.idea/django_test.iml" filepath="G:/django_test/.idea/django_test.iml" />
       <module fileurl="file://F:/django_test/.idea/django_test.iml" filepath="F:/django_test/.idea/django_test.iml" />
       <module fileurl="file://F:/legolas_react/.idea/legolas_react.iml" filepath="F:/legolas_react/.idea/legolas_react.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/scripts.iml" filepath="$PROJECT_DIR$/.idea/scripts.iml" />
       <module fileurl="file://F:/taillog/.idea/taillog.iml" filepath="F:/taillog/.idea/taillog.iml" />
       <module fileurl="file://E:/taillog/.idea/taillog.iml" filepath="E:/taillog/.idea/taillog.iml" />
+      <module fileurl="file://E:/tutorials/.idea/tutorials.iml" filepath="E:/tutorials/.idea/tutorials.iml" />
     </modules>
   </component>
 </project>
