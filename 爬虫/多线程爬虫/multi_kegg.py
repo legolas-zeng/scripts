@@ -15,7 +15,7 @@ import asyncio,time,aiohttp,re,xlrd
 #     return data
 xls_path = "C:\\Users\Administrator\Desktop\kegg.xls"
 
-def read_xls(xls_path):
+def read_xls(xls_path : str = ...):
     data = xlrd.open_workbook(xls_path)
     table = data.sheets()[0]  # 通过索引顺序获取工作表
     info = []
@@ -30,8 +30,7 @@ def read_xls(xls_path):
 #     return response
 
 @asyncio.coroutine
-async def getPage(url,res_list):
-    print('网页代码：',url)
+async def getPage(url: str ,res_list: list) -> "get html code":
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as resp:
             assert resp.status==200
