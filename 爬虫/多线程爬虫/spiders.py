@@ -1,10 +1,8 @@
 # -*- coding: UTF-8 -*-
 import urllib.request as request
-from bs4 import BeautifulSoup as bs
 import asyncio,re,os,time
 import aiohttp
 import shutil
-import aiofiles
 
 urlbase = "http://www.fanpublish.info/2256/page/"
 
@@ -22,7 +20,7 @@ async def download_img(url,res_list):
     print('图片url：',url[1])
     async with aiohttp.ClientSession() as session:
         async with session.get(url[1]) as response:
-            temp = "C:\\Users\\Administrator.000\Desktop\images" + '/%s.jpg' % url[0]
+            temp = "C:\\Users\\Administrator\Desktop\images" + '/%s.jpg' % url[0]
             pic = await response.read()  # 以Bytes方式读入非文字
             with open(temp, 'wb') as fout:  # 写入文件
                 fout.write(pic)
