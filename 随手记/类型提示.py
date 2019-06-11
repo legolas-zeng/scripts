@@ -49,3 +49,11 @@ def test() -> [1, 2, 3, 4, 5]:
     pass
 
 print(test.__annotations__)
+
+
+T = TypeVar('T', int, float, str) # 申明类型变量,T可以为int，float，str三种类型
+
+def foo(name: T) -> str:
+    return 'hello ' + str(name)
+
+print(foo(2.1))

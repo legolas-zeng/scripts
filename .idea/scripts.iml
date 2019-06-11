@@ -4,17 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.7 (scripts)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="django_test" />
-    <orderEntry type="module" module-name="rrjc_django" />
-    <orderEntry type="module" module-name="rrjc_work" />
-    <orderEntry type="module" module-name="opman" />
-    <orderEntry type="module" module-name="INSCMDB" />
-    <orderEntry type="module" module-name="logs" />
-    <orderEntry type="module" module-name="taillog" />
-    <orderEntry type="module" module-name="oa_new" />
-    <orderEntry type="module" module-name="legolas_react" />
-    <orderEntry type="module" module-name="legolas_react" />
-    <orderEntry type="module" module-name="legolas_vue" />
     <orderEntry type="module" module-name="rrjc_django" />
     <orderEntry type="module" module-name="django_test" />
     <orderEntry type="module" module-name="legolas_vue" />
@@ -22,13 +11,10 @@
     <orderEntry type="module" module-name="logs" />
     <orderEntry type="module" module-name="taillog" />
     <orderEntry type="module" module-name="tutorials" />
-    <orderEntry type="module" module-name="PyQt5" />
-  </component>
-  <component name="TemplatesService">
-    <option name="TEMPLATE_FOLDERS">
-      <list>
-        <option value="E:/taillog/www/templates" />
-      </list>
-    </option>
+    <orderEntry type="module" module-name="frontend" />
+    <orderEntry type="module" module-name="vue-element-admin" />
+    <orderEntry type="module" module-name="vue-admin-template" />
+    <orderEntry type="module" module-name="vue-admin-system" />
+    <orderEntry type="module" module-name="dj_websocket" />
   </component>
 </module>
