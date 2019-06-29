@@ -10,6 +10,7 @@
       <module fileurl="file://F:/legolas_react/.idea/legolas_react.iml" filepath="F:/legolas_react/.idea/legolas_react.iml" />
       <module fileurl="file://G:/legolas_vue/.idea/legolas_vue.iml" filepath="G:/legolas_vue/.idea/legolas_vue.iml" />
       <module fileurl="file://F:/legolas_vue/.idea/legolas_vue.iml" filepath="F:/legolas_vue/.idea/legolas_vue.iml" />
+      <module fileurl="file://E:/lepus/.idea/lepus.iml" filepath="E:/lepus/.idea/lepus.iml" />
       <module fileurl="file://F:/logs/.idea/logs.iml" filepath="F:/logs/.idea/logs.iml" />
       <module fileurl="file://E:/logs/.idea/logs.iml" filepath="E:/logs/.idea/logs.iml" />
       <module fileurl="file://E:/oa_new/.idea/oa_new.iml" filepath="E:/oa_new/.idea/oa_new.iml" />
@@ -22,9 +23,9 @@
       <module fileurl="file://F:/taillog/.idea/taillog.iml" filepath="F:/taillog/.idea/taillog.iml" />
       <module fileurl="file://E:/taillog/.idea/taillog.iml" filepath="E:/taillog/.idea/taillog.iml" />
       <module fileurl="file://E:/tutorials/.idea/tutorials.iml" filepath="E:/tutorials/.idea/tutorials.iml" />
-      <module fileurl="file://E:/vue-admin-system/.idea/vue-admin-system.iml" filepath="E:/vue-admin-system/.idea/vue-admin-system.iml" />
       <module fileurl="file://E:/vue-admin-template/.idea/vue-admin-template.iml" filepath="E:/vue-admin-template/.idea/vue-admin-template.iml" />
       <module fileurl="file://E:/vue-element-admin/.idea/vue-element-admin.iml" filepath="E:/vue-element-admin/.idea/vue-element-admin.iml" />
+      <module fileurl="file://E:/vue-manage-system/.idea/vue-manage-system.iml" filepath="E:/vue-manage-system/.idea/vue-manage-system.iml" />
     </modules>
   </component>
 </project>

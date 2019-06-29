@@ -12,10 +12,10 @@ def removefiles(beftime, defalutpath='.'):
                     os.removedirs(filename)
                 else:
                     os.remove(filename)
-                print "%s remove success." % filename
+                print("%s remove success." % filename)
             except Exception as error:
-                print error
-                print "%s remove faild." % filename
+                print(error)
+                print("%s remove faild." % filename)
 
 
 if __name__ == "__main__":
@@ -25,5 +25,5 @@ if __name__ == "__main__":
         bretime = time.time() - 3600 * 24 * breday
         removefiles(bretime, path)
     except Exception as e:
-        print e
+        print(e)
         sys.exit(-1)

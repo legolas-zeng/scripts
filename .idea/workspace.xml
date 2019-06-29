@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e600040c-b221-4fee-8c5b-896e3a2791d3" name="Default" comment="更新readme">
-      <change afterPath="E:/vue-admin-template/src/views/multitask/index.vue" afterDir="false" />
+      <change afterPath="E:/vue-admin-template/src/views/multitask/Cmdb.vue" afterDir="false" />
+      <change afterPath="E:/vue-admin-template/src/views/rrjc/Release.vue" afterDir="false" />
+      <change afterPath="E:/vue-admin-template/src/views/test/Transfer.vue" afterDir="false" />
       <change afterPath="E:/vue-admin-template/src/views/test/search.vue" afterDir="false" />
       <change afterPath="F:/taillog/etc/app_config.py" afterDir="false" />
       <change afterPath="G:/legolas_vue/.eslintrc.js" afterDir="false" />
       <change afterPath="G:/legolas_vue/src/components/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReFlect/ReflectImport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReFlect/Tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReFlect/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/PlayBook.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/随手记/Zip()函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/随手记/反射.py" afterDir="false" />
-      <change beforePath="E:/vue-admin-system/package.json" beforeDir="false" afterPath="E:/vue-admin-system/package.json" afterDir="false" />
-      <change beforePath="E:/vue-admin-system/src/components/page/BaseTable.vue" beforeDir="false" afterPath="E:/vue-admin-system/src/components/page/BaseTable.vue" afterDir="false" />
-      <change beforePath="E:/vue-admin-system/src/main.js" beforeDir="false" afterPath="E:/vue-admin-system/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracle/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracle/con_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/协程/yield的from调用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/随手记/reduce()函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/随手记/描述符.py" afterDir="false" />
       <change beforePath="E:/vue-admin-template/src/layout/components/AppMain.vue" beforeDir="false" afterPath="E:/vue-admin-template/src/layout/components/AppMain.vue" afterDir="false" />
       <change beforePath="E:/vue-admin-template/src/layout/components/Navbar.vue" beforeDir="false" afterPath="E:/vue-admin-template/src/layout/components/Navbar.vue" afterDir="false" />
       <change beforePath="E:/vue-admin-template/src/main.js" beforeDir="false" afterPath="E:/vue-admin-template/src/main.js" afterDir="false" />
       <change beforePath="E:/vue-admin-template/src/router/index.js" beforeDir="false" afterPath="E:/vue-admin-template/src/router/index.js" afterDir="false" />
+      <change beforePath="E:/vue-admin-template/src/views/table/index.vue" beforeDir="false" />
+      <change beforePath="E:/vue-admin-template/tests/unit/components/Breadcrumb.spec.js" beforeDir="false" afterPath="E:/vue-admin-template/tests/unit/components/Breadcrumb.spec.js" afterDir="false" />
+      <change beforePath="E:/vue-admin-template/tests/unit/components/Hamburger.spec.js" beforeDir="false" afterPath="E:/vue-admin-template/tests/unit/components/Hamburger.spec.js" afterDir="false" />
+      <change beforePath="E:/vue-admin-template/tests/unit/components/SvgIcon.spec.js" beforeDir="false" afterPath="E:/vue-admin-template/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
       <change beforePath="E:/vue-admin/src/layout/default/components/header/index.vue" beforeDir="false" afterPath="E:/vue-admin/src/layout/default/components/header/index.vue" afterDir="false" />
       <change beforePath="E:/vue-element-admin/.editorconfig" beforeDir="false" afterPath="E:/vue-element-admin/.editorconfig" afterDir="false" />
       <change beforePath="E:/vue-element-admin/.env.development" beforeDir="false" afterPath="E:/vue-element-admin/.env.development" afterDir="false" />
@@ -274,11 +275,14 @@
       <change beforePath="F:/taillog/www/main.py" beforeDir="false" afterPath="F:/taillog/www/main.py" afterDir="false" />
       <change beforePath="F:/taillog/www/templates/index.html" beforeDir="false" afterPath="F:/taillog/www/templates/index.html" afterDir="false" />
       <change beforePath="F:/taillog/www/templates/weblog.html" beforeDir="false" afterPath="F:/taillog/www/templates/weblog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scripts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornado/legolas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tornado/legolas/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/随手记/类型提示.py" beforeDir="false" afterPath="$PROJECT_DIR$/随手记/类型提示.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QR_CODE/QRcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/QR_CODE/QRcode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/豆瓣电影.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/豆瓣电影.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/随手记/del_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/随手记/del_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/随手记/map()函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/随手记/map()函数.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -308,8 +312,8 @@
     <SUITE FILE_PATH="coverage/scripts$auto_sum_fix.coverage" NAME="auto_sum_fix Coverage Results" MODIFIED="1551693687829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$tk5_radiobutton.coverage" NAME="tk5_radiobutton Coverage Results" MODIFIED="1553821846814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
     <SUITE FILE_PATH="coverage/scripts$socket_server.coverage" NAME="socket_server Coverage Results" MODIFIED="1557295389584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
-    <SUITE FILE_PATH="coverage/scripts$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1553247585580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$RedisSubscribeData.coverage" NAME="RedisSubscribeData Coverage Results" MODIFIED="1559296203471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_django/script" />
+    <SUITE FILE_PATH="coverage/scripts$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1560741390414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$deam_redis.coverage" NAME="deam_redis Coverage Results" MODIFIED="1548407564189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/multi_process" />
     <SUITE FILE_PATH="coverage/scripts$tk9_menubar.coverage" NAME="tk9_menubar Coverage Results" MODIFIED="1553821905617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
     <SUITE FILE_PATH="coverage/scripts$RedisProduceData.coverage" NAME="RedisProduceData Coverage Results" MODIFIED="1559698891309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_django/script" />
@@ -350,17 +354,19 @@
     <SUITE FILE_PATH="coverage/scripts$auto_sum_sec.coverage" NAME="auto_sum_sec Coverage Results" MODIFIED="1554878154321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$manage.coverage" NAME="manage Coverage Results" MODIFIED="1542071710354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/HelloWorld" />
     <SUITE FILE_PATH="coverage/scripts$multi_progress.coverage" NAME="multi_progress Coverage Results" MODIFIED="1551757070840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/风险管理部" />
+    <SUITE FILE_PATH="coverage/scripts$from.coverage" NAME="from调用 Coverage Results" MODIFIED="1560416391262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/协程" />
     <SUITE FILE_PATH="coverage/scripts$Fibonacci.coverage" NAME="Fibonacci Coverage Results" MODIFIED="1545980437130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
     <SUITE FILE_PATH="coverage/scripts$spiders.coverage" NAME="spiders Coverage Results" MODIFIED="1547782387417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/多进程爬虫" />
     <SUITE FILE_PATH="coverage/scripts$map__.coverage" NAME="map()函数 Coverage Results" MODIFIED="1555989161157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
-    <SUITE FILE_PATH="coverage/scripts$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1553840241340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
-    <SUITE FILE_PATH="coverage/scripts$QRcode.coverage" NAME="QRcode Coverage Results" MODIFIED="1534296644481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QR_CODE" />
+    <SUITE FILE_PATH="coverage/scripts$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1560410767073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$redis.coverage" NAME="redis Coverage Results" MODIFIED="1553234562921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/人事行政部" />
+    <SUITE FILE_PATH="coverage/scripts$QRcode.coverage" NAME="QRcode Coverage Results" MODIFIED="1561392661354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QR_CODE" />
+    <SUITE FILE_PATH="coverage/scripts$reduce__.coverage" NAME="reduce()函数 Coverage Results" MODIFIED="1560494941498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
     <SUITE FILE_PATH="coverage/scripts$Cryptor.coverage" NAME="Cryptor Coverage Results" MODIFIED="1553771076058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/下载/CryptoApp-master" />
     <SUITE FILE_PATH="coverage/scripts$gui_grid.coverage" NAME="gui_grid Coverage Results" MODIFIED="1554117728146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
     <SUITE FILE_PATH="coverage/scripts$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1541502248885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tornado/legolas" />
     <SUITE FILE_PATH="coverage/scripts$FirstWin.coverage" NAME="FirstWin Coverage Results" MODIFIED="1554172088933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/PyQt5/Chapter01" />
-    <SUITE FILE_PATH="coverage/scripts$.coverage" NAME="反射模块导入 Coverage Results" MODIFIED="1560148294320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
+    <SUITE FILE_PATH="coverage/scripts$.coverage" NAME="描述符 Coverage Results" MODIFIED="1560397107603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
     <SUITE FILE_PATH="coverage/scripts$splunk_sdk.coverage" NAME="splunk-sdk Coverage Results" MODIFIED="1529892013605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work/scripted" />
     <SUITE FILE_PATH="coverage/scripts$auto_printer.coverage" NAME="auto_printer Coverage Results" MODIFIED="1554116923186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
     <SUITE FILE_PATH="coverage/scripts$package_all_cite.coverage" NAME="package_all_cite Coverage Results" MODIFIED="1545275278917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记/rrjc" />
@@ -368,11 +374,12 @@
     <SUITE FILE_PATH="coverage/scripts$auto_sum.coverage" NAME="auto_sum Coverage Results" MODIFIED="1551683382776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$entropy_end_fix944.coverage" NAME="entropy_end_fix944 Coverage Results" MODIFIED="1552965020637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/风险管理部" />
     <SUITE FILE_PATH="coverage/scripts$iphone.coverage" NAME="iphone Coverage Results" MODIFIED="1555229628979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
-    <SUITE FILE_PATH="coverage/scripts$yield.coverage" NAME="yield Coverage Results" MODIFIED="1546945790872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
     <SUITE FILE_PATH="coverage/scripts$tk4_listbox.coverage" NAME="tk4_listbox Coverage Results" MODIFIED="1553821837359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
+    <SUITE FILE_PATH="coverage/scripts$yield.coverage" NAME="yield Coverage Results" MODIFIED="1560412179999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
     <SUITE FILE_PATH="coverage/scripts$main.coverage" NAME="main Coverage Results" MODIFIED="1540956030667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/logs" />
     <SUITE FILE_PATH="coverage/scripts$multi_gps.coverage" NAME="multi_gps Coverage Results" MODIFIED="1548748391263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$_II.coverage" NAME="买卖股票的最佳时机 II Coverage Results" MODIFIED="1547606988078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/初级算法" />
+    <SUITE FILE_PATH="coverage/scripts$con_db__1_.coverage" NAME="con_db (1) Coverage Results" MODIFIED="1560306512826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/oracle_db" />
     <SUITE FILE_PATH="coverage/scripts$kegg.coverage" NAME="kegg Coverage Results" MODIFIED="1555413599096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/数据组" />
     <SUITE FILE_PATH="coverage/scripts$ToolUI.coverage" NAME="ToolUI Coverage Results" MODIFIED="1554118238080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/下载/TMTools-master" />
     <SUITE FILE_PATH="coverage/scripts$tk10_frame.coverage" NAME="tk10_frame Coverage Results" MODIFIED="1553821918035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
@@ -382,15 +389,16 @@
     <SUITE FILE_PATH="coverage/scripts$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1553764589112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
     <SUITE FILE_PATH="coverage/scripts$test6.coverage" NAME="test6 Coverage Results" MODIFIED="1547782217894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/多进程爬虫" />
     <SUITE FILE_PATH="coverage/scripts$rr_gps_entropy.coverage" NAME="rr_gps_entropy Coverage Results" MODIFIED="1548319682919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/risk_management" />
+    <SUITE FILE_PATH="coverage/scripts$con_db.coverage" NAME="con_db Coverage Results" MODIFIED="1560244459141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oracle" />
     <SUITE FILE_PATH="coverage/scripts$redisinfo.coverage" NAME="redisinfo Coverage Results" MODIFIED="1553482747830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/人事行政部" />
     <SUITE FILE_PATH="coverage/scripts$rrjc_gps_mult.coverage" NAME="rrjc_gps_mult Coverage Results" MODIFIED="1548322315664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
-    <SUITE FILE_PATH="coverage/scripts$ReflectImport.coverage" NAME="ReflectImport Coverage Results" MODIFIED="1560221400517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ReFlect" />
+    <SUITE FILE_PATH="coverage/scripts$ReflectImport.coverage" NAME="ReflectImport Coverage Results" MODIFIED="1560392918281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ReFlect" />
     <SUITE FILE_PATH="coverage/scripts$rr_gps_entropy__1_.coverage" NAME="rr_gps_entropy (1) Coverage Results" MODIFIED="1548744497793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$auto_sort.coverage" NAME="auto_sort Coverage Results" MODIFIED="1552636513314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/人事行政部" />
     <SUITE FILE_PATH="coverage/scripts$__1_.coverage" NAME="从排序数组中删除重复项 (1) Coverage Results" MODIFIED="1547711395528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/初级算法/数组" />
     <SUITE FILE_PATH="coverage/scripts$slave.coverage" NAME="slave Coverage Results" MODIFIED="1545279731896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记/rrjc" />
     <SUITE FILE_PATH="coverage/scripts$multi_kegg.coverage" NAME="multi_kegg Coverage Results" MODIFIED="1556099397401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/多线程爬虫" />
-    <SUITE FILE_PATH="coverage/scripts$test.coverage" NAME="test Coverage Results" MODIFIED="1559209540325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
+    <SUITE FILE_PATH="coverage/scripts$test.coverage" NAME="test Coverage Results" MODIFIED="1560416300414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/协程" />
     <SUITE FILE_PATH="coverage/scripts$6.coverage" NAME="6 Coverage Results" MODIFIED="1553151263861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
     <SUITE FILE_PATH="coverage/scripts$CryptoApp_pyw.coverage" NAME="CryptoApp.pyw Coverage Results" MODIFIED="1553822954060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/CryptoApp" />
     <SUITE FILE_PATH="coverage/scripts$create_json.coverage" NAME="create_json Coverage Results" MODIFIED="1546581182341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
@@ -422,65 +430,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="单例模式.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/随手记/单例模式.py">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://E:/vue-admin-template/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+            <state relative-caret-position="324">
+              <caret line="53" column="53" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#136#230#0" />
+                <element signature="e#235#319#0" />
+                <element signature="e#324#577#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="反射.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/随手记/反射.py">
+      <file leaf-file-name="Release.vue" pinned="false" current-in-tab="false">
+        <entry file="file://E:/vue-admin-template/src/views/rrjc/Release.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+            <state relative-caret-position="216">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReFlect/Tests.py">
+      <file leaf-file-name="Navbar.vue" pinned="false" current-in-tab="false">
+        <entry file="file://E:/vue-admin-template/src/layout/components/Navbar.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="306">
+              <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-dropdown-menu#0;n#el-dropdown#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#span#0;n#el-dropdown-item#0;n#el-dropdown-menu#0;n#el-dropdown#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReflectImport.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReFlect/ReflectImport.py">
+      <file leaf-file-name="AppMain.vue" pinned="false" current-in-tab="false">
+        <entry file="file://E:/vue-admin-template/src/layout/components/AppMain.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Cmdb.vue" pinned="false" current-in-tab="false">
+        <entry file="file://E:/vue-admin-template/src/views/multitask/Cmdb.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="70">
+              <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fanshe.py" pinned="false" current-in-tab="false">
-        <entry file="file://G:/rrjc_work/fanshe.py">
+      <file leaf-file-name="PostInfo.vue" pinned="false" current-in-tab="true">
+        <entry file="file://E:/vue-admin-template/src/views/rrjc/PostInfo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="234">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fanshe_ceshi.py" pinned="false" current-in-tab="false">
-        <entry file="file://G:/rrjc_work/fanshe_ceshi.py">
+      <file leaf-file-name="post_info.html" pinned="false" current-in-tab="false">
+        <entry file="file://G:/rrjc_django/templates/rrjc/post_info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="-324">
+              <caret line="198" column="28" lean-forward="true" selection-start-line="198" selection-start-column="8" selection-end-line="200" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayBook.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible/PlayBook.py">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://E:/vue-admin-template/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="216">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://G:/rrjc_django/rrjc/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="83" column="59" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://G:/rrjc_django/search/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -492,44 +546,44 @@
       <list>
         <option value="yaml" />
         <option value="JavaScript File" />
-        <option value="Vue Single File Component" />
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MIDDLEWARE_CLASSES</find>
-      <find>SECRET_KEY</find>
-      <find>scrollHeight</find>
-      <find>@</find>
-      <find>URL_WHITE_LIST</find>
-      <find>cache_page</find>
-      <find>reverse</find>
-      <find>add_cmdb</find>
-      <find>bianyi_progress_api</find>
-      <find>docker_server_list</find>
-      <find>docker_list</find>
-      <find>notification</find>
-      <find>function_test</find>
-      <find>add_group</find>
-      <find>bianyi_history</find>
-      <find>api_re_release_test</find>
-      <find>release_test</find>
-      <find>get_info_log</find>
-      <find>get_info_api</find>
-      <find>bianyi_info</find>
+      <find>select_all</find>
+      <find>radio2</find>
+      <find>hostip</find>
+      <find>objects</find>
+      <find>timestap</find>
+      <find>pageSize</find>
+      <find>handleDelete</find>
+      <find>vuetable.json</find>
+      <find>api_del_info</find>
+      <find>userList</find>
+      <find>:data</find>
+      <find>deleteRow</find>
+      <find>select_word</find>
+      <find>dataNews</find>
+      <find>tableData</find>
+      <find>select_cate</find>
+      <find>del_list</find>
+      <find>address</find>
+      <find>katex.js</find>
+      <find>indexOf</find>
+      <find>table</find>
+      <find>views/rrjc/index</find>
+      <find>cities</find>
+      <find>upload-demo</find>
+      <find>value1</find>
       <find>post_info</find>
-      <find>test_docker_server_list</find>
-      <find>&lt;/ul&gt;</find>
-      <find>ansible_task</find>
-      <find>ip_search</find>
-      <find>url</find>
-      <find>crontab_task</find>
-      <find>getattr</find>
-      <find>Ewin</find>
-      <find>JsonResponse</find>
+      <find>runmake</find>
+      <find>Log O</find>
+      <find>created</find>
+      <find>api_post_info</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -548,9 +602,7 @@
       <dir>F:\django_test</dir>
       <dir>F:\legolas_react</dir>
       <dir>F:\legolas_react\src</dir>
-      <dir>G:\scripts</dir>
       <dir>G:\rrjc_django\script</dir>
-      <dir>G:\rrjc_work</dir>
       <dir>G:\legolas_vue</dir>
       <dir>F:\frontend\src</dir>
       <dir>F:\frontend\config</dir>
@@ -559,11 +611,15 @@
       <dir>E:\vue-element-admin</dir>
       <dir>G:\rrjc_django\templates</dir>
       <dir>G:\rrjc_django</dir>
+      <dir>G:\scripts</dir>
+      <dir>G:\rrjc_work</dir>
+      <dir>E:\vue-manage-system</dir>
+      <dir>E:\vue-admin-template\src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="E:/vue-admin-template" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/tornado/legolas/main.py" root0="SKIP_INSPECTION" />
@@ -602,59 +658,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="G:/rrjc_django/script/SubscriptionRedis.py" />
-        <option value="G:/rrjc_django/script/RedisProduceData.py" />
-        <option value="G:/rrjc_django/rrjc_django/celerys.py" />
-        <option value="G:/rrjc_django/readme.md" />
-        <option value="G:/rrjc_django/rrjc/admin.py" />
-        <option value="G:/rrjc_django/ops/admin.py" />
-        <option value="G:/rrjc_django/script/bianyi.py" />
-        <option value="G:/rrjc_django/script/start_docker.py" />
-        <option value="G:/rrjc_django/script/connect_mysql.py" />
-        <option value="G:/rrjc_django/script/mysql_connect.py" />
-        <option value="G:/rrjc_django/rrjc/views.py" />
-        <option value="G:/rrjc_work/自动化/test.py" />
-        <option value="G:/rrjc_django/ops/tasks.py" />
-        <option value="G:/rrjc_django/script/runner.py" />
-        <option value="G:/rrjc_django/script/myinventory.py" />
-        <option value="G:/rrjc_django/script/playbook_runner.py" />
-        <option value="G:/rrjc_django/ops/crontab_start.py" />
-        <option value="G:/rrjc_django/search/views.py" />
-        <option value="G:/rrjc_django/search/action.py" />
-        <option value="G:/rrjc_django/requirements.txt" />
-        <option value="G:/rrjc_django/script/socket_server.py" />
-        <option value="G:/rrjc_django/dwebsocket/backends/default/protocols.py" />
-        <option value="G:/rrjc_django/templates/test/real_time_test.html" />
-        <option value="G:/rrjc_django/ops/views.py" />
-        <option value="G:/rrjc_django/templates/test/socket_process.html" />
-        <option value="F:/下载/websocket-master/demo/views.py" />
         <option value="F:/下载/websocket-master/templates/index.html" />
         <option value="G:/rrjc_django/customer/models.py" />
         <option value="G:/rrjc_django/rrjc/models.py" />
-        <option value="G:/rrjc_django/templates/test/get_url.html" />
         <option value="G:/rrjc_django/rrjc_django/settings.py" />
         <option value="G:/rrjc_django/templates/500.html" />
         <option value="G:/rrjc_django/templates/test/500.html" />
         <option value="G:/rrjc_django/script/GetAllUrl.py" />
         <option value="G:/rrjc_django/script/function.py" />
-        <option value="G:/rrjc_django/customer/views.py" />
         <option value="G:/rrjc_django/templates/indexs.html" />
-        <option value="G:/rrjc_django/rrjc/urls.py" />
         <option value="G:/rrjc_django/templates/rrjc/post_info.html" />
         <option value="G:/rrjc_django/templates/ops/cmdb.html" />
         <option value="G:/rrjc_django/dockers/views.py" />
         <option value="$PROJECT_DIR$/随手记/单例模式.py" />
         <option value="$PROJECT_DIR$/随手记/反射模块导入.py" />
         <option value="$PROJECT_DIR$/随手记/反射.py" />
-        <option value="G:/rrjc_work/test1.py" />
         <option value="G:/rrjc_work/fanshe_ceshi.py" />
         <option value="G:/rrjc_work/fanshe.py" />
         <option value="$PROJECT_DIR$/ReFlect/Test.py" />
         <option value="$PROJECT_DIR$/ReFlect/Tests.py" />
         <option value="$PROJECT_DIR$/ReFlect/ReflectImport.py" />
         <option value="$PROJECT_DIR$/ansible/PlayBook.py" />
+        <option value="$PROJECT_DIR$/oracle/con_db.py" />
+        <option value="G:/rrjc_work/oracle_db/con_db.py" />
+        <option value="G:/rrjc_work/oracle_db/60_oracle.py" />
+        <option value="$PROJECT_DIR$/随手记/描述符.py" />
+        <option value="$PROJECT_DIR$/随手记/del_file.py" />
+        <option value="G:/rrjc_work/test1.py" />
+        <option value="$PROJECT_DIR$/爬虫/豆瓣电影.py" />
+        <option value="$PROJECT_DIR$/协程/from调用.py" />
+        <option value="$PROJECT_DIR$/协程/yield的from调用.py" />
+        <option value="$PROJECT_DIR$/随手记/map()函数.py" />
+        <option value="$PROJECT_DIR$/随手记/reduce()函数.py" />
+        <option value="G:/rrjc_work/自动化/shangchuan.py" />
+        <option value="G:/rrjc_django/script/tests.py" />
+        <option value="G:/rrjc_django/templates/ops/notification.html" />
+        <option value="G:/rrjc_django/ops/views.py" />
+        <option value="G:/rrjc_work/自动化/test.py" />
+        <option value="E:/vue-admin-template/src/main.js" />
+        <option value="E:/vue-manage-system/src/components/page/BaseTable.vue" />
+        <option value="E:/vue-admin-template/src/views/multitask/index.vue" />
+        <option value="G:/rrjc_django/customer/views.py" />
+        <option value="G:/rrjc_django/templates/test/get_url.html" />
+        <option value="E:/vue-admin-template/src/views/rrjc/index.vue" />
+        <option value="$PROJECT_DIR$/QR_CODE/QRcode.py" />
+        <option value="E:/vue-admin-template/src/views/test/Transfer.vue" />
+        <option value="G:/rrjc_django/rrjc/urls.py" />
+        <option value="G:/rrjc_django/search/views.py" />
+        <option value="E:/vue-admin-template/src/router/index.js" />
+        <option value="E:/vue-admin-template/src/views/rrjc/Release.vue" />
+        <option value="E:/vue-admin-template/src/layout/components/Navbar.vue" />
+        <option value="E:/vue-admin-template/src/views/rrjc/PostInfo.vue" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -669,15 +730,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="E:/vue-admin-system/node_modules" />
     <handled-path value="E:/vue-admin-template/node_modules" />
     <handled-path value="E:/vue-element-admin/node_modules" />
+    <handled-path value="E:/vue-manage-system/node_modules" />
     <handled-path value="F:/frontend/node_modules" />
     <handled-path value="G:/legolas_vue/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="E:/vue-admin-system/package.json" />
       <path value="E:/vue-admin-template/package.json" />
       <path value="E:/vue-element-admin/package.json" />
       <path value="F:/frontend/package.json" />
@@ -832,18 +892,45 @@
             </path>
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="ReFlect" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="一键安装脚本" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-admin-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="rrjc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-admin-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -859,13 +946,13 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown&#10;yaml" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="F:/下载/websocket-master/manage.py" />
+    <property name="last_opened_file_path" value="E:/vue-manage-system/package.json" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -895,7 +982,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ReflectImport">
+  <component name="RunManager" selected="Python.QRcode">
     <configuration name="单例模式" type="PythonConfigurationType" factoryName="Python">
       <module name="scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -915,7 +1002,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ReflectImport" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="QRcode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -923,12 +1010,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReFlect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QR_CODE" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReFlect/ReflectImport.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QR_CODE/QRcode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -953,7 +1040,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="描述符" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -961,12 +1048,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ReFlect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/随手记" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\scripts\ReFlect\Tests.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/随手记/描述符.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1048,7 +1135,45 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="fanshe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="from调用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/协程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\scripts\协程\yield的from调用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="reduce()函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/随手记" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/随手记/reduce()函数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rrjc_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1056,31 +1181,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rrjc_work" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rrjc_work/自动化" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/fanshe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/自动化/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="python10" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="frontend" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/WeChat Files/zenganiu123727/FileStorage/File/2019-06" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/协程" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/WeChat Files/zenganiu123727/FileStorage/File/2019-06/python10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/协程/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1229,7 +1354,7 @@
       <envs />
     </configuration>
     <configuration name="vue-admin-system" type="js.build_tools.npm" factoryName="npm">
-      <package-json value="E:/vue-admin-system/package.json" />
+      <package-json value="E:/vue-manage-system/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -1279,17 +1404,19 @@
       <item itemvalue="npm.vue-admin-system" />
       <item itemvalue="Python.单例模式" />
       <item itemvalue="Python.SubscriptionRedis" />
-      <item itemvalue="Python.python10" />
-      <item itemvalue="Python.Test" />
-      <item itemvalue="Python.ReflectImport" />
-      <item itemvalue="Python.fanshe" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.from调用" />
+      <item itemvalue="Python.reduce()函数" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.QRcode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ReflectImport" />
-        <item itemvalue="Python.fanshe" />
-        <item itemvalue="Python.Test" />
-        <item itemvalue="Python.python10" />
+        <item itemvalue="Python.QRcode" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.reduce()函数" />
+        <item itemvalue="Python.from调用" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -1303,13 +1430,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517385400584</updated>
-    </task>
-    <task id="LOCAL-00015" summary="检查url是否能访问">
-      <created>1533713379684</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1533713379684</updated>
     </task>
     <task id="LOCAL-00016" summary="归档">
       <created>1533713412380</created>
@@ -1647,7 +1767,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557745389894</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="python 反射机制">
+      <created>1560240239962</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1560240239963</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1661,24 +1788,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32794458" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50106955" side_tool="true" weight="0.30369514" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.49893048" weight="0.30369514" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.2482679" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32794458" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786097" visible="true" weight="0.295612" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786097" visible="true" weight="0.32448035" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983957" weight="0.16628176" />
-      <window_info active="true" content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.49685535" visible="true" weight="0.2026738" />
+      <window_info active="true" content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.49685535" visible="true" weight="0.21069519" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3295964" />
       <window_info anchor="right" id="Database" order="4" weight="0.32975295" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2990762" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32941177" />
       <window_info id="Structure" order="1" sideWeight="0.5031447" side_tool="true" weight="0.13957219" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="9" weight="0.3290993" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1687,36 +1815,34 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.49893048" weight="0.30369514" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.2990762" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="9" weight="0.3290993" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.3295964" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.20641711" />
       <window_info id="Structure" order="1" sideWeight="0.5021521" side_tool="true" weight="0.16165413" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32794458" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2482679" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4983957" weight="0.4064665" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.2990762" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32794458" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3995381" />
       <window_info anchor="right" id="Database" order="5" weight="0.32975295" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.3290993" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50160426" side_tool="true" weight="0.3221709" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2482679" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32975295" />
       <window_info active="true" anchor="bottom" id="File Transfer" order="14" sideWeight="0.49946293" visible="true" weight="0.24249423" />
-      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.2990762" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32794458" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32794458" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1756,7 +1882,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="算法归档" />
     <MESSAGE value="买卖股票的最佳时机 II" />
     <MESSAGE value="表格处理脚本" />
     <MESSAGE value="leetcode" />
@@ -1781,7 +1906,8 @@
     <MESSAGE value="vue初始化" />
     <MESSAGE value="vue添加home页面" />
     <MESSAGE value="更新readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新readme" />
+    <MESSAGE value="python 反射机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="python 反射机制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1795,7 +1921,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1815,349 +1941,370 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python37/Lib/site-packages/django/urls/conf.py" />
-    <entry file="file://G:/rrjc_django/rrjc_django/urls.py">
+    <entry file="file://G:/rrjc_work/自动化/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#645#685#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/django/urls/resolvers.py">
+    <entry file="file://G:/django_test/suyu/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="313" column="6" selection-start-line="313" selection-start-column="6" selection-end-line="313" selection-end-column="6" />
+        <state relative-caret-position="144">
+          <caret line="183" column="8" lean-forward="true" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_django/rrjc/apps.py">
+    <entry file="file://G:/rrjc_work/自动化/shangchuan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/django/conf/urls/__init__.py">
+    <entry file="file://G:/rrjc_django/templates/tmp_docker_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="234">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/django/contrib/auth/models.py">
+    <entry file="file://G:/rrjc_django/templates/ops/notification.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3536">
-          <caret line="356" column="18" lean-forward="true" selection-start-line="356" selection-start-column="18" selection-end-line="356" selection-end-column="18" />
+        <state relative-caret-position="418">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/django/__init__.py">
+    <entry file="file://E:/vue-admin-template/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/README-zh.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/node_modules/element-ui/lib/element-ui.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13119" column="4" selection-start-line="13119" selection-start-column="4" selection-end-line="13119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/node_modules/element-ui/packages/table/src/table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="563" column="6" selection-start-line="563" selection-start-column="6" selection-end-line="563" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-manage-system/node_modules/element-ui/lib/element-ui.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="38399" column="4" selection-start-line="38399" selection-start-column="4" selection-end-line="38399" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-manage-system/node_modules/element-ui/packages/infiniteScroll/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-871">
+          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/自动化/anto_check_printer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/自动化/auto_send_mail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_django/rrjc/models.py">
+    <entry file="file://E:/vue-manage-system/node_modules/mavon-editor/dist/katex/katex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state relative-caret-position="85">
+          <caret line="2229" column="2" lean-forward="true" selection-start-line="2229" selection-start-column="2" selection-end-line="2229" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_django/rrjc_django/settings.py">
+    <entry file="file://E:/vue-manage-system/src/components/page/BaseTable.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="282">
+          <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
           <folding>
-            <element signature="e#18#27#0" expanded="true" />
+            <element signature="n#el-table-column#4;n#el-table#0;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-dialog#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-dialog#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#7010#7585#0" />
+            <element signature="e#7630#8163#0" />
+            <element signature="n#style#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="1213" column="4" selection-start-line="1213" selection-start-column="4" selection-end-line="1213" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/node_modules/element-ui/packages/table/src/table-body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="155" column="4" selection-start-line="155" selection-start-column="4" selection-end-line="155" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://G:/rrjc_django/templates/test/socket_process.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/rrjc_django/templates/ops/crontab.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="-815">
+          <caret line="266" column="32" lean-forward="true" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_django/templates/500.html">
+    <entry file="file://G:/rrjc_django/templates/dockers/docker_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/django/contrib/auth/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python37/Lib/site-packages/django/conf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_django/script/GetAllUrl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="78" column="12" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="12" />
+        <state relative-caret-position="517">
+          <caret line="231" column="33" lean-forward="true" selection-start-line="231" selection-start-column="33" selection-end-line="231" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://G:/rrjc_django/templates/test/get_url.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        <state relative-caret-position="71">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_django/templates/test/500.html">
+    <entry file="file://E:/vue-admin-template/src/views/test/search.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="197">
+          <caret line="109" column="37" lean-forward="true" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#el-table#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1412#2816#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/table/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://G:/rrjc_django/templates/indexs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="106" column="85" lean-forward="true" selection-start-line="106" selection-start-column="85" selection-end-line="106" selection-end-column="85" />
+        <state relative-caret-position="-810">
+          <caret line="57" column="102" selection-start-line="57" selection-start-column="102" selection-end-line="57" selection-end-column="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_django/templates/ops/cmdb.html">
+    <entry file="file://E:/vue-admin-template/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR_CODE/QRcode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        <state relative-caret-position="216">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://G:/rrjc_django/rrjc/urls.py">
+    <entry file="file://C:/Python37/Lib/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="72" column="45" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="45" />
-          <folding>
-            <element signature="e#15#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_django/dockers/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="78" lean-forward="true" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_django/script/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="125" column="8" lean-forward="true" selection-start-line="125" selection-start-column="8" selection-end-line="129" selection-end-column="59" />
+        <state relative-caret-position="203">
+          <caret line="307" column="12" selection-start-line="307" selection-start-column="4" selection-end-line="307" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://G:/rrjc_django/customer/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_django/customer/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_django/script/RedisProduceData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="367">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://G:/rrjc_django/ops/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4824">
-          <caret line="432" column="8" selection-start-line="432" selection-start-column="8" selection-end-line="432" selection-end-column="42" />
+        <state relative-caret-position="1020">
+          <caret line="449" column="22" selection-start-line="449" selection-start-column="22" selection-end-line="449" selection-end-column="22" />
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
-            <element signature="e#902#1397#0" />
-            <element signature="e#1541#2017#0" />
-            <element signature="e#2098#2585#0" />
-            <element signature="e#2634#4985#0" />
-            <element signature="e#5069#5554#0" />
-            <element signature="e#5634#5849#0" />
-            <element signature="e#5909#6186#0" />
-            <element signature="e#6222#6846#0" />
-            <element signature="e#6886#7339#0" />
+            <element signature="e#16097#16602#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/单例模式.py">
+    <entry file="file://G:/rrjc_django/rrjc/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        <state relative-caret-position="154">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/zenganiu123727/FileStorage/File/2019-06/python10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="327" column="55" lean-forward="true" selection-start-line="327" selection-start-column="55" selection-end-line="327" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/Zip()函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/Fibonacci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/反射模块导入.py" />
-    <entry file="file://C:/Python37/Lib/string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2754" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/yield.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/basePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248" />
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1639789060/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="176" column="12" lean-forward="true" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_django/templates/rrjc/function_test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3754" />
       </provider>
     </entry>
     <entry file="file://G:/rrjc_django/rrjc/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="70" />
+        <state relative-caret-position="-126">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/随手记/反射.py">
+    <entry file="file://E:/vue-admin-template/src/views/test/Transfer.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+        <state relative-caret-position="72">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReFlect/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReFlect/Tests.py">
+    <entry file="file://G:/rrjc_django/rrjc/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="1350">
+          <caret line="83" column="59" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell/expect.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/一键安装脚本/hadoop.sh">
+    <entry file="file://G:/rrjc_django/templates/rrjc/bianyi_history.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="-2343" />
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/templates/rrjc/bianyi_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2379" />
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/search/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/一键安装脚本/java.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible/PlayBook.py">
+    <entry file="file://E:/vue-admin-template/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/fanshe_ceshi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/fanshe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="216">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://G:/rrjc_django/templates/rrjc/release_test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="72">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="53" column="53" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#136#230#0" />
+            <element signature="e#235#319#0" />
+            <element signature="e#324#577#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/dashboard/index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/form/index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/login/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836" />
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/components/Breadcrumb/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972" />
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/components/Hamburger/index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/components/SvgIcon/index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/rrjc/Release.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/layout/components/AppMain.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/layout/components/Navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-dropdown-menu#0;n#el-dropdown#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#el-dropdown-item#0;n#el-dropdown-menu#0;n#el-dropdown#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/multitask/Cmdb.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://G:/rrjc_django/templates/rrjc/post_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="203" column="9" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
+        <state relative-caret-position="-324">
+          <caret line="198" column="28" lean-forward="true" selection-start-line="198" selection-start-column="8" selection-end-line="200" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReFlect/ReflectImport.py">
+    <entry file="file://E:/vue-admin-template/src/views/rrjc/PostInfo.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="234">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

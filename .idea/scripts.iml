@@ -14,7 +14,8 @@
     <orderEntry type="module" module-name="frontend" />
     <orderEntry type="module" module-name="vue-element-admin" />
     <orderEntry type="module" module-name="vue-admin-template" />
-    <orderEntry type="module" module-name="vue-admin-system" />
     <orderEntry type="module" module-name="dj_websocket" />
+    <orderEntry type="module" module-name="lepus" />
+    <orderEntry type="module" module-name="vue-manage-system" />
   </component>
 </module>
