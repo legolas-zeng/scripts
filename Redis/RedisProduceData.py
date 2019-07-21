@@ -6,7 +6,7 @@ from threading import Thread
 
 class RedisCach(object):
     def __init__(self):
-        self.host = '192.168.x.x'
+        self.host = '127.0.0.1'
         self.port = '6379'
         self.r = redis.StrictRedis(host=self.host, port=self.port,decode_responses=True)
     def insertRedis(self, keyName, jsonStr):
@@ -20,7 +20,7 @@ def publisher():
     r = RedisCach()
     a = 1
     while True:
-        r.insertRedis("xxxxx",str(a))
+        r.insertRedis("legolas",str(a))
         a += 1
         time.sleep(2)
 
