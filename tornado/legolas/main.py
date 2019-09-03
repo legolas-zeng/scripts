@@ -32,7 +32,7 @@ class WebSocketHandler(tornado.websocket.WebSocketHandler):
 
 class IndexPageHandler(RequestHandler):
     def get(self):
-        self.render("indexs.html")
+        self.render("index.html")
 
 
 class ItcastHandler(RequestHandler):
