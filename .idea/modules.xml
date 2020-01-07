@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://D:/BullshitGenerator/.idea/BullshitGenerator.iml" filepath="D:/BullshitGenerator/.idea/BullshitGenerator.iml" />
       <module fileurl="file://E:/DataM/.idea/DataM.iml" filepath="E:/DataM/.idea/DataM.iml" />
       <module fileurl="file://E:/INSCMDB/.idea/INSCMDB.iml" filepath="E:/INSCMDB/.idea/INSCMDB.iml" />
       <module fileurl="file://D:/dengxin_scrapy_web/.idea/dengxin_scrapy_web.iml" filepath="D:/dengxin_scrapy_web/.idea/dengxin_scrapy_web.iml" />
       <module fileurl="file://G:/django_test/.idea/django_test.iml" filepath="G:/django_test/.idea/django_test.iml" />
       <module fileurl="file://F:/django_test/.idea/django_test.iml" filepath="F:/django_test/.idea/django_test.iml" />
+      <module fileurl="file://D:/kubeasz/.idea/kubeasz.iml" filepath="D:/kubeasz/.idea/kubeasz.iml" />
+      <module fileurl="file://D:/kubernets/.idea/kubernets.iml" filepath="D:/kubernets/.idea/kubernets.iml" />
       <module fileurl="file://F:/legolas_react/.idea/legolas_react.iml" filepath="F:/legolas_react/.idea/legolas_react.iml" />
       <module fileurl="file://G:/legolas_vue/.idea/legolas_vue.iml" filepath="G:/legolas_vue/.idea/legolas_vue.iml" />
       <module fileurl="file://F:/legolas_vue/.idea/legolas_vue.iml" filepath="F:/legolas_vue/.idea/legolas_vue.iml" />
@@ -22,6 +25,7 @@
       <module fileurl="file://D:/scrapy_web/.idea/scrapy_web.iml" filepath="D:/scrapy_web/.idea/scrapy_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/scripts.iml" filepath="$PROJECT_DIR$/.idea/scripts.iml" />
       <module fileurl="file://E:/taillog/.idea/taillog.iml" filepath="E:/taillog/.idea/taillog.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/tmsyManager/.idea/tmsyManager.iml" filepath="$USER_HOME$/Desktop/tmsyManager/.idea/tmsyManager.iml" />
       <module fileurl="file://E:/vue-admin-template/.idea/vue-admin-template.iml" filepath="E:/vue-admin-template/.idea/vue-admin-template.iml" />
     </modules>
   </component>

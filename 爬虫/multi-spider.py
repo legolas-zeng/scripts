@@ -1,6 +1,6 @@
 # -*-coding:utf-8 -*-
 import threading
-import Queue
+import queue
 import time
 import requests,re,shutil
 
@@ -58,7 +58,7 @@ GIL和多线程锁:
         queue.task_done() # 一个queue通知另外一个queue某个任务已完成。
 '''
 
-SHARE_Q = Queue.Queue()  #构造一个不限制大小的的队列
+SHARE_Q = queue.Queue()  #构造一个不限制大小的的队列
 _WORKER_THREAD_NUM = 5   #设置线程个数
 
 class MyThread(threading.Thread):
@@ -106,7 +106,6 @@ def worker():
         downloadimage(info[0],info[1],info[2])
         # time.sleep(1)
         SHARE_Q.task_done()
-
 
 def main():
     global SHARE_Q

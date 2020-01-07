@@ -12,5 +12,9 @@
     <orderEntry type="module" module-name="scrapy_web" />
     <orderEntry type="module" module-name="dengxin_scrapy_web" />
     <orderEntry type="module" module-name="roles" />
+    <orderEntry type="module" module-name="kubernets" />
+    <orderEntry type="module" module-name="tmsyManager" />
+    <orderEntry type="module" module-name="BullshitGenerator" />
+    <orderEntry type="module" module-name="kubeasz" />
   </component>
 </module>

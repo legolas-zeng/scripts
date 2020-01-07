@@ -18,11 +18,16 @@
       <change afterPath="F:/taillog/etc/app_config.py" afterDir="false" />
       <change afterPath="G:/legolas_vue/.eslintrc.js" afterDir="false" />
       <change afterPath="G:/legolas_vue/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MYSQL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MYSQL/mysql_connect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/Kubernetes/kubeadm.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/Kubernetes/new_kubeadm.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/多线程爬虫/multi-douban.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/豆瓣电影_图片下载.py" afterDir="false" />
+      <change beforePath="D:/BullshitGenerator/readJSON.py" beforeDir="false" afterPath="D:/BullshitGenerator/readJSON.py" afterDir="false" />
       <change beforePath="D:/DataM/datam_server/my_token/views.py" beforeDir="false" afterPath="D:/DataM/datam_server/my_token/views.py" afterDir="false" />
       <change beforePath="D:/dengxin_scrapy_web/scrapy_web/settings.py" beforeDir="false" afterPath="D:/dengxin_scrapy_web/scrapy_web/settings.py" afterDir="false" />
-      <change beforePath="D:/dengxin_scrapy_web/scripts/customer_functions.py" beforeDir="false" afterPath="D:/dengxin_scrapy_web/scripts/customer_functions.py" afterDir="false" />
       <change beforePath="D:/dengxin_scrapy_web/scripts/pageup.py" beforeDir="false" afterPath="D:/dengxin_scrapy_web/scripts/pageup.py" afterDir="false" />
-      <change beforePath="D:/dengxin_scrapy_web/templates/search/search_list.html" beforeDir="false" afterPath="D:/dengxin_scrapy_web/templates/search/search_list.html" afterDir="false" />
       <change beforePath="D:/scrapy_web/.idea/scrapy_web.iml" beforeDir="false" afterPath="D:/scrapy_web/.idea/scrapy_web.iml" afterDir="false" />
       <change beforePath="D:/scrapy_web/newsweb/urls.py" beforeDir="false" afterPath="D:/scrapy_web/newsweb/urls.py" afterDir="false" />
       <change beforePath="D:/scrapy_web/scrapy_web/settings.py" beforeDir="false" afterPath="D:/scrapy_web/scrapy_web/settings.py" afterDir="false" />
@@ -60,11 +65,14 @@
       <change beforePath="F:/taillog/www/main.py" beforeDir="false" afterPath="F:/taillog/www/main.py" afterDir="false" />
       <change beforePath="F:/taillog/www/templates/index.html" beforeDir="false" afterPath="F:/taillog/www/templates/index.html" afterDir="false" />
       <change beforePath="F:/taillog/www/templates/weblog.html" beforeDir="false" afterPath="F:/taillog/www/templates/weblog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scripts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornado/legolas/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tornado/legolas/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/bad.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/bad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/multi-spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/multi-spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/多线程爬虫/spiders.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/多线程爬虫/spiders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/豆瓣电影.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/豆瓣电影.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,7 +86,7 @@
     <SUITE FILE_PATH="coverage/scripts$217_.coverage" NAME="217.存在重复元素 Coverage Results" MODIFIED="1548157798442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/初级算法/数组" />
     <SUITE FILE_PATH="coverage/scripts$xiaoshou_sql.coverage" NAME="xiaoshou_sql Coverage Results" MODIFIED="1557727086485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$auto_send_mail.coverage" NAME="auto_send_mail Coverage Results" MODIFIED="1537425461612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work" />
-    <SUITE FILE_PATH="coverage/scripts$anto_check_printer.coverage" NAME="anto_check_printer Coverage Results" MODIFIED="1545228036296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
+    <SUITE FILE_PATH="coverage/scripts$anto_check_printer.coverage" NAME="anto_check_printer Coverage Results" MODIFIED="1577779774494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$_III.coverage" NAME="买卖股票的最佳时机 III Coverage Results" MODIFIED="1547625957853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/初级算法" />
     <SUITE FILE_PATH="coverage/scripts$str_test.coverage" NAME="str_test Coverage Results" MODIFIED="1550560977703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$3.coverage" NAME="3 Coverage Results" MODIFIED="1528884111817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/阿里云" />
@@ -109,7 +117,7 @@
     <SUITE FILE_PATH="coverage/scripts$lei.coverage" NAME="lei Coverage Results" MODIFIED="1545282233539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记/rrjc" />
     <SUITE FILE_PATH="coverage/scripts$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1540965745328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/taillog/www" />
     <SUITE FILE_PATH="coverage/scripts$itertools.coverage" NAME="itertools Coverage Results" MODIFIED="1545987921359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
-    <SUITE FILE_PATH="coverage/scripts$auto_yasuo.coverage" NAME="auto_yasuo Coverage Results" MODIFIED="1567077479263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
+    <SUITE FILE_PATH="coverage/scripts$auto_yasuo.coverage" NAME="auto_yasuo Coverage Results" MODIFIED="1575963372646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$5.coverage" NAME="5 Coverage Results" MODIFIED="1537284544779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
     <SUITE FILE_PATH="coverage/scripts$remote_ssh.coverage" NAME="remote_ssh Coverage Results" MODIFIED="1542619233608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$xiaojiejie.coverage" NAME="xiaojiejie Coverage Results" MODIFIED="1543139316994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work" />
@@ -144,9 +152,9 @@
     <SUITE FILE_PATH="coverage/scripts$Ansible_task.coverage" NAME="Ansible_task Coverage Results" MODIFIED="1562060450441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$from.coverage" NAME="from调用 Coverage Results" MODIFIED="1560416391262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/协程" />
     <SUITE FILE_PATH="coverage/scripts$Fibonacci.coverage" NAME="Fibonacci Coverage Results" MODIFIED="1545980437130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
-    <SUITE FILE_PATH="coverage/scripts$spiders.coverage" NAME="spiders Coverage Results" MODIFIED="1547782387417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/多进程爬虫" />
+    <SUITE FILE_PATH="coverage/scripts$spiders.coverage" NAME="spiders Coverage Results" MODIFIED="1577176536696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/多线程爬虫" />
     <SUITE FILE_PATH="coverage/scripts$map__.coverage" NAME="map()函数 Coverage Results" MODIFIED="1555989161157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
-    <SUITE FILE_PATH="coverage/scripts$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1560410767073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
+    <SUITE FILE_PATH="coverage/scripts$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1577347104217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$redis.coverage" NAME="redis Coverage Results" MODIFIED="1553234562921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/人事行政部" />
     <SUITE FILE_PATH="coverage/scripts$QRcode.coverage" NAME="QRcode Coverage Results" MODIFIED="1561392661354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QR_CODE" />
     <SUITE FILE_PATH="coverage/scripts$reduce__.coverage" NAME="reduce()函数 Coverage Results" MODIFIED="1560494941498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
@@ -154,7 +162,7 @@
     <SUITE FILE_PATH="coverage/scripts$gui_grid.coverage" NAME="gui_grid Coverage Results" MODIFIED="1554117728146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
     <SUITE FILE_PATH="coverage/scripts$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1541502248885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tornado/legolas" />
     <SUITE FILE_PATH="coverage/scripts$FirstWin.coverage" NAME="FirstWin Coverage Results" MODIFIED="1554172088933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/PyQt5/Chapter01" />
-    <SUITE FILE_PATH="coverage/scripts$.coverage" NAME="描述符 Coverage Results" MODIFIED="1560397107603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
+    <SUITE FILE_PATH="coverage/scripts$.coverage" NAME="豆瓣电影 Coverage Results" MODIFIED="1577177496271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/scripts$splunk_sdk.coverage" NAME="splunk-sdk Coverage Results" MODIFIED="1529892013605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/rrjc_work/scripted" />
     <SUITE FILE_PATH="coverage/scripts$auto_printer.coverage" NAME="auto_printer Coverage Results" MODIFIED="1554116923186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
     <SUITE FILE_PATH="coverage/scripts$package_all_cite.coverage" NAME="package_all_cite Coverage Results" MODIFIED="1545275278917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记/rrjc" />
@@ -170,10 +178,12 @@
     <SUITE FILE_PATH="coverage/scripts$con_db__1_.coverage" NAME="con_db (1) Coverage Results" MODIFIED="1560306512826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/oracle_db" />
     <SUITE FILE_PATH="coverage/scripts$kegg.coverage" NAME="kegg Coverage Results" MODIFIED="1555413599096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/数据组" />
     <SUITE FILE_PATH="coverage/scripts$ToolUI.coverage" NAME="ToolUI Coverage Results" MODIFIED="1554118238080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/下载/TMTools-master" />
+    <SUITE FILE_PATH="coverage/scripts$multi_spider.coverage" NAME="multi-spider Coverage Results" MODIFIED="1577179410178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/scripts$tk10_frame.coverage" NAME="tk10_frame Coverage Results" MODIFIED="1553821918035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
     <SUITE FILE_PATH="coverage/scripts$SubscriptionRedis.coverage" NAME="SubscriptionRedis Coverage Results" MODIFIED="1559116911065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_django/script" />
+    <SUITE FILE_PATH="coverage/scripts$_.coverage" NAME="豆瓣电影_图片下载 Coverage Results" MODIFIED="1577695767008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/scripts$multi_linux_2.coverage" NAME="multi_linux_2 Coverage Results" MODIFIED="1552034243023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/风险管理部" />
-    <SUITE FILE_PATH="coverage/scripts$mysql_connect.coverage" NAME="mysql_connect Coverage Results" MODIFIED="1565867044041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/scrapy_web/scripts" />
+    <SUITE FILE_PATH="coverage/scripts$mysql_connect.coverage" NAME="mysql_connect Coverage Results" MODIFIED="1574662806177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MYSQL" />
     <SUITE FILE_PATH="coverage/scripts$xiaoshou_fix.coverage" NAME="xiaoshou_fix Coverage Results" MODIFIED="1559014109946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/自动化" />
     <SUITE FILE_PATH="coverage/scripts$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1553764589112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI项目" />
     <SUITE FILE_PATH="coverage/scripts$test6.coverage" NAME="test6 Coverage Results" MODIFIED="1547782217894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/多进程爬虫" />
@@ -181,13 +191,14 @@
     <SUITE FILE_PATH="coverage/scripts$con_db.coverage" NAME="con_db Coverage Results" MODIFIED="1560244459141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oracle" />
     <SUITE FILE_PATH="coverage/scripts$redisinfo.coverage" NAME="redisinfo Coverage Results" MODIFIED="1553482747830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/人事行政部" />
     <SUITE FILE_PATH="coverage/scripts$rrjc_gps_mult.coverage" NAME="rrjc_gps_mult Coverage Results" MODIFIED="1548322315664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
+    <SUITE FILE_PATH="coverage/scripts$multi_douban.coverage" NAME="multi-douban Coverage Results" MODIFIED="1577186281617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/多线程爬虫" />
     <SUITE FILE_PATH="coverage/scripts$ReflectImport.coverage" NAME="ReflectImport Coverage Results" MODIFIED="1560392918281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ReFlect" />
     <SUITE FILE_PATH="coverage/scripts$rr_gps_entropy__1_.coverage" NAME="rr_gps_entropy (1) Coverage Results" MODIFIED="1548744497793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$auto_sort.coverage" NAME="auto_sort Coverage Results" MODIFIED="1552636513314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/人事行政部" />
     <SUITE FILE_PATH="coverage/scripts$__1_.coverage" NAME="从排序数组中删除重复项 (1) Coverage Results" MODIFIED="1547711395528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/初级算法/数组" />
     <SUITE FILE_PATH="coverage/scripts$slave.coverage" NAME="slave Coverage Results" MODIFIED="1545279731896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记/rrjc" />
     <SUITE FILE_PATH="coverage/scripts$multi_kegg.coverage" NAME="multi_kegg Coverage Results" MODIFIED="1556099397401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/多线程爬虫" />
-    <SUITE FILE_PATH="coverage/scripts$test.coverage" NAME="test Coverage Results" MODIFIED="1565867286513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/scrapy_web/scripts" />
+    <SUITE FILE_PATH="coverage/scripts$test.coverage" NAME="test Coverage Results" MODIFIED="1577182934665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/scripts$6.coverage" NAME="6 Coverage Results" MODIFIED="1553151263861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随手记" />
     <SUITE FILE_PATH="coverage/scripts$CryptoApp_pyw.coverage" NAME="CryptoApp.pyw Coverage Results" MODIFIED="1553822954060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/CryptoApp" />
     <SUITE FILE_PATH="coverage/scripts$create_json.coverage" NAME="create_json Coverage Results" MODIFIED="1546581182341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
@@ -195,6 +206,7 @@
     <SUITE FILE_PATH="coverage/scripts$winrar.coverage" NAME="winrar Coverage Results" MODIFIED="1551256707668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work" />
     <SUITE FILE_PATH="coverage/scripts$tk6_scale.coverage" NAME="tk6_scale Coverage Results" MODIFIED="1553821862582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/tutorials/tkinterTUT" />
     <SUITE FILE_PATH="coverage/scripts$joint_str.coverage" NAME="joint_str Coverage Results" MODIFIED="1555480105945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/rrjc_work/数据组" />
+    <SUITE FILE_PATH="coverage/scripts$export_file.coverage" NAME="export_file Coverage Results" MODIFIED="1567753098230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/dengxin_scrapy_web/scripts" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -219,104 +231,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="mondaq_display.html" pinned="false" current-in-tab="false">
-        <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/mondaq_display.html">
+      <file leaf-file-name="awesec-nodeport.yml" pinned="false" current-in-tab="false">
+        <entry file="file://D:/kubernets/rrjc/test-awesec/awesec-nodeport.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="74" column="28" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+            <state relative-caret-position="360">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/dengxin_scrapy_web/newsweb/views.py">
+      <file leaf-file-name="bad.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫/bad.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="75" selection-start-line="75" selection-end-line="76" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/dengxin_scrapy_web/customer/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="57" />
-            </state>
-          </provider>
+      <file leaf-file-name="ingress-tomcat.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://D:/kubernets/rrjc/test-tomcat/ingress-tomcat.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/dengxin_scrapy_web/search/views.py">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://D:/kubernets/rrjc/test-awesec/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_list.html" pinned="false" current-in-tab="true">
-        <entry file="file://D:/dengxin_scrapy_web/templates/search/search_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://D:/dengxin_scrapy_web/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="51" column="50" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/dengxin_scrapy_web/search/action.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pageup.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/dengxin_scrapy_web/scripts/pageup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer_functions.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/dengxin_scrapy_web/scripts/customer_functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding>
-                <element signature="e#62#103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/dengxin_scrapy_web/newsweb/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
-              <folding>
-                <element signature="e#61#102#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -328,62 +270,49 @@
       <list>
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="yaml" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bootstrap-select</find>
-      <find>hostip</find>
-      <find>reverse</find>
-      <find>ip_list</find>
-      <find>page_mondaq_list</find>
-      <find>oldpassward</find>
-      <find>摘要</find>
-      <find>EmailSender</find>
-      <find>HttpResponseRedirects</find>
-      <find>HttpResponseRedirect</find>
-      <find>).val();</find>
-      <find>COUNTRY_LIST</find>
-      <find>select_country</find>
-      <find>Pages</find>
-      <find>grada_display</find>
-      <find>osac_list</find>
-      <find>grada_detail</find>
-      <find>CENTERDB_INFO</find>
-      <find>cache_page</find>
-      <find>myModal</find>
-      <find>is_active</find>
-      <find>is_staff</find>
-      <find>QueryOneUserList</find>
-      <find>customer_functions</find>
-      <find>download</find>
-      <find>JudgeExistTranslation</find>
-      <find>'id'</find>
-      <find>{'id':</find>
-      <find>init kubectl</find>
-      <find>data_5</find>
+      <find>template</find>
+      <find>cfssl</find>
+      <find>kubelet</find>
+      <find>rbac</find>
+      <find>node-exporter</find>
+      <find>firewalld</find>
+      <find>ca.crt</find>
+      <find>fetchone</find>
+      <find>job_name</find>
+      <find>Listen</find>
+      <find>Include</find>
+      <find>DocumentRoot</find>
+      <find>log</find>
+      <find>sites</find>
+      <find>MAKEFLAGS</find>
+      <find>CheckSpelling</find>
+      <find>nginx</find>
+      <find>23456</find>
+      <find>speling_module</find>
+      <find>{{ ca_dir }}/ca.pem</find>
+      <find>{{ ca_dir }}/ca-key.pem</find>
+      <find>nginx.conf</find>
+      <find>ngx-fancyindex</find>
+      <find>Nginx-Fancyindex-Theme</find>
+      <find>page_urls是======</find>
+      <find>downloadimage</find>
+      <find>正在下载第</find>
+      <find>BASE_DIR</find>
+      <find>pagemun</find>
+      <find>安全运维平台</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>F:\rrjc_django\Lib</dir>
-      <dir>F:\rrjc_django</dir>
-      <dir>F:\scripts</dir>
-      <dir>F:\django_test</dir>
-      <dir>F:\legolas_react</dir>
-      <dir>F:\legolas_react\src</dir>
-      <dir>G:\legolas_vue</dir>
-      <dir>F:\frontend\src</dir>
-      <dir>F:\frontend\config</dir>
-      <dir>F:\frontend</dir>
-      <dir>E:\vue-element-admin</dir>
-      <dir>G:\scripts</dir>
-      <dir>G:\rrjc_work</dir>
       <dir>E:\vue-manage-system</dir>
       <dir>E:\vue-admin-template\src</dir>
       <dir>D:\DataM\datam_vue\src</dir>
@@ -395,17 +324,30 @@
       <dir>D:\scrapy_web</dir>
       <dir>G:\rrjc_django\rrjc</dir>
       <dir>G:\rrjc_django\script</dir>
-      <dir>G:\rrjc_django\templates</dir>
       <dir>D:\scrapy_web\static</dir>
       <dir>D:\scrapy_web\templates\newsweb</dir>
-      <dir>D:\dengxin_scrapy_web</dir>
       <dir>D:\dengxin_scrapy_web\templates</dir>
+      <dir>C:\Users\Administrator.000\Desktop\roles\roles</dir>
+      <dir>G:\rrjc_django\templates</dir>
+      <dir>C:\Users\Administrator.000\Desktop\tmsyManager</dir>
+      <dir>D:\kubernets\helm</dir>
+      <dir>D:\kubernets\helm\tomcat</dir>
+      <dir>D:\dengxin_scrapy_web\scripts</dir>
       <dir>G:\rrjc_django</dir>
+      <dir>D:\kubeasz\roles</dir>
+      <dir>D:\kubeasz\roles\prepare</dir>
+      <dir>D:\kubeasz\roles\calico</dir>
+      <dir>D:\kubernets\prometheus</dir>
+      <dir>D:\kubernets\prom</dir>
+      <dir>D:\dengxin_scrapy_web</dir>
+      <dir>D:\kubernets\rrjc-algorithm</dir>
+      <dir>D:\kubeasz</dir>
+      <dir>D:\kubernets\rrjc\awesec\awesec</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="D:/dengxin_scrapy_web" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_COMMON_BRANCH" value="master" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -422,7 +364,9 @@
     <setting file="file://G:/rrjc_django/customer/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://G:/rrjc_django/search/action.py" root0="SKIP_INSPECTION" />
     <setting file="file://G:/rrjc_django/search/views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://D:/dengxin_scrapy_web/scripts/downloadexcel.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/爬虫/豆瓣电影_表格_翻页.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/rrjc_django/rrjc/admin.py" root0="SKIP_INSPECTION" />
     <setting file="file://G:/rrjc_work/multi_process/deam_new.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/爬虫/豆瓣电影.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/leetcode/初级算法/从排序数组中删除重复项.py" root0="SKIP_INSPECTION" />
@@ -433,6 +377,7 @@
     <setting file="file://F:/下载/CryptoApp-master/Cryptor.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/多线程/mulit_thread_kegg.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/scrapy_web/newsweb/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://G:/django_test/search/action.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/肃羽游戏脚本/new_game.py" root0="SKIP_INSPECTION" />
     <setting file="file://D:/scrapy_web/newsweb/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/一键安装脚本/mysql.sh" root0="SKIP_INSPECTION" />
@@ -441,6 +386,7 @@
     <setting file="file://$PROJECT_DIR$/tornado/legolas/main.py" root0="SKIP_INSPECTION" />
     <setting file="file://G:/django_test/suyusys/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/机器学习/手搓/neural.py" root0="SKIP_INSPECTION" />
+    <setting file="file://D:/dengxin_scrapy_web/newsweb/views.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/随手记/rrjc/slave.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/阿里云/anto_get_ecs_info2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/docker/Kubernetes/test.py" root0="SKIP_INSPECTION" />
@@ -450,57 +396,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/grada.html" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/osac.html" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/chinhphu.html" />
-        <option value="D:/dengxin_scrapy_web/unitls/common.py" />
-        <option value="D:/dengxin_scrapy_web/templates/404.html" />
-        <option value="D:/dengxin_scrapy_web/readme.md" />
-        <option value="D:/dengxin_scrapy_web/templates/index.html" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/mondaq.html" />
-        <option value="G:/rrjc_django/script/MysqlReplication.py" />
-        <option value="G:/rrjc_django/dockers/admin.py" />
-        <option value="G:/rrjc_django/dockers/models.py" />
-        <option value="G:/rrjc_django/dockers/views.py" />
-        <option value="G:/rrjc_django/ops/views.py" />
-        <option value="G:/rrjc_django/rrjc/admin.py" />
-        <option value="G:/rrjc_django/rrjc/models.py" />
-        <option value="G:/rrjc_django/rrjc/urls.py" />
-        <option value="D:/dengxin_scrapy_web/templates/customer/userlist.html" />
-        <option value="D:/dengxin_scrapy_web/templates/customer/useradd.html" />
-        <option value="G:/rrjc_django/rrjc/views.py" />
-        <option value="G:/rrjc_django/rrjc_django/settings.py" />
-        <option value="G:/rrjc_django/script/ArgInput.py" />
-        <option value="G:/rrjc_django/script/bianyi.py" />
-        <option value="G:/rrjc_django/script/playbook_runner.py" />
-        <option value="G:/rrjc_django/script/start_docker.py" />
-        <option value="D:/dengxin_scrapy_web/scripts/functions.py" />
-        <option value="D:/dengxin_scrapy_web/templates/customer/useredit.html" />
-        <option value="D:/dengxin_scrapy_web/templates/dashboard.html" />
-        <option value="D:/dengxin_scrapy_web/scripts/downloadexcel.py" />
-        <option value="D:/dengxin_scrapy_web/scripts/translater.py" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/osac_dispaly.html" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/detail/grada_detail.html" />
         <option value="G:/rrjc_work/自动化/auto_yasuo.py" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/translated.html" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/grada_display.html" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/anvilgroup_display.html" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/osac_display.html" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/dispaly.html" />
-        <option value="$USER_HOME$/Desktop/roles/roles/kubernetes/tasks/redhat.yml" />
-        <option value="D:/dengxin_scrapy_web/templates/newsweb/mondaq_display.html" />
-        <option value="D:/dengxin_scrapy_web/scripts/handletranslate.py" />
-        <option value="D:/dengxin_scrapy_web/newsweb/urls.py" />
-        <option value="D:/dengxin_scrapy_web/templates/search/searchpage.html" />
-        <option value="D:/dengxin_scrapy_web/search/action.py" />
-        <option value="$USER_HOME$/Desktop/roles/roles/kubernetes/templates/calico3.8.yml" />
-        <option value="D:/dengxin_scrapy_web/newsweb/views.py" />
-        <option value="D:/dengxin_scrapy_web/scrapy_web/settings.py" />
-        <option value="D:/dengxin_scrapy_web/customer/views.py" />
-        <option value="D:/dengxin_scrapy_web/search/views.py" />
-        <option value="D:/dengxin_scrapy_web/scripts/customer_functions.py" />
-        <option value="D:/dengxin_scrapy_web/scripts/pageup.py" />
-        <option value="D:/dengxin_scrapy_web/templates/search/search_list.html" />
+        <option value="D:/kubernets/rrjc/test-tomcat/tomcat-deploy.yaml" />
+        <option value="D:/kubeasz/roles/helm/defaults/main.yml" />
+        <option value="D:/kubernets/helm/tiller.yaml" />
+        <option value="D:/kubernets/prom/cluster-role.yaml" />
+        <option value="D:/kubernets/prom/monitor-namespace.yaml" />
+        <option value="D:/kubernets/prom/config-map.yaml" />
+        <option value="D:/kubernets/prom/prometheus-deployment.yaml" />
+        <option value="D:/kubernets/prom/prometheus-service.yaml" />
+        <option value="D:/kubernets/prom/node-exporter-service.yaml" />
+        <option value="D:/kubernets/prom/node-exporter-ds.yml" />
+        <option value="D:/dengxin_scrapy_web/scripts/mysql_connect.py" />
+        <option value="D:/kubernets/rrjc/algorithm-httpd/Dockerfile" />
+        <option value="D:/kubernets/rrjc/algorithm-httpd/httpd.conf" />
+        <option value="D:/kubernets/rrjc/alpine-httpd/Dockerfile" />
+        <option value="D:/kubernets/rrjc/alpine-httpd/httpd.conf" />
+        <option value="D:/kubernets/rrjc-algorithm/values.yaml" />
+        <option value="D:/kubernets/rrjc/test-httpd/tomcat-deploy.yaml" />
+        <option value="D:/kubernets/rrjc/test-httpd/ingress-tomcat.yaml" />
+        <option value="D:/kubernets/rrjc/test-httpd/algorithm-deploy.yaml" />
+        <option value="D:/kubernets/prom/3.prometheus-volume" />
+        <option value="D:/kubernets/prom/1.prometheus.configmap.yaml" />
+        <option value="D:/kubernets/prom/4.prometheus-rbac.yaml" />
+        <option value="D:/kubernets/prom/7.prometheus-node-exporter.yaml" />
+        <option value="D:/kubernets/prom/5.prometheus.deploy.yaml" />
+        <option value="D:/kubernets/rrjc-file/nginx-file-volume.yml" />
+        <option value="D:/kubernets/rrjc-file/nginx-file-nodeport.yml" />
+        <option value="D:/kubernets/rrjc-file/nginx.conf" />
+        <option value="D:/kubernets/rrjc-file/Dockerfile" />
+        <option value="D:/kubernets/rrjc/test-nginx/Dockerfile" />
+        <option value="D:/kubernets/rrjc/test-nginx/nginx.conf" />
+        <option value="D:/kubernets/rrjc/test-nginx/nginx-file-nodeport.yml" />
+        <option value="D:/kubernets/rrjc/test-httpd/algorithm-nodeport.yml" />
+        <option value="$PROJECT_DIR$/爬虫/多线程爬虫/spiders.py" />
+        <option value="$PROJECT_DIR$/爬虫/豆瓣电影_表格_翻页.py" />
+        <option value="$PROJECT_DIR$/爬虫/豆瓣电影.py" />
+        <option value="$PROJECT_DIR$/爬虫/test.py" />
+        <option value="$PROJECT_DIR$/爬虫/多线程爬虫/multi-douban.py" />
+        <option value="D:/kubernets/rrjc/awesec/pip.conf" />
+        <option value="G:/rrjc_work/test1.py" />
+        <option value="$PROJECT_DIR$/爬虫/豆瓣电影_图片下载.py" />
+        <option value="D:/kubernets/rrjc/awesec/awesec-nodeport.yml" />
+        <option value="G:/rrjc_work/自动化/auto_send_mail.py" />
+        <option value="G:/rrjc_work/自动化/anto_check_printer.py" />
+        <option value="D:/kubernets/rrjc/awesec/install-instantclient.sh" />
+        <option value="$PROJECT_DIR$/oracle/con_db.py" />
+        <option value="D:/kubernets/rrjc/awesec/Dockerfile" />
+        <option value="D:/kubernets/rrjc/test-awesec/Dockerfile" />
+        <option value="D:/kubernets/rrjc/test-awesec/awesec-nodeport.yml" />
+        <option value="$PROJECT_DIR$/爬虫/multi-spider.py" />
+        <option value="$PROJECT_DIR$/爬虫/bad.py" />
       </list>
     </option>
   </component>
@@ -527,6 +473,7 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="D:/kubernets/rrjc/awesec/awesec/awesec/static/plugins/navigation/package.json" />
       <path value="E:/vue-admin-template/package.json" />
       <path value="G:/legolas_vue/package.json" />
       <path value="$PROJECT_DIR$/Nginx/theme/node_modules/clean-css/package.json" />
@@ -655,8 +602,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="94" />
-    <option name="y" value="348" />
+    <option name="x" value="187" />
+    <option name="y" value="8" />
     <option name="width" value="1208" />
     <option name="height" value="1040" />
   </component>
@@ -669,66 +616,77 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dengxin_scrapy_web" type="462c0819:PsiDirectoryNode" />
+              <item name="kubernets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dengxin_scrapy_web" type="462c0819:PsiDirectoryNode" />
+              <item name="kubernets" type="462c0819:PsiDirectoryNode" />
+              <item name="rrjc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubernets" type="462c0819:PsiDirectoryNode" />
+              <item name="rrjc" type="462c0819:PsiDirectoryNode" />
+              <item name="awesec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubernets" type="462c0819:PsiDirectoryNode" />
+              <item name="rrjc" type="462c0819:PsiDirectoryNode" />
+              <item name="test-tomcat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dengxin_scrapy_web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dengxin_scrapy_web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown&#10;yaml" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/roles" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/tmsyManager" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dengxin_scrapy_web\scripts" />
-      <recent name="D:\dengxin_scrapy_web\templates\newsweb" />
-      <recent name="D:\dengxin_scrapy_web\templates\customer" />
-      <recent name="D:\scrapy_web\scripts" />
-      <recent name="D:\scrapy_web\templates\newsweb" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\scrapy_web\templates\search" />
       <recent name="D:\scrapy_web\newsweb" />
       <recent name="E:\vue-admin-template\src\util" />
       <recent name="G:\rrjc_django\script\templates" />
       <recent name="G:\rrjc_django\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\kubernets\rrjc\test-awesec" />
+      <recent name="D:\kubernets\rrjc\awesec" />
+      <recent name="D:\kubernets\rrjc\test-nginx" />
+      <recent name="D:\kubernets\rrjc-file" />
+      <recent name="D:\kubernets\rrjc\test-httpd" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -743,7 +701,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.dengxin_scrapy_web">
+  <component name="RunManager" selected="Python.anto_check_printer">
     <configuration name="单例模式" type="PythonConfigurationType" factoryName="Python">
       <module name="scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -777,6 +735,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_django/script/SubscriptionRedis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="自动狗屁不通文章生成器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BullshitGenerator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/BullshitGenerator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/BullshitGenerator/自动狗屁不通文章生成器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="自动狗屁不通文章生成器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BullshitGenerator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/BullshitGenerator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/BullshitGenerator/自动狗屁不通文章生成器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -877,26 +873,26 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="article" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="rrjc_work" />
+    <configuration name="豆瓣电影_图片下载" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../rrjc_work/shujuku" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/shujuku/article.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/豆瓣电影_图片下载.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="auto_yasuo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="anto_check_printer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rrjc_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -909,13 +905,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/自动化/auto_yasuo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/自动化/anto_check_printer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="fanshe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="multi-douban" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/多线程爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/多线程爬虫/multi-douban.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rrjc_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -928,45 +962,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/fanshe.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="mysql_connect" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scrapy_web" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/scrapy_web/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:/scrapy_web/scripts/mysql_connect.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scrapy_web" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/scrapy_web/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:/scrapy_web/scripts/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../rrjc_work/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1105,19 +1101,19 @@
       <item itemvalue="npm.vue-admin-template" />
       <item itemvalue="Python.单例模式" />
       <item itemvalue="Python.SubscriptionRedis" />
+      <item itemvalue="Python.豆瓣电影_图片下载" />
+      <item itemvalue="Python.multi-douban" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.mysql_connect" />
-      <item itemvalue="Python.article" />
-      <item itemvalue="Python.fanshe" />
-      <item itemvalue="Python.auto_yasuo" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.anto_check_printer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.auto_yasuo" />
-        <item itemvalue="Python.fanshe" />
-        <item itemvalue="Python.article" />
+        <item itemvalue="Python.anto_check_printer" />
+        <item itemvalue="Python.豆瓣电影_图片下载" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.multi-douban" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.mysql_connect" />
       </list>
     </recent_temporary>
   </component>
@@ -1131,202 +1127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517385400584</updated>
-    </task>
-    <task id="LOCAL-00057" summary="标准化代码样式">
-      <created>1556002257854</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1556002257854</updated>
-    </task>
-    <task id="LOCAL-00058" summary="标准化代码样式">
-      <created>1557112331078</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1557112331079</updated>
-    </task>
-    <task id="LOCAL-00059" summary="vue初始化">
-      <created>1557242772378</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1557242772378</updated>
-    </task>
-    <task id="LOCAL-00060" summary="vue初始化">
-      <created>1557391101163</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1557391101163</updated>
-    </task>
-    <task id="LOCAL-00061" summary="vue添加home页面">
-      <created>1557744593239</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1557744593240</updated>
-    </task>
-    <task id="LOCAL-00062" summary="vue添加home页面">
-      <created>1557744620717</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1557744620717</updated>
-    </task>
-    <task id="LOCAL-00063" summary="更新readme">
-      <created>1557745389894</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1557745389894</updated>
-    </task>
-    <task id="LOCAL-00064" summary="python 反射机制">
-      <created>1560240239962</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1560240239963</updated>
-    </task>
-    <task id="LOCAL-00065" summary="更新readme">
-      <created>1561774403562</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1561774403563</updated>
-    </task>
-    <task id="LOCAL-00066" summary="7.21归档">
-      <created>1563712752701</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1563712752702</updated>
-    </task>
-    <task id="LOCAL-00067" summary="redis项目增加订阅发布">
-      <created>1563713253583</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1563713253583</updated>
-    </task>
-    <task id="LOCAL-00068" summary="全页面更新完成，新增下载页面">
-      <created>1565613203384</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1565613203385</updated>
-    </task>
-    <task id="LOCAL-00069" summary="完成翻译功能，新增登录功能">
-      <created>1565698347534</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1565698347534</updated>
-    </task>
-    <task id="LOCAL-00070" summary="新增模糊搜索功能">
-      <created>1565784396036</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1565784396037</updated>
-    </task>
-    <task id="LOCAL-00071" summary="完成批量导出，完善前端功能，新增sql查询">
-      <created>1565870415355</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1565870415356</updated>
-    </task>
-    <task id="LOCAL-00072" summary="完善基础代码，新增权限管理">
-      <created>1565956953063</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1565956953068</updated>
-    </task>
-    <task id="LOCAL-00073" summary="新增添加用户的功能，完善前端代码，完成用户操作">
-      <created>1566021131299</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1566021131299</updated>
-    </task>
-    <task id="LOCAL-00074" summary="再更新一点注释">
-      <created>1566021597394</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1566021597394</updated>
-    </task>
-    <task id="LOCAL-00075" summary="完成添加用户的前端页面">
-      <created>1566096993742</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1566096993742</updated>
-    </task>
-    <task id="LOCAL-00076" summary="完成翻页">
-      <created>1566121743257</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1566121743257</updated>
-    </task>
-    <task id="LOCAL-00077" summary="更新分页">
-      <created>1566211197770</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1566211197770</updated>
-    </task>
-    <task id="LOCAL-00078" summary="更新修改密码，会员信息">
-      <created>1566397719002</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1566397719002</updated>
-    </task>
-    <task id="LOCAL-00079" summary="更新了mysql连接，使用customer的时候读取django数据库">
-      <created>1566444671797</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1566444671797</updated>
-    </task>
-    <task id="LOCAL-00080" summary="更改mysql连接数据库自定义带入">
-      <created>1566445027042</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1566445027042</updated>
-    </task>
-    <task id="LOCAL-00081" summary="setting.py设置多数据库">
-      <created>1566458678509</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1566458678509</updated>
-    </task>
-    <task id="LOCAL-00082" summary="更新">
-      <created>1566460172792</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1566460172793</updated>
-    </task>
-    <task id="LOCAL-00083" summary="更新译文入库">
-      <created>1566485315751</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1566485315751</updated>
-    </task>
-    <task id="LOCAL-00084" summary="新增dashboard页">
-      <created>1566489049914</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1566489049914</updated>
     </task>
     <task id="LOCAL-00085" summary="更新详情页前端代码">
       <created>1566574367757</created>
@@ -1475,7 +1275,203 @@
       <option name="project" value="LOCAL" />
       <updated>1567424523016</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="更新">
+      <created>1567479647755</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1567479647755</updated>
+    </task>
+    <task id="LOCAL-00107" summary="搜索页增加显示来源">
+      <created>1567492641002</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1567492641002</updated>
+    </task>
+    <task id="LOCAL-00108" summary="修复五个文章的显示问题">
+      <created>1567584682278</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1567584682278</updated>
+    </task>
+    <task id="LOCAL-00109" summary="合并">
+      <created>1567585513141</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1567585513141</updated>
+    </task>
+    <task id="LOCAL-00110" summary="修复anvilgroup翻译问题">
+      <created>1567585757833</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1567585757833</updated>
+    </task>
+    <task id="LOCAL-00111" summary="修复有标题搜索页码问题">
+      <created>1567589129636</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1567589129636</updated>
+    </task>
+    <task id="LOCAL-00112" summary="修复香港，澳门，台湾地区显示问题">
+      <created>1567592267000</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1567592267000</updated>
+    </task>
+    <task id="LOCAL-00113" summary="更新部门代码">
+      <created>1567598143496</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1567598143497</updated>
+    </task>
+    <task id="LOCAL-00114" summary="新增统计图">
+      <created>1567685294766</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1567685294766</updated>
+    </task>
+    <task id="LOCAL-00115" summary="代码归档">
+      <created>1567685311963</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1567685311963</updated>
+    </task>
+    <task id="LOCAL-00116" summary="译文导出有点小问题">
+      <created>1567750889766</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1567750889766</updated>
+    </task>
+    <task id="LOCAL-00117" summary="调试">
+      <created>1567751387598</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1567751387598</updated>
+    </task>
+    <task id="LOCAL-00118" summary="修改柱状图颜色样式">
+      <created>1567756824047</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1567756824047</updated>
+    </task>
+    <task id="LOCAL-00119" summary="修复anvilgroup统计数量问题">
+      <created>1567756856994</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1567756856994</updated>
+    </task>
+    <task id="LOCAL-00120" summary="完成批量下载">
+      <created>1567757378014</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1567757378014</updated>
+    </task>
+    <task id="LOCAL-00121" summary="更新前端，编辑用户的下载翻译权限">
+      <created>1567769930842</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1567769930842</updated>
+    </task>
+    <task id="LOCAL-00122" summary="完成搜索页下载导出功能">
+      <created>1568028839046</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1568028839046</updated>
+    </task>
+    <task id="LOCAL-00123" summary="完成多表联查">
+      <created>1568099879785</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1568099879785</updated>
+    </task>
+    <task id="LOCAL-00124" summary="完成多表联查">
+      <created>1568100065593</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1568100065593</updated>
+    </task>
+    <task id="LOCAL-00125" summary="修复中国搜索问题">
+      <created>1568103010532</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1568103010532</updated>
+    </task>
+    <task id="LOCAL-00126" summary="更新提交">
+      <created>1568113229642</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1568113229642</updated>
+    </task>
+    <task id="LOCAL-00127" summary="修复anvilgroup导出下载的问题">
+      <created>1568113855619</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1568113855619</updated>
+    </task>
+    <task id="LOCAL-00128" summary="更新统计图">
+      <created>1568196481689</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1568196481690</updated>
+    </task>
+    <task id="LOCAL-00129" summary="新增搜索页提示">
+      <created>1568616260609</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1568616260609</updated>
+    </task>
+    <task id="LOCAL-00130" summary="更新所有list页面">
+      <created>1568703308179</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1568703308179</updated>
+    </task>
+    <task id="LOCAL-00131" summary="完成tags控制">
+      <created>1568801710619</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1568801710619</updated>
+    </task>
+    <task id="LOCAL-00132" summary="合并master">
+      <created>1568858813727</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1568858813728</updated>
+    </task>
+    <task id="LOCAL-00133" summary="更新sql文件">
+      <created>1569480239065</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1569480239065</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1489,61 +1485,62 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32794458" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50160426" side_tool="true" weight="0.2482679" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.49893048" weight="0.2990762" />
+      <window_info anchor="bottom" id="File Transfer" order="8" sideWeight="0.49893048" weight="0.15935335" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4983957" weight="0.2482679" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32794458" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786097" visible="true" weight="0.34757507" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786097" weight="0.2886836" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983957" weight="0.16628176" />
-      <window_info active="true" content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.49685535" visible="true" weight="0.1802139" />
+      <window_info active="true" content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.49685535" visible="true" weight="0.18930481" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3295964" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32975295" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32941177" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2990762" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32941177" />
       <window_info id="Structure" order="1" sideWeight="0.5031447" side_tool="true" weight="0.13957219" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="9" weight="0.3290993" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.2990762" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="9" weight="0.3290993" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="16" weight="0.3290993" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.3295964" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.20641711" />
-      <window_info id="Structure" order="1" sideWeight="0.5021521" side_tool="true" weight="0.16165413" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info active="true" content_ui="combo" x="829" y="194" width="262" height="651" id="Project" order="0" sideWeight="0.49685535" visible="true" weight="0.18930481" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.3295964" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4983957" weight="0.2482679" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32794458" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4983957" weight="0.4064665" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.2990762" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3995381" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32975295" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.3290993" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50160426" side_tool="true" weight="0.3221709" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.2482679" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32975295" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="14" sideWeight="0.49946293" visible="true" weight="0.24249423" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32794458" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32941177" />
+      <window_info id="Structure" order="1" sideWeight="0.5031447" side_tool="true" weight="0.13957219" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="15" sideWeight="0.49893048" weight="0.15935335" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32794458" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786097" visible="true" weight="0.3487298" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2990762" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4983957" weight="0.16628176" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50160426" side_tool="true" weight="0.2482679" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32794458" />
     </layout-to-restore>
   </component>
@@ -1553,6 +1550,16 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1584,35 +1591,42 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更改mysql连接数据库自定义带入" />
-    <MESSAGE value="setting.py设置多数据库" />
-    <MESSAGE value="更新译文入库" />
-    <MESSAGE value="新增dashboard页" />
-    <MESSAGE value="更新详情页前端代码" />
-    <MESSAGE value="后端代码更新" />
-    <MESSAGE value="更新国家代码dict" />
-    <MESSAGE value="更新anvilgroup" />
-    <MESSAGE value="更新anvilgroup显示国家" />
-    <MESSAGE value="文章详情页添加显示来源url" />
-    <MESSAGE value="更新list页显示国家" />
-    <MESSAGE value="完成mondaq的翻页功能" />
-    <MESSAGE value="翻页组件" />
-    <MESSAGE value="1、完成跳转翻页&#10;2、基础代码优化" />
-    <MESSAGE value="合并了master分支" />
-    <MESSAGE value="最后优化了一点mondaq，添加grada的三个字段" />
-    <MESSAGE value="更新下载次数和翻译次数" />
-    <MESSAGE value="更新" />
-    <MESSAGE value="完善翻译下载限制功能" />
-    <MESSAGE value="增加一个code判断" />
-    <MESSAGE value="更新次数计数" />
-    <MESSAGE value="其他基础优化" />
-    <MESSAGE value="更新了最新的权限控制" />
-    <MESSAGE value="多来源搜索" />
-    <MESSAGE value="修改了个小bug，所有view方法都加上了login_require装饰器" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了个小bug，所有view方法都加上了login_require装饰器" />
+    <MESSAGE value="修复五个文章的显示问题" />
+    <MESSAGE value="合并" />
+    <MESSAGE value="修复anvilgroup翻译问题" />
+    <MESSAGE value="修复有标题搜索页码问题" />
+    <MESSAGE value="修复香港，澳门，台湾地区显示问题" />
+    <MESSAGE value="更新部门代码" />
+    <MESSAGE value="新增统计图" />
+    <MESSAGE value="代码归档" />
+    <MESSAGE value="译文导出有点小问题" />
+    <MESSAGE value="调试" />
+    <MESSAGE value="修改柱状图颜色样式" />
+    <MESSAGE value="修复anvilgroup统计数量问题" />
+    <MESSAGE value="完成批量下载" />
+    <MESSAGE value="更新前端，编辑用户的下载翻译权限" />
+    <MESSAGE value="完成搜索页下载导出功能" />
+    <MESSAGE value="完成多表联查" />
+    <MESSAGE value="修复中国搜索问题" />
+    <MESSAGE value="更新提交" />
+    <MESSAGE value="修复anvilgroup导出下载的问题" />
+    <MESSAGE value="更新统计图" />
+    <MESSAGE value="新增搜索页提示" />
+    <MESSAGE value="更新所有list页面" />
+    <MESSAGE value="完成tags控制" />
+    <MESSAGE value="合并master" />
+    <MESSAGE value="更新sql文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新sql文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/dengxin_scrapy_web/scripts/export_file.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1623,7 +1637,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="58" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1643,359 +1657,329 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://G:/rrjc_django/script/start_docker.py">
+    <entry file="file://C:/Python37/Lib/asyncio/events.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+        <state relative-caret-position="280">
+          <caret line="738" column="4" selection-start-line="738" selection-start-column="4" selection-end-line="738" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/customer/useradd.html">
+    <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/test6.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/test5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/test4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="89" column="43" lean-forward="true" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
-        </state>
+        <state relative-caret-position="-1149" />
       </provider>
     </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/customer/userinfo.html">
+    <entry file="file://$PROJECT_DIR$/爬虫/豆瓣电影_表格_翻页.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-749" />
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/customer/userlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="76" column="78" lean-forward="true" selection-start-line="76" selection-start-column="78" selection-end-line="76" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/detail/grada_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="135" column="37" lean-forward="true" selection-start-line="135" selection-start-column="37" selection-end-line="135" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/customer/useredit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="175" column="24" lean-forward="true" selection-start-line="175" selection-start-column="24" selection-end-line="177" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/osac_dispaly.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="142" column="39" lean-forward="true" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/自动化/create_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101" />
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/scripts/translater.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/mondaq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/translated.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/rrjc_work/自动化/auto_yasuo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="72">
+          <caret line="4" column="29" lean-forward="true" selection-end-line="53" />
           <folding>
-            <element signature="e#61#87#0" expanded="true" />
+            <element signature="e#17#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/initsys.retry">
+    <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/docker/templates/docker-ce.repo">
+    <entry file="file://D:/kubernets/rrjc/awesec/pip.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
+        <state relative-caret-position="54">
+          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/test-awesec/install-instantclient.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/豆瓣电影_图片下载.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="e#81#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/风险管理部/multi_linux_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1984" />
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/自动化/auto_send_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#16#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/自动化/anto_check_printer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/风险管理部/entropy_end_fix944.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/spiders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_django/rrjc_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/多线程爬虫/multi-douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="e#81#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/rrjc_work/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/docker/Dockerlist.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080">
+          <caret line="126" column="29" lean-forward="true" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/docker/Dockerserver.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/dashboard/index.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/login/Login.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/multitask/Ansible.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5138" />
+      </provider>
+    </entry>
+    <entry file="file://E:/vue-admin-template/src/views/multitask/Cmdb.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3194" />
+      </provider>
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/test-nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/kubeasz/manifests/ingress/traefik/traefik-ingress.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
           <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/grada_display.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="49" column="97" lean-forward="true" selection-start-line="49" selection-start-column="97" selection-end-line="49" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/anvilgroup_display.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/osac_display.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/chinhphu_display.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/initsys/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/initsys/tasks/redhat.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/kube-node/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/kube-node/templates/kubernetes.repo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/kube-node/templates/kubeadm.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/docker/tasks/redhat.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/docker_install.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/kubernetes/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/kube_node.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/dispaly.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/scripts/mysql_connect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/kube-node/tasks/redhat.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/kube_master.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/kubernetes/templates/calico.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/db/customer.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/kubernetes/tasks/redhat.yml">
+    <entry file="file://D:/kubernets/rrjc/awesec/install-instantclient.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/search/searchpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
-          <folding>
-            <element signature="e#1301#1321#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/roles/roles/kubernetes/templates/calico3.8.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7825">
-          <caret line="771" column="9" lean-forward="true" selection-start-line="771" selection-start-column="9" selection-end-line="771" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/scripts/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="136" column="51" selection-start-line="136" selection-start-column="51" selection-end-line="136" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/scripts/downloadexcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/scripts/handletranslate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-844">
-          <caret line="122" column="17" lean-forward="true" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
-          <folding>
-            <element signature="e#61#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/scrapy_web/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/newsweb/mondaq_display.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="74" column="28" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/newsweb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
-          <folding>
-            <element signature="e#61#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/newsweb/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="75" selection-start-line="75" selection-end-line="76" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/customer/views.py">
+    <entry file="file://$PROJECT_DIR$/oracle/con_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="57" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dengxin_scrapy_web/scripts/customer_functions.py">
+    <entry file="file://D:/kubernets/rrjc/awesec/awesec/asset/assettool/mysqlutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#62#103#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-270" />
       </provider>
     </entry>
-    <entry file="file://D:/dengxin_scrapy_web/scripts/pageup.py">
+    <entry file="file://D:/kubernets/rrjc/awesec/awesec/awesec/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/django/urls/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        <state relative-caret-position="72">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dengxin_scrapy_web/search/action.py">
+    <entry file="file://D:/kubeasz/manifests/ingress/traefik/traefik-ui.ing.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/awesec/awesec/awesec/login/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="359">
+          <caret line="225" column="4" selection-start-line="225" selection-start-column="4" selection-end-line="225" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dengxin_scrapy_web/search/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/index.html">
+    <entry file="file://D:/kubernets/rrjc/awesec/awesec/awesec/templates/navigation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="51" column="50" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="50" />
+          <caret line="111" column="57" lean-forward="true" selection-start-line="111" selection-start-column="57" selection-end-line="111" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/dengxin_scrapy_web/templates/search/search_list.html">
+    <entry file="file://D:/kubernets/rrjc/awesec/awesec/awesec/login/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+        <state relative-caret-position="72">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/awesec/awesec/awesec/awesec/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#640#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/awesec/awesec/awesec/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/awesec/awesec-nodeport.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/test-awesec/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/awesec/awesec/awesec/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/awesec/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="74" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/test-nginx/nginx-file-nodeport.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/test-tomcat/tomcat-deploy.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/test-tomcat/ingress-tomcat.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/test-awesec/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/multi-spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="107" column="27" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
+          <folding>
+            <element signature="e#22#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/xiaojiejie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/豆瓣电影.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/豆瓣电影_图表分析.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/kubernets/rrjc/test-awesec/awesec-nodeport.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/bad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
