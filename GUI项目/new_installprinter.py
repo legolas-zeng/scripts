@@ -15,7 +15,7 @@ FONT_2 = ('Arial', 12, 'normal')
 PRINTER = {
     '1' : ["客服中心打印机","192.168.10.237","KONICA MINOLTA C364SeriesPCL"],
     '2' : ["前台打印机","192.168.23.238","FX ApeosPort-V 3060 PCL 6"],
-    '3' : ["财务打印机","192.168.10.239","FX ApeosPort-V 3060 PCL 6"],
+    '3' : ["财务打印机","192.168.23.237","FX ApeosPort-V 3060 PCL 6"],
 }
 
 class Application(ttk.Frame):
@@ -58,6 +58,7 @@ class Application(ttk.Frame):
         # self.text.grid(row=1,rowspan=4, column=4,ipadx=10)
 
         self.frame2.pack(side=LEFT)
+
     def createtext(self):
         self.frame3 = tk.Frame(self.master)
         self.text = Text(self.frame3, width=60, height=7)
@@ -65,14 +66,12 @@ class Application(ttk.Frame):
         self.frame3.pack()
 
     '''
-    rundll32 printui.dll,PrintUIEntry /dl /n 打印机192.168.23.238 /q
+    rundll32 printui.dll,PrintUIEntry /dl /n 打印机xxx.xxx.xxx.xxx /q
     '''
     def heandle(self):
         try:
             add_port = "Cscript C:\Windows\System32\Printing_Admin_Scripts\zh-CN\Prnport.vbs -a -r IP_%s -h %s -o raw"
             install_printer = "rundll32 printui.dll,PrintUIEntry /if /b 打印机%s /f \"%s\" /r IP_%s /m \"%s\" /z"
-            inf_4471 = "\\\\192.168.3.93\\all\打印机\\4471彩机\%s\Software\PCL\\amd64\Simplified_Chinese\\001\FX6BEAL.inf"
-            # inf_3060_10 = "\\\\192.168.3.93\\all\打印机\\3060黑白\win10 64\PCL\\amd64\\001\FX6MHAL.inf"
             inf_3060  = "\\\\192.168.3.93\\all\打印机\\3060黑白\%s\cswnd\PCL\\amd64\\001\FX6MHAL.inf"
             inf_c640e = "\\\\192.168.3.93\\all\打印机\\C364e彩机\%s\BHC554ePCL6Winx64_5400ZH-CN\KOAYTJ__.INF"
             sys_info = self.Jud_sys_version()
@@ -87,20 +86,21 @@ class Application(ttk.Frame):
                 self.text.insert(INSERT, "已创建/更新端口%s\n端口添加成功！！\n" % (ip))
                 self.text.insert(INSERT, "开始执行安装程序.....\n")
                 if retcode == 0:
-                    if v == '1' or v == '2':
-                        inf_path = inf_4471%(sys_info.get('version')+' '+sys_info.get('machine'))
-                        # time.sleep(2)
+                    # 安装科美打印机
+                    if v == '1' :
+                        inf_path = inf_c640e %(sys_info.get('version')+' '+sys_info.get('machine'))
+                        print("打印命令：",install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
                         retcode1,output1 = gso(install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
                         # print(install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
                         if retcode1 == 0:
                             self.text.insert(INSERT, "安装程序开始执行，后台服务安装中,请稍后......\n")
-                            # time.sleep(5)
                             self.text.insert(INSERT, "安装程序完成\n")
                             self.text.insert(INSERT, "稍等几分钟后，请打开控制面板查看新的打印机")
                             retcode2, output2 = gso("control")
                         else:
                             self.text.insert(INSERT,"安装程序出错，请联系管理员！！！！")
-                    if v == '3':
+                    # 安装富士乐施打印机
+                    if v == '2' or v == '3' :
                         inf_path = inf_3060 % (sys_info.get('version') + ' ' + sys_info.get('machine'))
                         retcode1, output1 = gso(install_printer % (ip, inf_path, ip, PRINTER.get(v)[2]))
                         if retcode1 == 0:
@@ -140,7 +140,7 @@ class Application(ttk.Frame):
 if __name__ == '__main__':
     path = os.getcwd()
     windows = tk.Tk()
-    windows.title('自动安装程序V1.0')
-    # windows.geometry('1050x700')
+    windows.title('自动安装程序V2.0')
+    windows.geometry('800x700')
     windows.iconbitmap(path+'\conf\\print.ico')
     Application(master=windows)
