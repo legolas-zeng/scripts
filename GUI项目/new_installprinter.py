@@ -7,7 +7,7 @@ import tkinter as tk
 from tkinter import *
 import tkinter.ttk as ttk
 from tkinter import messagebox
-import platform,os
+import platform,os,zipfile,requests,shutil
 from subprocess import getstatusoutput as gso
 
 FONT_1 = ('微软雅黑', 14, 'normal')
@@ -17,6 +17,7 @@ PRINTER = {
     '2' : ["前台打印机","192.168.23.238","FX ApeosPort-V 3060 PCL 6"],
     '3' : ["财务打印机","192.168.23.237","FX ApeosPort-V 3060 PCL 6"],
 }
+path = os.getcwd()
 
 class Application(ttk.Frame):
     def __init__(self, master=None):
@@ -31,7 +32,7 @@ class Application(ttk.Frame):
 
     def createimage(self):
         self.canvas = tk.Canvas(self.master,height=577,width=1046)   # 定义顶部的image Frame
-        self.photo = tk.PhotoImage(file=self.path+"\conf\\2020.png")
+        self.photo = tk.PhotoImage(file=self.path+"\conf\\20200.png")
         # self.imgLabel = tk.Label(self.frame1, image=self.photo)
         # self.imgLabel.pack(side=TOP)
         self.canvas.create_image(0,0,anchor='nw',image=self.photo)
@@ -69,12 +70,11 @@ class Application(ttk.Frame):
     rundll32 printui.dll,PrintUIEntry /dl /n 打印机xxx.xxx.xxx.xxx /q
     '''
     def heandle(self):
+        sys_info = self.Jud_sys_version()
+        system_version =  sys_info.get('version')+' '+sys_info.get('machine')
         try:
             add_port = "Cscript C:\Windows\System32\Printing_Admin_Scripts\zh-CN\Prnport.vbs -a -r IP_%s -h %s -o raw"
             install_printer = "rundll32 printui.dll,PrintUIEntry /if /b 打印机%s /f \"%s\" /r IP_%s /m \"%s\" /z"
-            inf_3060  = "\\\\192.168.3.93\\all\打印机\\3060黑白\%s\cswnd\PCL\\amd64\\001\FX6MHAL.inf"
-            inf_c640e = "\\\\192.168.3.93\\all\打印机\\C364e彩机\%s\BHC554ePCL6Winx64_5400ZH-CN\KOAYTJ__.INF"
-            sys_info = self.Jud_sys_version()
             v = self.v.get()
             r = self.msg(1,"确定安装%s吗？，此操作会将之前安装的打印机覆盖。"%(PRINTER.get(v)[0]))
             # r = messagebox.askokcancel('消息框', "确定安装%s吗？"%(PRINTER.get(v)[0]))
@@ -82,16 +82,29 @@ class Application(ttk.Frame):
             self.pc_data = self.Jud_sys_version()
             if r :
                 retcode, output = gso(add_port % (ip, ip))
-                # print(add_port % (ip, ip))
-                self.text.insert(INSERT, "已创建/更新端口%s\n端口添加成功！！\n" % (ip))
-                self.text.insert(INSERT, "开始执行安装程序.....\n")
+                print("添加端口命令：", add_port % (ip, ip))
+                if jud_samba():
+                    inf_3060 = "\\\\192.168.3.93\\all\打印机\\3060黑白\%s\cswnd\PCL\\amd64\\001\FX6MHAL.inf"
+                    inf_c640e = "\\\\192.168.3.93\\all\打印机\\C364e彩机\%s\BHC554ePCL6Winx64_5400ZH-CN\KOAYTJ__.INF"
+                else:
+                    inf_3060 = path + "\print\%s\PCL\\amd64\\001\FX6MHAL.inf"
+                    inf_c640e = path + "\print\%s\KOAYTJ__.INF"
+                    self.text.insert(INSERT, "已创建/更新端口%s\n端口添加成功！！\n" % (ip))
+                    judge_info = judge()
+                    self.text.insert(INSERT, judge_info)
+                    downloaDriveInfo = downloaDrive(system_version, v)
+                    self.text.insert(INSERT, downloaDriveInfo)
+                    unzipFileInfo = unzipFile(path + "\print.zip", path + "\print")
+                    self.text.insert(INSERT, unzipFileInfo)
+                    self.text.insert(INSERT, "开始执行安装程序.....\n")
                 if retcode == 0:
                     # 安装科美打印机
                     if v == '1' :
-                        inf_path = inf_c640e %(sys_info.get('version')+' '+sys_info.get('machine'))
+                        inf_path = inf_c640e % system_version
+                        print("inf路径：",inf_path)
                         print("打印命令：",install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
                         retcode1,output1 = gso(install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
-                        # print(install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
+                        print(install_printer%(ip,inf_path,ip,PRINTER.get(v)[2]))
                         if retcode1 == 0:
                             self.text.insert(INSERT, "安装程序开始执行，后台服务安装中,请稍后......\n")
                             self.text.insert(INSERT, "安装程序完成\n")
@@ -102,6 +115,8 @@ class Application(ttk.Frame):
                     # 安装富士乐施打印机
                     if v == '2' or v == '3' :
                         inf_path = inf_3060 % (sys_info.get('version') + ' ' + sys_info.get('machine'))
+                        print("inf路径：",inf_path)
+                        print("打印命令：", install_printer % (ip, inf_path, ip, PRINTER.get(v)[2]))
                         retcode1, output1 = gso(install_printer % (ip, inf_path, ip, PRINTER.get(v)[2]))
                         if retcode1 == 0:
                             self.text.insert(INSERT, "安装程序开始执行，后台服务安装中,请稍后......\n")
@@ -135,12 +150,65 @@ class Application(ttk.Frame):
             'version' : version,
             'machine' : machine,
         }
+        print(data)
         return data
 
+def jud_samba() -> bool:
+    if os.path.exists("\\\\192.168.3.93\\all\打印机\\3060黑白\win10 64\PCL\\amd64\\001\FX6MHAL.inf"):
+        print("使用共享文件")
+        return True
+    else:
+        print("使用http")
+        return False
+
+
+def downloaDrive(systemVersion:str,printModel:str) -> str:
+    # print(systemVersion,printModel)
+    if systemVersion == "win7 64":
+        if printModel != "1":
+            url = "http://192.168.3.16/download/%E6%89%93%E5%8D%B0%E6%9C%BA/3060%E9%BB%91%E7%99%BD/win7%2064.zip"
+        elif printModel == "1":
+            url = "http://192.168.3.16/download/%E6%89%93%E5%8D%B0%E6%9C%BA/c640e%E5%BD%A9%E6%9C%BA/win7%2064.zip"
+    elif systemVersion == "win10 64":
+        if printModel != "1":
+            url = "http://192.168.3.16/download/%E6%89%93%E5%8D%B0%E6%9C%BA/3060%E9%BB%91%E7%99%BD/win10%2064.zip"
+        elif printModel == "1":
+            url = "http://192.168.3.16/download/%E6%89%93%E5%8D%B0%E6%9C%BA/c640e%E5%BD%A9%E6%9C%BA/win10%2064.zip"
+    zipPath = path + "\print.zip"
+    r = requests.get(url)
+    try:
+        with open(zipPath, "wb") as code:
+            code.write(r.content)
+    except Exception:
+        return "驱动下载错误。请联系运维！\n"
+    return "驱动下载成功！\n"
+
+def judge () -> str:
+    try:
+        if os.path.exists(path + "\print.zip"):
+            os.remove(path + "\print.zip")
+        if os.path.exists(path + "\print"):
+            shutil.rmtree(path + "\print",True)
+    except Exception:
+        return "环境清理失败!\n"
+    return "环境清理完成!\n"
+
+
+def unzipFile(zip_src:str, dst_dir:str) -> str:
+    r = zipfile.is_zipfile(zip_src)
+    if r:
+        fz = zipfile.ZipFile(zip_src, 'r')
+        for file in fz.namelist():
+            fz.extract(file, dst_dir)
+        return "驱动解压完成！\n"
+    else:
+        print('This is not zip')
+        return "驱动解压失败！\n"
+
+
 if __name__ == '__main__':
-    path = os.getcwd()
     windows = tk.Tk()
-    windows.title('自动安装程序V2.0')
+    windows.title('自动安装程序V2.1')
     windows.geometry('800x700')
     windows.iconbitmap(path+'\conf\\print.ico')
     Application(master=windows)
