@@ -1,7 +1,8 @@
 @echo off
-set url=http://127.0.0.1:9999/win10%2064.zip
 
-bitsadmin /rawreturn /transfer getfile https://mirrors.tuna.tsinghua.edu.cn/zabbix/zabbix/4.5/rhel/7/x86_64/zabbix-release-4.5-2.el7.noarch.rpm c:\p.rpm
+bitsadmin /transfer down /download /priority normal "http://192.168.3.16/download/%%E6%%89%%93%%E5%%8D%%B0%%E6%%9C%%BA/3060%%E9%%BB%%91%%E7%%99%%BD/win10%%2064.zip" "c:\print.zip"
 
-
-bitsadmin /transfer down /download /priority normal https://mirrors.tuna.tsinghua.edu.cn/zabbix/zabbix/4.5/rhel/7/x86_64/zabbix-release-4.5-2.el7.noarch.rpm c:\p.rpm
+cd /d C:\
+if  exist print.zip (
+    "%rar%" x -ad -y *.zip  C:\Users\libin\Desktop\人人 &del *.zip
+)

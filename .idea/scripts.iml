@@ -4,17 +4,16 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.7 (scripts)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="rrjc_django" />
     <orderEntry type="module" module-name="django_test" />
     <orderEntry type="module" module-name="legolas_vue" />
-    <orderEntry type="module" module-name="rrjc_work" />
     <orderEntry type="module" module-name="vue-admin-template" />
     <orderEntry type="module" module-name="scrapy_web" />
     <orderEntry type="module" module-name="dengxin_scrapy_web" />
     <orderEntry type="module" module-name="roles" />
-    <orderEntry type="module" module-name="kubernets" />
     <orderEntry type="module" module-name="tmsyManager" />
-    <orderEntry type="module" module-name="BullshitGenerator" />
     <orderEntry type="module" module-name="kubeasz" />
+    <orderEntry type="module" module-name="rrjc_django" />
+    <orderEntry type="module" module-name="rrjc_work" />
+    <orderEntry type="module" module-name="kubernetes" />
   </component>
 </module>

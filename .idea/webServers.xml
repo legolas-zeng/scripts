@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="321c3afa-a1f9-427c-91b3-ef0b3f211bab" name="192.168.3.16" url="http://192.168.3.16">
+        <fileTransfer rootFolder="/home/ansible/service_init" accessType="SFTP" host="192.168.3.16" port="22" sshConfigId="03331c28-fe56-4f47-adb2-cf088772ca20" sshConfig="192.168.3.16">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="93066981-9c06-473a-bb90-fccb347b1604" name="192.168.3.5" url="http://192.168.3.5">
+        <fileTransfer rootFolder="/root/" accessType="SFTP" host="192.168.3.5" port="22" sshConfigId="383704b1-c9d9-4833-bb99-01309a971042" sshConfig="192.168.3.5">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="32ad8c80-2639-4b8c-97cd-8b476a2f303d" name="192.168.3.17">
+        <fileTransfer rootFolder="/data/kubernets" accessType="SFTP" host="192.168.3.17" port="22" sshConfigId="2f24c56f-67fc-4b00-a859-d411419be922" sshConfig="192.168.3.17">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
