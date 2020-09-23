@@ -168,14 +168,14 @@ def downloaDrive(systemVersion:str,printModel:str) -> str:
     # print(systemVersion,printModel)
     if systemVersion == "win7 64":
         if printModel != "1":
-            url = "http://192.168.3.16/download/%E6%89%93%E5%8D%B0%E6%9C%BA/3060%E9%BB%91%E7%99%BD/win7%2064.zip"
+            url = "http://192.168.3.5/download/%E6%89%93%E5%8D%B0%E6%9C%BA/3060%E9%BB%91%E7%99%BD/win7%2064.zip"
         elif printModel == "1":
-            url = "http://192.168.3.16/download/%E6%89%93%E5%8D%B0%E6%9C%BA/c640e%E5%BD%A9%E6%9C%BA/win7%2064.zip"
+            url = "http://192.168.3.5/download/%E6%89%93%E5%8D%B0%E6%9C%BA/c640e%E5%BD%A9%E6%9C%BA/win7%2064.zip"
     elif systemVersion == "win10 64":
         if printModel != "1":
-            url = "http://192.168.3.16/download/%E6%89%93%E5%8D%B0%E6%9C%BA/3060%E9%BB%91%E7%99%BD/win10%2064.zip"
+            url = "http://192.168.3.5/download/%E6%89%93%E5%8D%B0%E6%9C%BA/3060%E9%BB%91%E7%99%BD/win10%2064.zip"
         elif printModel == "1":
-            url = "http://192.168.3.16/download/%E6%89%93%E5%8D%B0%E6%9C%BA/c640e%E5%BD%A9%E6%9C%BA/win10%2064.zip"
+            url = "http://192.168.3.5/download/%E6%89%93%E5%8D%B0%E6%9C%BA/c640e%E5%BD%A9%E6%9C%BA/win10%2064.zip"
     zipPath = path + "\print.zip"
     r = requests.get(url)
     try:
@@ -210,7 +210,7 @@ def unzipFile(zip_src:str, dst_dir:str) -> str:
 
 if __name__ == '__main__':
     windows = tk.Tk()
-    windows.title('自动安装程序V2.1')
+    windows.title('自动安装程序V3.0')
     windows.geometry('800x720')
     windows.iconbitmap(path+'\conf\\print.ico')
     Application(master=windows)

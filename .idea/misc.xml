@@ -19,6 +19,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="WebPackConfiguration">
+    <option name="path" value="F:/kubeman/node_modules/@vue/cli-service/webpack.config.js" />
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ScopeChooserConfigurable.UI">
