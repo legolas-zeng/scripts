@@ -13,21 +13,21 @@ def get(url: str) -> dict:
     failed = {'msg': 'failed...'}
     headers = {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25",
-        "Cookie": "did=web_68e0268146694843a92700d2de49a0a6;"
+        "Cookie": "did=web_d374c1dfd56248fb412e64155a5b5b28;"
     }
     # rewrite desktop url
     temp = re.findall(r'live\.kuaishou\.com/u/\w+/(\w+)', url)
+    print(temp)
     if temp:
         url = 'https://c.kuaishou.com/fw/photo/{}'.format(temp[0])
 
     rep = requests.get(url, headers=headers, timeout=10)
     if rep.status_code != 200:
         return failed
-
     page_data = re.findall(r'<script type="text/javascript">window\.pageData= (\{.*?\})</script>', rep.text)
+    print(page_data)
     if not page_data:
         return failed
-
     try:
         page_data = json.loads(page_data[0])
     except Exception:
@@ -61,6 +61,7 @@ def get(url: str) -> dict:
 
 
 if __name__ == "__main__":
-    print(get(url="https://v.kuaishou.com/7CmagI"))
+    print(get(url="https://live.kuaishou.com/u/kissyou696773/3x9vpmn3n4ihvg6?did=web_d374c1dfd56248fb412e64155a5b5b28"))
+    # print(get(url="https://v.kuaishou.com/7CmagI"))
     # from pprint import pprint
     # pprint(get(input("url: ")))

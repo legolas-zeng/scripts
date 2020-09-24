@@ -36,4 +36,5 @@ def GetRealUrl(url):
 
 if __name__ == '__main__':
     # 这里写视频地址
+    # GetRealUrl('https://v.kuaishou.com/7CmagI')
     GetRealUrl('https://v.kuaishou.com/7CmagI')

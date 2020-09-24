@@ -70,6 +70,7 @@ class Kuaishou:
         '''
         此处容易报错，应该是对请求的频率有限制
         '''
+        print(data)
         url = data['feedById']['currentWork']['playUrl']
         return url
 
