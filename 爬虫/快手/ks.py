@@ -19,7 +19,7 @@ WORK_URL = "https://m.gifshow.com/fw/photo/"
 
 
 class Crawler:
-    __param_did = ""
+    __param_did = "web_8b1ef0506c146c24627a858c9a646ad2"
 
     __headers_web = {
         'accept': '*/*',
@@ -29,11 +29,13 @@ class Crawler:
         'Content-Type': 'application/json',
         'Host': 'live.kuaishou.com',
         'Origin': 'https://live.kuaishou.com',
+        'Sec - Fetch - Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-origin',
         # User-Agent/Cookie 根据自己的电脑修改
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
-        'Cookie': ''
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+        'Cookie':"kuaishou.live.bfb1s=477cb0011daca84b36b3a4676857e5a1; clientid=3; did=web_8b1ef0506c146c24627a858c9a646ad2; client_key=65890b29; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600700772; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600700772; userId=1717892941; WEBLOGGER_INCREAMENT_ID_KEY=1077; WEBLOGGER_HTTP_SEQ_ID=499; didv=1600953928773; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAZayio1TBMDSVZDVkJmLbyuW7MNERyxQIGhwjvco2JMSqLFu_tlRoAd8Uy1D2rbQzMclMqkjiXa5xZBJpGnZtsLi9I4Ws3lkjhmncJmzE3f1b2lmSTYmZV-9CMV5z57mVp7p0PqHKMxzte_lf2ecaFocmmMNBY29DPtEnHpcWG39wrpFgpN6ef8cwZZjD9hyDN0anlyZURrsFcJJz-53CGAaEhq2DZZ7DUHSmXUzdRyAf3O3USIgcLrAPl-xmM6dKJ_5P5b037vgmY26hCV0WYzCnRLdeZAoBTAB; kuaishou.live.web_ph=4fbf10219c35ae39ef23548cc7ba35897fb1; userId=1717892941",
+        # 'Cookie':'',
     }
     __headers_mobile = {
         'User-Agent': 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-cn; BLA-AL00 Build/HUAWEIBLA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.9 Mobile Safari/537.36'
@@ -78,7 +80,7 @@ class Crawler:
         res = requests.post(DATA_URL, headers=self.__headers_web, json=payload)
         print(json.loads(res.content.decode(encoding='utf-8', errors='strict')))
         works = json.loads(res.content.decode(encoding='utf-8', errors='strict'))['data']['privateFeeds']['list']
-
+        print(works)
         if not os.path.exists("../data"):
             os.makedirs("../data")
 
@@ -104,7 +106,7 @@ class Crawler:
 
         for j in range(len(works)):
             self.__crawl_work(dir, works[j], j + 1)
-            time.sleep(1)
+            time.sleep(2)
 
         print("用户 " + name + "爬取完成!")
         print()
@@ -119,9 +121,13 @@ class Crawler:
     '''
 
     def __crawl_work(self, dir, work, wdx, like=False):
+        # 作品类型
         w_type = work['workType']
+        # 标题
         w_caption = re.sub(r"\s+", " ", work['caption'])
+
         w_name = re.sub(r'[\\/:*?"<>|\r\n]+', "", w_caption)[0:24]
+        # 时间
         w_time = time.strftime('%Y-%m-%d', time.localtime(work['timestamp'] / 1000))
         w_index = ""
         if not like:
@@ -149,10 +155,11 @@ class Crawler:
                 else:
                     print("    " + str(i + 1) + "/" + str(l) + " 图片 " + p_name + " 已存在 √")
         elif w_type == 'video':
-            w_url = WORK_URL + work['id']
-            res = requests.get(w_url, headers=self.__headers_mobile,
-                               params={"did": self.__param_did})
+            w_url = WORK_URL + work['id'] +"?did="+ self.__param_did
+            print("视频请求地址：",w_url)
+            res = requests.get(w_url, headers=self.__headers_mobile,)
             html = res.text
+            print(html)
             # with open("data/" + work['id'] + ".html", "w") as fp:
             #     fp.write(html)
             pattern = '"srcNoMark":"(https:.*?).mp4'
@@ -238,7 +245,7 @@ def crawl():
     param_did = "web_d374c1dfd56248fb412e64155a5b5b28"
     crawler.set_did(param_did)
 
-    uid = "kissyou696773"
+    uid = "qiuqiuya0708"
     crawler.add_to_list(uid)
 
     crawler.crawl()

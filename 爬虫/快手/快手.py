@@ -65,7 +65,6 @@ def crawl_user(uid):
     print(" 共有" + str(len(works)) + "个作品")
 
     for j in range(len(works)):
-        print(works[j])
         crawl_work(uid, dir, works[j], j + 1)
         time.sleep(1)
     print("用户 " + name + "爬取完成!")
@@ -124,11 +123,67 @@ def crawl_work(uid, dir, work, wdx):
             with open(video, "wb") as f:
                 f.write(r.content)
             print("视频地址：",v_url)
+            print("无水印地址：",noshuiyin(v_url))
+
             print("    视频 " + v_name + " 下载成功 √")
         else:
             print("    视频 " + v_name + " 已存在 √")
     else:
         print("错误的类型")
+
+def noshuiyin(url: str) -> dict:
+    """
+    title、imgs、videos
+    """
+    data = {}
+    failed = {'msg': 'failed...'}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25",
+        "Cookie": "did=web_d374c1dfd56248fb412e64155a5b5b28;"
+    }
+    # rewrite desktop url
+    temp = re.findall(r'live\.kuaishou\.com/u/\w+/(\w+)', url)
+    print(temp)
+    if temp:
+        url = 'https://c.kuaishou.com/fw/photo/{}'.format(temp[0])
+
+    rep = requests.get(url, headers=headers, timeout=10)
+    if rep.status_code != 200:
+        return failed
+    page_data = re.findall(r'<script type="text/javascript">window\.pageData= (\{.*?\})</script>', rep.text)
+    print(page_data)
+    if not page_data:
+        return failed
+    try:
+        page_data = json.loads(page_data[0])
+    except Exception:
+        print('kuaishou loads json failed')
+        return failed
+
+    video_info = page_data['video']
+    data['title'] = video_info['caption']
+    # 获取视频
+    try:  # 如果出错，则可能是长图视频
+        data['videos'] = [video_info['srcNoMark']]
+    except Exception:
+        pass
+    else:
+        data['videoName'] = data['title']
+        data['msg'] = '如果快手视频下载出错请尝试更换网络'
+    # 获取图片
+    try:  # 如果出错，则可能是普通视频；
+        images = video_info['images']
+        imageCDN: str = video_info['imageCDN']
+        # 如果是长图视频，则这几项一定存在
+        assert images is not None
+        assert imageCDN is not None
+    except Exception:
+        pass
+    else:
+        if not imageCDN.startswith('http'):
+            imageCDN = 'http://' + imageCDN
+        data['imgs'] = [imageCDN + i['path'] for i in images]
+    return data
 
 
 def read_preset():
