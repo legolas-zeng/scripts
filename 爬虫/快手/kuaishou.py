@@ -1,9 +1,9 @@
 # coding=utf-8
 import json
 import re
-
 import requests
 
+# TODO 可以用
 
 def get(url: str) -> dict:
     """
@@ -61,8 +61,8 @@ def get(url: str) -> dict:
 
 
 if __name__ == "__main__":
-    print(get(url="https://live.kuaishou.com/u/kissyou696773/3x9vpmn3n4ihvg6"))
-    # print(get(url="https://v.kuaishou.com/6FXp0H"))
+    # print(get(url="https://live.kuaishou.com/u/kissyou696773/3x9vpmn3n4ihvg6"))
+    print(get(url="https://v.kuaishou.com/6FXp0H"))
     # print(get(url="https://v.kuaishou.com/7CmagI"))
     # from pprint import pprint
     # pprint(get(input("url: ")))

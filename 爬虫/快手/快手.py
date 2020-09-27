@@ -28,13 +28,14 @@ headers = {
     'Content-Type': 'application/json',
     'Host': 'live.kuaishou.com',
     'Origin': 'https://live.kuaishou.com',
+    'Sec-Fetch-Dest': 'empty',
     'Sec-Fetch-Mode': 'cors',
     'Sec-Fetch-Site': 'same-origin',
 
     # User-Agent 根据自己的电脑修改
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
-    'Cookie': 'clientid=3; did=web_d374c1dfd56248fb412e64155a5b5b28; kuaishou.live.bfb1s=ac5f27b3b62895859c4c1622f49856a4; client_key=65890b29; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600830093; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600830093; userId=1717892941; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAYgxY8b4hKIPbolFxpSj4st2wzpSaoffL0kHkmAkhQgCtA0efnkEXVV_kiN4qKU76pzroAorz7U4n31dozG0MSTw5eaYql6_e1whpT4qMdZ1Bu7KjywmL1JgBdS-JJHQQvOaWoIQXeCAxt30svYmWv5p-ai4TdrCrVQj-BCnr-_HVKoJskTSgYliaUlMuWlfK7Z47UxkKDlZar47bAYVXrUaEqVj6czba05AmU7FMveU3Qsu3iIgmvgDE110xhjJHmnMF1oe-oG37hkhFTHo7JJJrzi10n0oBTAB; kuaishou.live.web_ph=dfdbe5622a7635efb511521bfef12f6b5537; userId=1717892941'}
-
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+    'Cookie': 'clientid=3; did=web_d374c1dfd56248fb412e64155a5b5b28; kuaishou.live.bfb1s=ac5f27b3b62895859c4c1622f49856a4; client_key=65890b29; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600830093; userId=1717892941; didv=1600915340062; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAT9sIiitaMqwtVO_YIZIlEIB6cMF6tfvg4q6Mq1OQH_-CZmHXx3KSnX3hF2JkgTnzrIBLbyJjE9pxeYcdAtgxDvgldGxnpz4so-e3S_uhXNanpD_0Ztz_YyY0QTqcS1k1n7fMopXVWgySYDBhXu7GVcfdMQwljCt4F-HSiOeFI_2gWljinbXnm79HMVsSIszOt9CWuH-ig-z0JurvpoYoCwaEmnXnVZLQknasAunBdtUcHpFQSIgvxN9X_L1EglngJTC3J8rTpqGzTRBzg2bWoBNRF1LkBIoBTAB; kuaishou.live.web_ph=f09fbe843cd35c3cd56230248eeea87d6e2a; userId=1717892941; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600940012'
+}
 
 def crawl_user(uid):
     global headers
@@ -104,8 +105,10 @@ def crawl_work(uid, dir, work, wdx):
                 print("    " + str(i + 1) + "/" + str(l) + " 图片 " + p_name + " 已存在 √")
     elif w_type == 'video':
         w_url = work_url + uid + "/" + work['id'] + param_did
+        print("请求地址：",w_url)
         res = requests.get(w_url, headers=headers)
         html = res.text
+        print(html)
         soup = BeautifulSoup(html, "html.parser")
 
         pattern = re.compile(r"playUrl", re.MULTILINE | re.DOTALL)

@@ -1,5 +1,5 @@
 # coding=utf-8
-import requests
+import requests,random
 import json
 import time
 import os
@@ -19,7 +19,7 @@ WORK_URL = "https://m.gifshow.com/fw/photo/"
 
 
 class Crawler:
-    __param_did = "web_8b1ef0506c146c24627a858c9a646ad2"
+    __param_did = "web_d374c1dfd56248fb412e64155a5b5b28"
 
     __headers_web = {
         'accept': '*/*',
@@ -33,12 +33,13 @@ class Crawler:
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-origin',
         # User-Agent/Cookie 根据自己的电脑修改
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
-        'Cookie':"kuaishou.live.bfb1s=477cb0011daca84b36b3a4676857e5a1; clientid=3; did=web_8b1ef0506c146c24627a858c9a646ad2; client_key=65890b29; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600700772; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600700772; userId=1717892941; WEBLOGGER_INCREAMENT_ID_KEY=1077; WEBLOGGER_HTTP_SEQ_ID=499; didv=1600953928773; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAZayio1TBMDSVZDVkJmLbyuW7MNERyxQIGhwjvco2JMSqLFu_tlRoAd8Uy1D2rbQzMclMqkjiXa5xZBJpGnZtsLi9I4Ws3lkjhmncJmzE3f1b2lmSTYmZV-9CMV5z57mVp7p0PqHKMxzte_lf2ecaFocmmMNBY29DPtEnHpcWG39wrpFgpN6ef8cwZZjD9hyDN0anlyZURrsFcJJz-53CGAaEhq2DZZ7DUHSmXUzdRyAf3O3USIgcLrAPl-xmM6dKJ_5P5b037vgmY26hCV0WYzCnRLdeZAoBTAB; kuaishou.live.web_ph=4fbf10219c35ae39ef23548cc7ba35897fb1; userId=1717892941",
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+        'Cookie':'clientid=3; did=web_d374c1dfd56248fb412e64155a5b5b28; kuaishou.live.bfb1s=ac5f27b3b62895859c4c1622f49856a4; client_key=65890b29; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600830093; userId=1717892941; didv=1600915340062; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601115555; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAZYqa59bfFdQhnlZKwaly8u2g_LVgItiaIBZbvApcjJg3zbQ5KT5tKaPkIDa7ajKYKvg_aGmwZRGOwacnZkup6vSI-nZzkN3_MqsTQNadjhsxwycL4UFIbyy35Uzz9-_fg-JBnKgsOmcwcTmtAY9H__MNYKlp1O05X9hTXqsVLdGN-ofSQ0B49QhjTGSbarU3gidALntkdcZgpIWHSpdREoaEgL1c1j1KEeWrOe8x-vTC5n9jyIg8qsPoa9xXroFaua0XzlxElMUcKsG4V09Y0KBnohH1lYoBTAB; kuaishou.live.web_ph=a1f54ccbc576eb1e978e14c7c9b8f361b109; userId=1717892941',
         # 'Cookie':'',
     }
     __headers_mobile = {
-        'User-Agent': 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-cn; BLA-AL00 Build/HUAWEIBLA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.9 Mobile Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36',
+        'Cookie': 'didv=1601194035000;did=web_25b626eb074042fbae154de5436b6744;sid=260408de2751190968517152;Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601193994;Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601193998',
     }
 
     __crawl_list = []
@@ -49,7 +50,7 @@ class Crawler:
     def __init__(self, prod=True):
         self.__intro()
         if prod:
-            time.sleep(5)
+            time.sleep(random.randint(1,19))
         else:
             self.__read_preset()
 
@@ -61,7 +62,7 @@ class Crawler:
     def crawl(self):
         print("准备开始爬取，共有%d个用户..." % len(self.__crawl_list))
         print()
-        time.sleep(2)
+        time.sleep(random.randint(1,19))
         for uid in self.__crawl_list:
             self.__date_cache = ""
             self.__date_count = 0
@@ -106,11 +107,11 @@ class Crawler:
 
         for j in range(len(works)):
             self.__crawl_work(dir, works[j], j + 1)
-            time.sleep(2)
+            time.sleep(random.randint(1,19))
 
         print("用户 " + name + "爬取完成!")
         print()
-        time.sleep(1)
+        time.sleep(random.randint(1,9))
 
     '''
     快手分为五种类型的作品，在作品里面表现为workType属性
@@ -159,12 +160,11 @@ class Crawler:
             print("视频请求地址：",w_url)
             res = requests.get(w_url, headers=self.__headers_mobile,)
             html = res.text
-            print(html)
             # with open("data/" + work['id'] + ".html", "w") as fp:
             #     fp.write(html)
             pattern = '"srcNoMark":"(https:.*?).mp4'
             v_url = re.search(pattern, html).group(1)+".mp4"
-
+            print("无水印地址：", v_url)
             # print(v_url)
             # pattern = re.compile(r"playUrl", re.MULTILINE | re.DOTALL)
             # script = soup.find("script", text=pattern)
@@ -245,7 +245,7 @@ def crawl():
     param_did = "web_d374c1dfd56248fb412e64155a5b5b28"
     crawler.set_did(param_did)
 
-    uid = "qiuqiuya0708"
+    uid = "kissyou696773"
     crawler.add_to_list(uid)
 
     crawler.crawl()

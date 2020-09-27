@@ -1,8 +1,15 @@
 # coding=utf-8
 
-import requests,os
-import json
+import requests,json
 import time
+import os
+import re
+# TODO cookie 失效,能正常获取到视频ID https://github.com/ButterAndButterfly/T-VideoDownloader
+
+import requests
+import time
+import os
+import re
 
 
 class Kuaishou:
@@ -28,6 +35,19 @@ class Kuaishou:
             'Referer': 'https://live.kuaishou.com/profile/%s' % self.user_id,
             'Cookie': self.cookie
         }
+        self.noWaterMarkHeaders = {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            "Accept-Language": "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Host": "kphbeijing.m.chenzhongtech.com",
+            'Connection': 'keep-alive',
+            'Pragma': 'no-cache',
+            'Cache-Control': 'no-cache',
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36",
+            'Cookie': self.cookie
+        }
+        self.session = requests.Session()
+        self.session.headers.update(self.noWaterMarkHeaders)
 
     def download(self, url, fileName=None, folder=None):
         if (not fileName) or fileName.find('{default}') > -1:
@@ -60,18 +80,26 @@ class Kuaishou:
             time.sleep(5)
 
     def getUrl(self, user_id, video_id):
-        url = "https://live.kuaishou.com/m_graphql"
-        param = '{"operationName":"SharePageQuery","variables":{"photoId":"%s",\
-        "principalId":"%s"},"query":"query SharePageQuery($principalId: String, $photoId: String)\
-         {\\n  feedById(principalId: $principalId, photoId: $photoId) {\\n    currentWork {\\n      playUrl\\n\
-         __typename\\n    }\\n    __typename\\n  }\\n}\\n"}' % (video_id, user_id)
-        data = requests.post(url, timeout=30, headers=self.headers, data=param)
-        data = data.json()['data']
-        '''
-        此处容易报错，应该是对请求的频率有限制
-        '''
-        print(data)
-        url = data['feedById']['currentWork']['playUrl']
+        #         url = "https://live.kuaishou.com/m_graphql"
+        #         param = '{"operationName":"SharePageQuery","variables":{"photoId":"%s",\
+        #         "principalId":"%s"},"query":"query SharePageQuery($principalId: String, $photoId: String)\
+        #          {\\n  feedById(principalId: $principalId, photoId: $photoId) {\\n    currentWork {\\n      playUrl\\n\
+        #          __typename\\n    }\\n    __typename\\n  }\\n}\\n"}' % (video_id, user_id)
+        #         data = requests.post(url, timeout=30, headers=self.headers, data=param)
+        #         data = data.json()['data']
+        #         '''
+        #         此处容易报错，应该是对请求的频率有限制
+        #         '''
+        #         print(video_id)
+        #         url = data['feedById']['currentWork']['playUrl']
+        #         return url
+        # 去水印版本 出错时请使用水印版本
+        url = "https://kphbeijing.m.chenzhongtech.com/fw/photo/%s" % video_id
+        res = self.session.get(url, timeout=30,headers=self.noWaterMarkHeaders)
+        print("请求地址：",url)
+        print(res.text)
+        searchObj = re.search(r'srcNoMark":"(http[^"]*)', res.text)
+        url = searchObj.group(1)
         return url
 
     def getVideos(self):
@@ -176,9 +204,10 @@ class Kuaishou:
         data = requests.post(url, timeout=10, headers=headers, data=params).text
         print(data)
 
+
 if __name__ == '__main__':
     # 读取配置
-    with open(r'config.json', "r") as file:
+    with open(r'config.json', "r", encoding='utf-8') as file:
         content = file.read()
         print(content)
         config = json.loads(content)
@@ -236,6 +265,5 @@ if __name__ == '__main__':
             print('发布日期： %s' % dtime)
             url = downloader.getUrl(video['user_id'], video['video_id'])
             print('下载链接： %s' % url)
-            print('保存路径： %s%s' % (folder,fileName))
             downloader.download(url, folder=folder, fileName=fileName)
             print('%s 下载完毕' % video['caption'])
