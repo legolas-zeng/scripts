@@ -19,7 +19,7 @@ WORK_URL = "https://m.gifshow.com/fw/photo/"
 
 
 class Crawler:
-    __param_did = "web_d374c1dfd56248fb412e64155a5b5b28"
+
 
     __headers_web = {
         'accept': '*/*',
@@ -34,12 +34,12 @@ class Crawler:
         'Sec-Fetch-Site': 'same-origin',
         # User-Agent/Cookie 根据自己的电脑修改
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
-        'Cookie':'clientid=3; did=web_d374c1dfd56248fb412e64155a5b5b28; kuaishou.live.bfb1s=ac5f27b3b62895859c4c1622f49856a4; client_key=65890b29; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600830093; userId=1717892941; didv=1600915340062; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601115555; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAZYqa59bfFdQhnlZKwaly8u2g_LVgItiaIBZbvApcjJg3zbQ5KT5tKaPkIDa7ajKYKvg_aGmwZRGOwacnZkup6vSI-nZzkN3_MqsTQNadjhsxwycL4UFIbyy35Uzz9-_fg-JBnKgsOmcwcTmtAY9H__MNYKlp1O05X9hTXqsVLdGN-ofSQ0B49QhjTGSbarU3gidALntkdcZgpIWHSpdREoaEgL1c1j1KEeWrOe8x-vTC5n9jyIg8qsPoa9xXroFaua0XzlxElMUcKsG4V09Y0KBnohH1lYoBTAB; kuaishou.live.web_ph=a1f54ccbc576eb1e978e14c7c9b8f361b109; userId=1717892941',
+        'Cookie':'kuaishou.live.bfb1s=477cb0011daca84b36b3a4676857e5a1; clientid=3; did=web_8b1ef0506c146c24627a858c9a646ad2; client_key=65890b29; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600700772; userId=1717892941; WEBLOGGER_INCREAMENT_ID_KEY=1077; WEBLOGGER_HTTP_SEQ_ID=499; didv=1600953928773; sid=9ff1ca2ccca59fd641cf3190; logj=; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAYKcjU0ix3GRIWBrIflwAnmB2hP5eJ7ekkhgZbLr-8KvXNdY0ZMAZkSWrvKIm41gMy6dQpDzhX7JcW63mLbvgJznZ4EsFDj-x_RdHaWKJeO2MZKdc0nAwD0BSGKhGGp1Qr04lKMJ4V1PgJ1TU0LPdRTa2ORBK3HKxFNHWKGc2qWygPqEUsV0qgX58JUbOsT5RFoqxWoVYoO2mbGbtIaPOaYaEvK5mSs2Ikx-mdXST2fm99svHCIgWE9UBxFaNVAu_uKY8FRp21fU0zydZkTVmviNS3vI8W0oBTAB; kuaishou.live.web_ph=f6b49f9ff9d05829e38fe8802fa1e233f600; userId=1717892941; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1602384880; ktrace-context=1|MS42OTc4Njg0NTc2NzM4NjY5LjIxODgxODk2LjE2MDI0MDIxNjM0MzMuMTEyODY5MA==|MS42OTc4Njg0NTc2NzM4NjY5LjExOTc5NTU3LjE2MDI0MDIxNjM0MzMuMTEyODY5MQ==|0|kuaishou-frontend-live|webservice|false|NA',
         # 'Cookie':'',
     }
     __headers_mobile = {
         'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36',
-        'Cookie': 'didv=1601194035000;did=web_25b626eb074042fbae154de5436b6744;sid=260408de2751190968517152;Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601193994;Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601193998',
+        'Cookie': 'did=web_f3915064ee334c508642888137f27598; didv=1601290877000; sid=9ad11d5739016e866ddaa456; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601290882; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601305774',
     }
 
     __crawl_list = []
@@ -57,6 +57,9 @@ class Crawler:
     def set_did(self, did):
         self.__param_did = did
         self.__headers_web['Cookie'] = 'did=' + did + "; userId="
+        # self.__headers_mobile['Cookie'] = 'did=' + did
+
+    def set_mobile_did(self,did):
         self.__headers_mobile['Cookie'] = 'did=' + did
 
     def crawl(self):
@@ -82,8 +85,8 @@ class Crawler:
         print(json.loads(res.content.decode(encoding='utf-8', errors='strict')))
         works = json.loads(res.content.decode(encoding='utf-8', errors='strict'))['data']['privateFeeds']['list']
         print(works)
-        if not os.path.exists("../data"):
-            os.makedirs("../data")
+        if not os.path.exists("H:\\04-快手素材"):
+            os.makedirs("H:\\04-快手素材")
 
         # 这两行代码将response写入json供分析
         # with open("data/" + uid + ".json", "w") as fp:
@@ -94,7 +97,7 @@ class Crawler:
             works.pop(0)
         name = re.sub(r'[\\/:*?"<>|\r\n]+', "", works[0]['user']['name'])
 
-        dir = "data/" + name + "(" + uid + ")/"
+        dir = "H:\\04-快手素材\\" + name + "(" + uid + ")/"
         # print(len(works))
         if not os.path.exists(dir):
             os.makedirs(dir)
@@ -226,6 +229,7 @@ class Crawler:
 
         res = requests.post(DATA_URL, headers=self.__headers_web, json=payload)
         dt = json.loads(res.content.decode(encoding='utf-8', errors='strict'))['data']
+        print(dt)
         # with open("data/jj_" + uid + ".json", "w") as fp:
         #     fp.write(json.dumps(dt, indent=2))
 
@@ -241,11 +245,15 @@ class Crawler:
 
 def crawl():
     crawler = Crawler()
-
-    param_did = "web_d374c1dfd56248fb412e64155a5b5b28"
+    # web 端的did
+    param_did = "web_8b1ef0506c146c24627a858c9a646ad2"
     crawler.set_did(param_did)
 
-    uid = "kissyou696773"
+    # mobile 端的did
+    mobile_did = "web_f3915064ee334c508642888137f27598"
+    crawler.set_mobile_did(mobile_did)
+
+    uid = "lovememia888"
     crawler.add_to_list(uid)
 
     crawler.crawl()
