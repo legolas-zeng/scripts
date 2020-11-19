@@ -95,15 +95,17 @@ class spider_ks():
         'Content-Type': 'application/json',
         'Host': 'live.kuaishou.com',
         'Origin': 'https://live.kuaishou.com',
+        'Sec - Fetch - Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-origin',
+        # User-Agent/Cookie 根据自己的电脑修改
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
-        'Cookie': 'clientid=3; did=web_d374c1dfd56248fb412e64155a5b5b28; kuaishou.live.bfb1s=ac5f27b3b62895859c4c1622f49856a4; client_key=65890b29; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600830093; userId=1717892941; didv=1600915340062; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601115555; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAZYqa59bfFdQhnlZKwaly8u2g_LVgItiaIBZbvApcjJg3zbQ5KT5tKaPkIDa7ajKYKvg_aGmwZRGOwacnZkup6vSI-nZzkN3_MqsTQNadjhsxwycL4UFIbyy35Uzz9-_fg-JBnKgsOmcwcTmtAY9H__MNYKlp1O05X9hTXqsVLdGN-ofSQ0B49QhjTGSbarU3gidALntkdcZgpIWHSpdREoaEgL1c1j1KEeWrOe8x-vTC5n9jyIg8qsPoa9xXroFaua0XzlxElMUcKsG4V09Y0KBnohH1lYoBTAB; kuaishou.live.web_ph=a1f54ccbc576eb1e978e14c7c9b8f361b109; userId=1717892941'
+        'Cookie': 'kuaishou.live.bfb1s=477cb0011daca84b36b3a4676857e5a1; clientid=3; did=web_8b1ef0506c146c24627a858c9a646ad2; client_key=65890b29; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600700772; userId=1717892941; WEBLOGGER_INCREAMENT_ID_KEY=1077; WEBLOGGER_HTTP_SEQ_ID=499; didv=1600953928773; sid=9ff1ca2ccca59fd641cf3190; logj=; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1602678273; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAQx_wIulstwcaTtBQR1q5qiyWKB4Re3_0iXD1cy7eTsHLTm7orxCV2f9a0HsTYB3c0D9U3oluzUhhjyLnjgehgxm_izflP-JYX5qGHcEFKX8ZzC2SkIomGqYac3EVFe84SBx_tPOdTuN5X5YCvGnFBSMCtvhCdcGFTEaY0Qhelny0Ch3nutEzD1mW67DjN6npOqSGdcZaML4tGwo5RFhvPcaEgVs1NUGNkhli9eUAvcJtCqMsiIgFgKN6G2i3HCdk7qt2g3gHoYuf3tUe6D8ysXLK4hahCQoBTAB; kuaishou.live.web_ph=4e809a641e5446dfd424a77ae7e496cf2b18; userId=1717892941; ktrace-context=1|MS42OTc4Njg0NTc2NzM4NjY5LjE5NDYxNTE5LjE2MDMwMDU3MzEwMTEuMzA5MzUx|MS42OTc4Njg0NTc2NzM4NjY5LjY0Mzk2MzcxLjE2MDMwMDU3MzEwMTEuMzA5MzUy|0|kuaishou-frontend-live|webservice|false|NA'
         # 'Cookie': ''
     }
     __headers_and = {
         'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36',
-        'cookie': 'didv=1601199909000; did=web_e669ba67ce5e4dd0b9dc17bcebe067cb; sid=3758ca2a1f17fe5e02c7948c; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601199868; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601200116; logj='
+        'Cookie': 'did=web_f3915064ee334c508642888137f27598; didv=1601290877000; sid=9ad11d5739016e866ddaa456; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601290882; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1602687059',
     }
     __crawl_list = []
     def __init__(self,satar_url,cookie):
@@ -418,7 +420,7 @@ class Example(QWidget):
         start_url = input_text
         # start_url = 'https://v.kuaishouapp.com/s/fkbxgtrb '
         try:
-            if 'https://v.kuaishouapp.com' not in start_url:
+            if 'https://v.kuaishou.com' not in start_url:
                 raise ValueError("必须是url链接")
             # 设置按钮
             self.download_Button.setText('下载中')

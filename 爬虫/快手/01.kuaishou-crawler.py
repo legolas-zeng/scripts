@@ -34,13 +34,13 @@ class Crawler:
         'Sec-Fetch-Site': 'same-origin',
         # User-Agent/Cookie 根据自己的电脑修改
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
-        'Cookie':'kuaishou.live.bfb1s=477cb0011daca84b36b3a4676857e5a1; clientid=3; did=web_8b1ef0506c146c24627a858c9a646ad2; client_key=65890b29; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1600700772; userId=1717892941; WEBLOGGER_INCREAMENT_ID_KEY=1077; WEBLOGGER_HTTP_SEQ_ID=499; didv=1600953928773; sid=9ff1ca2ccca59fd641cf3190; logj=; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAYKcjU0ix3GRIWBrIflwAnmB2hP5eJ7ekkhgZbLr-8KvXNdY0ZMAZkSWrvKIm41gMy6dQpDzhX7JcW63mLbvgJznZ4EsFDj-x_RdHaWKJeO2MZKdc0nAwD0BSGKhGGp1Qr04lKMJ4V1PgJ1TU0LPdRTa2ORBK3HKxFNHWKGc2qWygPqEUsV0qgX58JUbOsT5RFoqxWoVYoO2mbGbtIaPOaYaEvK5mSs2Ikx-mdXST2fm99svHCIgWE9UBxFaNVAu_uKY8FRp21fU0zydZkTVmviNS3vI8W0oBTAB; kuaishou.live.web_ph=f6b49f9ff9d05829e38fe8802fa1e233f600; userId=1717892941; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1602384880; ktrace-context=1|MS42OTc4Njg0NTc2NzM4NjY5LjIxODgxODk2LjE2MDI0MDIxNjM0MzMuMTEyODY5MA==|MS42OTc4Njg0NTc2NzM4NjY5LjExOTc5NTU3LjE2MDI0MDIxNjM0MzMuMTEyODY5MQ==|0|kuaishou-frontend-live|webservice|false|NA',
-        # 'Cookie':'',
+        'Cookie':'kuaishou.live.bfb1s=477cb0011daca84b36b3a4676857e5a1; clientid=3; did=web_8b1ef0506c146c24627a858c9a646ad2; client_key=65890b29; userId=1717892941; WEBLOGGER_INCREAMENT_ID_KEY=1077; WEBLOGGER_HTTP_SEQ_ID=499; didv=1600953928773; sid=9ff1ca2ccca59fd641cf3190; logj=; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1603605890; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1605440077; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAVhcVh9AqAV3FN9ozZEXsAe-78nUM6jc--bAux4fVWihb10OI4lIU-BqF3YADJ48Vq2Yi98H3GUYLe26DebH8KuegqMnsymt7cSNLFFOukrXmcIANl7tUtY4o26mLr7w8OsWQaSa9UmdWCt8VK-7oupsASalNATOi81vDJjbUnRcT8r75M0_k-5LqOclLRzTOUP0l7bTALIereZFJ_ABR5QaEoJNhwQ4OUDtgURWN6k9Xgm8PSIgB8Pxt_VT_N3AFrcvMCHsMeo7P8TxsDvDHh3BmgdLrQgoBTAB; kuaishou.live.web_ph=8106eb5b7ec3c1d068a46620ea59fcd2e38e; userId=1717892941; ktrace-context=1|MS42OTc4Njg0NTc2NzM4NjY5LjM2NDk2Mzk4LjE2MDU4MDA1MDg3MzkuODY0NDg=|MS42OTc4Njg0NTc2NzM4NjY5LjE2ODQxOTQ4LjE2MDU4MDA1MDg3MzkuODY0NDk=|0|kuaishou-frontend-live|webservice|false|NA',
+        #'Cookie':'',
     }
     __headers_mobile = {
         'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36',
-        'Cookie': 'did=web_f3915064ee334c508642888137f27598; didv=1601290877000; sid=9ad11d5739016e866ddaa456; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601290882; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1601305774',
-    }
+        'Cookie': 'did=web_f3915064ee334c508642888137f27598; didv=1601290877000; sid=9ad11d5739016e866ddaa456; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1603977235; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1605609941'}
+        # 'Cookie': ''}
 
     __crawl_list = []
 
@@ -50,7 +50,7 @@ class Crawler:
     def __init__(self, prod=True):
         self.__intro()
         if prod:
-            time.sleep(random.randint(1,19))
+            time.sleep(random.randint(1,10))
         else:
             self.__read_preset()
 
@@ -64,12 +64,12 @@ class Crawler:
 
     def crawl(self):
         print("准备开始爬取，共有%d个用户..." % len(self.__crawl_list))
-        print()
-        time.sleep(random.randint(1,19))
+        time.sleep(random.randint(1,10))
         for uid in self.__crawl_list:
             self.__date_cache = ""
             self.__date_count = 0
-            self.__crawl_user(uid)
+            # self.__crawl_user(uid)
+            self.crawl_like(uid)
 
     def add_to_list(self, uid):
         self.__crawl_list.append(uid)
@@ -79,10 +79,11 @@ class Crawler:
             uid = self.__switch_id(uid)
 
         payload = {"operationName": "privateFeedsQuery",
-                   "variables": {"principalId": uid, "pcursor": "", "count": 999},
+                   "variables": {"principalId": uid, "pcursor": "", "count": 1999},
                    "query": "query privateFeedsQuery($principalId: String, $pcursor: String, $count: Int) {\n  privateFeeds(principalId: $principalId, pcursor: $pcursor, count: $count) {\n    pcursor\n    list {\n      id\n      thumbnailUrl\n      poster\n      workType\n      type\n      useVideoPlayer\n      imgUrls\n      imgSizes\n      magicFace\n      musicName\n      caption\n      location\n      liked\n      onlyFollowerCanComment\n      relativeHeight\n      timestamp\n      width\n      height\n      counts {\n        displayView\n        displayLike\n        displayComment\n        __typename\n      }\n      user {\n        id\n        eid\n        name\n        avatar\n        __typename\n      }\n      expTag\n      __typename\n    }\n    __typename\n  }\n}\n"}
         res = requests.post(DATA_URL, headers=self.__headers_web, json=payload)
-        print(json.loads(res.content.decode(encoding='utf-8', errors='strict')))
+        print("获取的网页：",json.loads(res.content.decode(encoding='utf-8', errors='strict')))
+        print(len(json.loads(res.content.decode(encoding='utf-8', errors='strict'))))
         works = json.loads(res.content.decode(encoding='utf-8', errors='strict'))['data']['privateFeeds']['list']
         print(works)
         if not os.path.exists("H:\\04-快手素材"):
@@ -110,7 +111,7 @@ class Crawler:
 
         for j in range(len(works)):
             self.__crawl_work(dir, works[j], j + 1)
-            time.sleep(random.randint(1,19))
+            time.sleep(random.randint(1,10))
 
         print("用户 " + name + "爬取完成!")
         print()
@@ -165,6 +166,7 @@ class Crawler:
             html = res.text
             # with open("data/" + work['id'] + ".html", "w") as fp:
             #     fp.write(html)
+            # print(html)
             pattern = '"srcNoMark":"(https:.*?).mp4'
             v_url = re.search(pattern, html).group(1)+".mp4"
             print("无水印地址：", v_url)
@@ -183,8 +185,10 @@ class Crawler:
             if v_url:
                 if not os.path.exists(video):
                     r = requests.get(v_url)
-                    r.raise_for_status()
-
+                    try:
+                        r.raise_for_status()
+                    except:
+                        print("  这里似乎有点小错误，已跳过")
                     with open(video, "wb") as f:
                         f.write(r.content)
                     print("    视频 " + v_name + " 下载成功 √")
@@ -197,17 +201,19 @@ class Crawler:
 
     def crawl_like(self, uid):
         payload = {"operationName": "likedFeedsQuery",
-                   "variables": {"principalId": uid, "pcursor": "", "count": 9999},
+                   "variables": {"principalId": uid, "pcursor": "", "count": 1999},
                    "query": "query likedFeedsQuery($principalId: String, $pcursor: String, $count: Int) {\n  likedFeeds(principalId: $principalId, pcursor: $pcursor, count: $count) {\n    pcursor\n    list {\n      id\n      thumbnailUrl\n      poster\n      workType\n      type\n      useVideoPlayer\n      imgUrls\n      imgSizes\n      magicFace\n      musicName\n      caption\n      location\n      liked\n      onlyFollowerCanComment\n      relativeHeight\n      timestamp\n      width\n      height\n      counts {\n        displayView\n        displayLike\n        displayComment\n        __typename\n      }\n      user {\n        id\n        eid\n        name\n        avatar\n        __typename\n      }\n      expTag\n      __typename\n    }\n    __typename\n  }\n}\n"}
-        cookie_like = "live_deviceid=web_2761de01059f8b0a60555ae7ff5d69e4; client_key=65890b29; clientid=3; did=web_2761de01059f8b0a60555ae7ff5d69e4; didv=1583906306185; userId=734830893; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1585027806; kuaishou.live.bfb1s=ac5f27b3b62895859c4c1622f49856a4; userId=734830893; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAVDawiXZPtyTC5VMgLpjQ3-Qbeq711iW5YSERJLxNu8GdpK4_sVV7noXOpmENiqNqOR33JD4y3KVH1I-DrCL2YAlluhKNcYx5aoAfZ1UPBDGvaOc26zb0y4Vlnozd394yASJJr8dx-18Rmh9lL2DeHS9ki5itZuKKWdXXvB3gfVmzKs4bv_9EH_GBVYMpXyX5H9fgdM6Rtw4wyzbPVrS_48aEurKvNghXkU0vIm_W_UXPUfuwSIgNlpIpBIpRlbM9q8mF6SBu_1NHP6ppeFPEtUrmAs0TMUoBTAB; kuaishou.live.web_ph=10695f787577fd9ccd02071217a8b1a73ad0"
-        self.__headers_web["Cookie"] = cookie_like
         res = requests.post(DATA_URL, headers=self.__headers_web, json=payload)
+        print("获取的网页：",json.loads(res.content.decode(encoding='utf-8', errors='strict')))
         dta = json.loads(res.content.decode(encoding='utf-8', errors='strict'))['data']['likedFeeds']
+        print(dta)
         works = dta['list']
         print("开始爬取用户 " + uid + " 的喜欢作品")
         print(" 共有" + str(len(works)) + "个作品")
+        name = re.sub(r'[\\/:*?"<>|\r\n]+', "", works[0]['user']['name'])
+        dir = "H:\\04-快手素材\\" + name + "(" + uid + ")/"
         for i in range(len(works)):
-            self.__crawl_work("data/Liked/", works[i], i + 1, True)
+            self.__crawl_work(dir, works[i], i + 1, True)
 
     def __read_preset(self):
         p_path = "preset"
@@ -253,8 +259,11 @@ def crawl():
     mobile_did = "web_f3915064ee334c508642888137f27598"
     crawler.set_mobile_did(mobile_did)
 
-    uid = "lovememia888"
-    crawler.add_to_list(uid)
+
+    # uid = "3xh2dvcz3c396gu"
+    uidlist=["3xf2q6sxra36bp4"]
+    for uid in uidlist:
+        crawler.add_to_list(uid)
 
     crawler.crawl()
 
