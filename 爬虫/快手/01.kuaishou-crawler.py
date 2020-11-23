@@ -1,4 +1,8 @@
 # coding=utf-8
+# @author: zwa❤lqp
+# @time: 2020/11/22 15:05
+
+# coding=utf-8
 import requests,random
 import json
 import time
@@ -34,12 +38,12 @@ class Crawler:
         'Sec-Fetch-Site': 'same-origin',
         # User-Agent/Cookie 根据自己的电脑修改
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
-        'Cookie':'kuaishou.live.bfb1s=477cb0011daca84b36b3a4676857e5a1; clientid=3; did=web_8b1ef0506c146c24627a858c9a646ad2; client_key=65890b29; userId=1717892941; WEBLOGGER_INCREAMENT_ID_KEY=1077; WEBLOGGER_HTTP_SEQ_ID=499; didv=1600953928773; sid=9ff1ca2ccca59fd641cf3190; logj=; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1603605890; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1605440077; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAVhcVh9AqAV3FN9ozZEXsAe-78nUM6jc--bAux4fVWihb10OI4lIU-BqF3YADJ48Vq2Yi98H3GUYLe26DebH8KuegqMnsymt7cSNLFFOukrXmcIANl7tUtY4o26mLr7w8OsWQaSa9UmdWCt8VK-7oupsASalNATOi81vDJjbUnRcT8r75M0_k-5LqOclLRzTOUP0l7bTALIereZFJ_ABR5QaEoJNhwQ4OUDtgURWN6k9Xgm8PSIgB8Pxt_VT_N3AFrcvMCHsMeo7P8TxsDvDHh3BmgdLrQgoBTAB; kuaishou.live.web_ph=8106eb5b7ec3c1d068a46620ea59fcd2e38e; userId=1717892941; ktrace-context=1|MS42OTc4Njg0NTc2NzM4NjY5LjM2NDk2Mzk4LjE2MDU4MDA1MDg3MzkuODY0NDg=|MS42OTc4Njg0NTc2NzM4NjY5LjE2ODQxOTQ4LjE2MDU4MDA1MDg3MzkuODY0NDk=|0|kuaishou-frontend-live|webservice|false|NA',
+        'Cookie':'kuaishou.live.bfb1s=477cb0011daca84b36b3a4676857e5a1; clientid=3; did=web_8b1ef0506c146c24627a858c9a646ad2; client_key=65890b29; userId=1717892941; WEBLOGGER_INCREAMENT_ID_KEY=1077; WEBLOGGER_HTTP_SEQ_ID=499; didv=1600953928773; sid=9ff1ca2ccca59fd641cf3190; logj=; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1603605890; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1605440077; userId=1717892941; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAZF_edPJAeEMxAhN60Ztj_2K7AyJwz5GERquOyqgxm-PK74tSKuLTtvFhaaV_8ZaPHrCOtIfFM4q1DN6CpFoAXUiL9x3-7ScRG-ksejzrIMVvcaorbynx28gOFlmnX8Gfyo_k24Qg8AUhz7YxxJglipysnIENoaGC6s_WfCSd4KvQE4v2LXF1DcOV6-nVd0yvKvPOU_Beso74inHonq-kbMaEiTUdhIhLkqeuKi4MmqrjKj9xSIgEleUj7EyfqzfUC2Kx_Frdmyw394L6xyqpa7TEvlFNm4oBTAB; kuaishou.live.web_ph=4669a48f034b382d09864e44bd8bd8e8c1e3',
         #'Cookie':'',
     }
     __headers_mobile = {
         'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36',
-        'Cookie': 'did=web_f3915064ee334c508642888137f27598; didv=1601290877000; sid=9ad11d5739016e866ddaa456; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1603977235; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1605609941'}
+        'Cookie': 'did=web_f3915064ee334c508642888137f27598; didv=1601290877000; sid=9ad11d5739016e866ddaa456; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1603977235; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1606028159'}
         # 'Cookie': ''}
 
     __crawl_list = []
@@ -68,8 +72,8 @@ class Crawler:
         for uid in self.__crawl_list:
             self.__date_cache = ""
             self.__date_count = 0
-            # self.__crawl_user(uid)
-            self.crawl_like(uid)
+            self.__crawl_user(uid)
+            # self.crawl_like(uid)
 
     def add_to_list(self, uid):
         self.__crawl_list.append(uid)
@@ -261,7 +265,7 @@ def crawl():
 
 
     # uid = "3xh2dvcz3c396gu"
-    uidlist=["3xf2q6sxra36bp4"]
+    uidlist=["Y181112Y"]
     for uid in uidlist:
         crawler.add_to_list(uid)
 
