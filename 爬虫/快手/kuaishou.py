@@ -71,26 +71,29 @@ def readconfig():
     f.close()
 
 def geturl(config:str)-> list:
-    pattern = re.compile(
-        '.*?发了一个快手作品，一起来看！(.*?) 复制此消息，打开【快手】直接观看！.*?',
-        re.S)
+    pattern = re.compile('(https:.*?) 复制此消息，打开【快手】直接观看！.*?',re.S)
+    # pattern = re.compile('.*?发了一个快手作品，一起来看！(.*?) 复制此消息，打开【快手】直接观看！.*?',re.S)
     v_url = re.findall(pattern, config)
+    print(v_url)
     if v_url!= [] :
         req = get(v_url[0])
         download(req)
 def download(req):
-    v_name = req.get('user') + str(req.get('time')) + ".mp4"
-    video = dir + v_name
-    print(video)
-    print(req.get('videos'))
-    if not os.path.exists(video):
-        r = requests.get(req.get('videos')[0])
-        r.raise_for_status()
-        with open(video, "wb") as f:
-            f.write(r.content)
-        print("    视频 " + v_name + " 下载成功 √")
-    else:
-        print("    视频 " + v_name + " 已存在 √")
+    try:
+        v_name = req.get('user') + str(req.get('time')) + ".mp4"
+        video = dir + v_name
+        print(video)
+        print(req.get('videos'))
+        if not os.path.exists(video):
+            r = requests.get(req.get('videos')[0])
+            r.raise_for_status()
+            with open(video, "wb") as f:
+                f.write(r.content)
+            print("    视频 " + v_name + " 下载成功 √")
+        else:
+            print("    视频 " + v_name + " 已存在 √")
+    except:
+        print("  这里似乎有点小错误，已跳过")
 if __name__ == "__main__":
     # print(get(url="https://live.kuaishou.com/u/kissyou696773/3x9vpmn3n4ihvg6"))
     # print(get(url="https://v.kuaishou.com/7x1fql"))

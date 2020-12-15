@@ -38,12 +38,12 @@ class Crawler:
         'Sec-Fetch-Site': 'same-origin',
         # User-Agent/Cookie 根据自己的电脑修改
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
-        'Cookie':'kuaishou.live.bfb1s=477cb0011daca84b36b3a4676857e5a1; clientid=3; did=web_8b1ef0506c146c24627a858c9a646ad2; client_key=65890b29; userId=1717892941; WEBLOGGER_INCREAMENT_ID_KEY=1077; WEBLOGGER_HTTP_SEQ_ID=499; didv=1600953928773; sid=9ff1ca2ccca59fd641cf3190; logj=; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1603605890; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1605440077; userId=1717892941; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAZF_edPJAeEMxAhN60Ztj_2K7AyJwz5GERquOyqgxm-PK74tSKuLTtvFhaaV_8ZaPHrCOtIfFM4q1DN6CpFoAXUiL9x3-7ScRG-ksejzrIMVvcaorbynx28gOFlmnX8Gfyo_k24Qg8AUhz7YxxJglipysnIENoaGC6s_WfCSd4KvQE4v2LXF1DcOV6-nVd0yvKvPOU_Beso74inHonq-kbMaEiTUdhIhLkqeuKi4MmqrjKj9xSIgEleUj7EyfqzfUC2Kx_Frdmyw394L6xyqpa7TEvlFNm4oBTAB; kuaishou.live.web_ph=4669a48f034b382d09864e44bd8bd8e8c1e3',
+        'Cookie':'kuaishou.live.bfb1s=477cb0011daca84b36b3a4676857e5a1; clientid=3; did=web_8b1ef0506c146c24627a858c9a646ad2; client_key=65890b29; userId=1717892941; WEBLOGGER_INCREAMENT_ID_KEY=1077; WEBLOGGER_HTTP_SEQ_ID=499; didv=1600953928773; sid=9ff1ca2ccca59fd641cf3190; logj=; kpn=GAME_ZONE; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1606749838; userId=1717892941; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1607951257; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgAZKHmQ4KA3DbNqjgu6VQcruaQ3v1MGoHLKVkfIBnROpH15Map_tPSegEpCBneETGNpShKsaEeczYXaJc-bSdyUSoSHcWCfl1FM0C4QOC3vJf4dwhx5vo-9n0lK7FFCIRoirgKGHBAevyjXMAHDBR6Qbx-XgOBivHQkgEjKONHOZmpGwOF0kl27mco2o45mt4ih1XoRatD8Rdreh9Bv2cvXwaEoMRdS355EPfvO-WEFcOv_Ls2yIgt_7ygqExH0miHzepgAC3qcJwLqNwhGb3o397Qun6vw8oBTAB; kuaishou.live.web_ph=3fd8c6d06572dfea278d69cdad730dff094d',
         #'Cookie':'',
     }
     __headers_mobile = {
         'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36',
-        'Cookie': 'did=web_f3915064ee334c508642888137f27598; didv=1601290877000; sid=9ad11d5739016e866ddaa456; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1603977235; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1606028159'}
+        'Cookie': 'did=web_f3915064ee334c508642888137f27598; didv=1601290877000; sid=9ad11d5739016e866ddaa456; Hm_lvt_86a27b7db2c5c0ae37fee4a8a35033ee=1606915674; Hm_lpvt_86a27b7db2c5c0ae37fee4a8a35033ee=1608029646'}
         # 'Cookie': ''}
 
     __crawl_list = []
@@ -265,7 +265,7 @@ def crawl():
 
 
     # uid = "3xh2dvcz3c396gu"
-    uidlist=["Y181112Y"]
+    uidlist=["s934686153"]
     for uid in uidlist:
         crawler.add_to_list(uid)
 
