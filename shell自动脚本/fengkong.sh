@@ -1,6 +1,13 @@
 #!/bin/bash
 
 # 切换用户
+# 切换用户
+function check_user(){
+    if [ ${USER} != rrjctomcat ];then
+        echo -e "\033[31m 请使用rrjctomcat用户启动！！\033[0m"
+        exit 1
+    fi
+}
 
 function start() {
     echo -e "\033[36m----------启动 eureka 服务-----------\033[0m"
