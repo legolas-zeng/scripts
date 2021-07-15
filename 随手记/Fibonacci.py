@@ -50,3 +50,4 @@ def fab2(max):
 
 for n in fab2(5):
     print(n)
+
