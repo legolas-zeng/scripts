@@ -1,7 +1,6 @@
 # coding=utf-8
 # @Time    : 2019/12/24 16:48
 # @Author  : zwa
-# @Motto   ：❤lqp 
 
 import re
 import requests
